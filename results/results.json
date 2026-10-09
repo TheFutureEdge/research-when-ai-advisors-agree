@@ -1,0 +1,1175 @@
+{
+  "cutoff": "2026-10-08",
+  "seed": 20261009,
+  "bootstrap_reps": 5000,
+  "regression_bootstrap_reps": 2000,
+  "primary": {
+    "outcomes": 928,
+    "assets": 232,
+    "error_pp": 15.147957963743384,
+    "baseline_error_pp": 14.986022065840958,
+    "excess_error_pp": 0.16193589790242768,
+    "direction_hit_pct": 48.383620689655174,
+    "always_up_hit_pct": 50.754310344827594
+  },
+  "primary_classes": {
+    "equity": 824,
+    "crypto": 56,
+    "commodity": 20,
+    "forex": 20,
+    "fund": 8
+  },
+  "primary_excess": {
+    "estimate": 0.16193589790242768,
+    "ci95": [
+      -0.22744810391198653,
+      0.5551108168685084
+    ]
+  },
+  "quartiles": [
+    {
+      "quartile": 1,
+      "outcomes": 232,
+      "assets": 126,
+      "error_pp": 10.30551905901654,
+      "baseline_error_pp": 9.891506956630282,
+      "excess_error_pp": 0.41401210238625613,
+      "direction_hit_pct": 49.56896551724138,
+      "always_up_hit_pct": 52.1551724137931,
+      "mean_disagreement_pp": 1.89440209771224,
+      "mean_risk_pp": 14.306628519659316,
+      "error_pp_ci95": [
+        8.590590044995146,
+        12.518359481939143
+      ],
+      "baseline_error_pp_ci95": [
+        8.259733400650795,
+        11.885862661815178
+      ],
+      "excess_error_pp_ci95": [
+        -0.22143973748600743,
+        1.0560352691806745
+      ],
+      "direction_correct_ci95": [
+        0.4274166903510019,
+        0.564818738229755
+      ]
+    },
+    {
+      "quartile": 2,
+      "outcomes": 232,
+      "assets": 139,
+      "error_pp": 13.137481271657304,
+      "baseline_error_pp": 13.090310393492834,
+      "excess_error_pp": 0.047170878164468875,
+      "direction_hit_pct": 47.41379310344828,
+      "always_up_hit_pct": 56.03448275862068,
+      "mean_disagreement_pp": 3.3019998779037736,
+      "mean_risk_pp": 16.914329976226192,
+      "error_pp_ci95": [
+        11.074738067533461,
+        15.678599177695473
+      ],
+      "baseline_error_pp_ci95": [
+        11.153084219650074,
+        15.44192908984049
+      ],
+      "excess_error_pp_ci95": [
+        -0.5402156264115772,
+        0.6390683089692476
+      ],
+      "direction_correct_ci95": [
+        0.40540540540540543,
+        0.5432123067949839
+      ]
+    },
+    {
+      "quartile": 3,
+      "outcomes": 232,
+      "assets": 138,
+      "error_pp": 16.099677824061704,
+      "baseline_error_pp": 15.811577912287495,
+      "excess_error_pp": 0.2880999117742119,
+      "direction_hit_pct": 45.258620689655174,
+      "always_up_hit_pct": 51.724137931034484,
+      "mean_disagreement_pp": 4.596176284840804,
+      "mean_risk_pp": 21.205333395217547,
+      "error_pp_ci95": [
+        13.791684885553588,
+        18.61167371671108
+      ],
+      "baseline_error_pp_ci95": [
+        13.540890639361256,
+        18.284107162476925
+      ],
+      "excess_error_pp_ci95": [
+        -0.3556110873025143,
+        0.9331561559178386
+      ],
+      "direction_correct_ci95": [
+        0.3884297520661157,
+        0.5193855449156406
+      ]
+    },
+    {
+      "quartile": 4,
+      "outcomes": 232,
+      "assets": 106,
+      "error_pp": 21.049153700237987,
+      "baseline_error_pp": 21.15069300095321,
+      "excess_error_pp": -0.10153930071522636,
+      "direction_hit_pct": 51.293103448275865,
+      "always_up_hit_pct": 43.103448275862064,
+      "mean_disagreement_pp": 7.831332263516508,
+      "mean_risk_pp": 30.02578356353562,
+      "error_pp_ci95": [
+        17.73030020480493,
+        24.899212609776182
+      ],
+      "baseline_error_pp_ci95": [
+        17.935111703963834,
+        24.875846080239818
+      ],
+      "excess_error_pp_ci95": [
+        -1.043344182666229,
+        0.8538537309750766
+      ],
+      "direction_correct_ci95": [
+        0.44291801735856945,
+        0.5802469135802469
+      ]
+    }
+  ],
+  "high_minus_low": {
+    "error_pp": {
+      "estimate": 10.743634641221448,
+      "ci95": [
+        7.107120242627863,
+        14.781170146348977
+      ]
+    },
+    "baseline_error_pp": {
+      "estimate": 11.259186044322929,
+      "ci95": [
+        7.819526321113074,
+        15.099376477021677
+      ]
+    },
+    "excess_error_pp": {
+      "estimate": -0.5155514031014825,
+      "ci95": [
+        -1.7354202538764507,
+        0.6888165391524913
+      ]
+    },
+    "direction_correct": {
+      "estimate": 0.017241379310344862,
+      "ci95": [
+        -0.07860613477009917,
+        0.11055619486148013
+      ]
+    }
+  },
+  "by_batch": {
+    "3": {
+      "outcomes": 232,
+      "assets": 232,
+      "error_pp": 18.88044535234461,
+      "baseline_error_pp": 16.971910033062127,
+      "excess_error_pp": 1.9085353192824788,
+      "direction_hit_pct": 38.362068965517246,
+      "always_up_hit_pct": 52.1551724137931
+    },
+    "4": {
+      "outcomes": 232,
+      "assets": 232,
+      "error_pp": 13.7021795690077,
+      "baseline_error_pp": 14.210557625650113,
+      "excess_error_pp": -0.5083780566424111,
+      "direction_hit_pct": 50.43103448275862,
+      "always_up_hit_pct": 51.724137931034484
+    },
+    "5": {
+      "outcomes": 232,
+      "assets": 232,
+      "error_pp": 13.468648673855435,
+      "baseline_error_pp": 14.084466015661848,
+      "excess_error_pp": -0.6158173418064121,
+      "direction_hit_pct": 53.879310344827594,
+      "always_up_hit_pct": 59.91379310344828
+    },
+    "6": {
+      "outcomes": 232,
+      "assets": 232,
+      "error_pp": 14.540558259765794,
+      "baseline_error_pp": 14.677154588989739,
+      "excess_error_pp": -0.13659632922394482,
+      "direction_hit_pct": 50.86206896551724,
+      "always_up_hit_pct": 39.224137931034484
+    }
+  },
+  "correlations": {
+    "3": {
+      "disagreement_error": 0.21353901389420107,
+      "risk_error": 0.48161406449108074,
+      "disagreement_risk": 0.5618742660329161,
+      "disagreement_excess_error": -0.026208511039057133
+    },
+    "4": {
+      "disagreement_error": 0.2863533536169321,
+      "risk_error": 0.42001848972398026,
+      "disagreement_risk": 0.6413233798907914,
+      "disagreement_excess_error": -0.09062367261272099
+    },
+    "5": {
+      "disagreement_error": 0.23585545725548682,
+      "risk_error": 0.3066910889909261,
+      "disagreement_risk": 0.688557705429098,
+      "disagreement_excess_error": -0.02466994305088133
+    },
+    "6": {
+      "disagreement_error": 0.321053299224085,
+      "risk_error": 0.37100918912373687,
+      "disagreement_risk": 0.5953258669700876,
+      "disagreement_excess_error": 0.008836435135088382
+    }
+  },
+  "risk_coverage": [
+    {
+      "selector": "disagreement_pp",
+      "coverage": 0.25,
+      "outcomes": 232,
+      "assets": 126,
+      "error_pp": 10.30551905901654,
+      "baseline_error_pp": 9.891506956630284,
+      "excess_error_pp": 0.41401210238625596,
+      "direction_hit_pct": 49.56896551724138,
+      "always_up_hit_pct": 52.1551724137931,
+      "error_ci95": [
+        8.574219420178714,
+        12.525737493848645
+      ],
+      "excess_ci95": [
+        -0.22952925526919135,
+        1.0688139159020704
+      ]
+    },
+    {
+      "selector": "disagreement_pp",
+      "coverage": 0.5,
+      "outcomes": 464,
+      "assets": 179,
+      "error_pp": 11.721500165336922,
+      "baseline_error_pp": 11.490908675061558,
+      "excess_error_pp": 0.23059149027536247,
+      "direction_hit_pct": 48.491379310344826,
+      "always_up_hit_pct": 54.0948275862069,
+      "error_ci95": [
+        10.169325080199439,
+        13.520588689535563
+      ],
+      "excess_ci95": [
+        -0.21188756407914983,
+        0.66968314501659
+      ]
+    },
+    {
+      "selector": "disagreement_pp",
+      "coverage": 0.75,
+      "outcomes": 696,
+      "assets": 215,
+      "error_pp": 13.180892718245182,
+      "baseline_error_pp": 12.93113175413687,
+      "excess_error_pp": 0.24976096410831222,
+      "direction_hit_pct": 47.41379310344828,
+      "always_up_hit_pct": 53.304597701149426,
+      "error_ci95": [
+        11.789754337703275,
+        14.795825371962428
+      ],
+      "excess_ci95": [
+        -0.16633476951668527,
+        0.657797840560034
+      ]
+    },
+    {
+      "selector": "disagreement_pp",
+      "coverage": 1.0,
+      "outcomes": 928,
+      "assets": 232,
+      "error_pp": 15.147957963743384,
+      "baseline_error_pp": 14.986022065840958,
+      "excess_error_pp": 0.16193589790242757,
+      "direction_hit_pct": 48.383620689655174,
+      "always_up_hit_pct": 50.754310344827594,
+      "error_ci95": [
+        13.577541052161832,
+        16.89442798154543
+      ],
+      "excess_ci95": [
+        -0.22744810391198653,
+        0.5551108168685084
+      ]
+    },
+    {
+      "selector": "risk_pp_60",
+      "coverage": 0.25,
+      "outcomes": 232,
+      "assets": 84,
+      "error_pp": 7.969823441275756,
+      "baseline_error_pp": 8.000305634273584,
+      "excess_error_pp": -0.03048219299782778,
+      "direction_hit_pct": 49.137931034482754,
+      "always_up_hit_pct": 53.44827586206896,
+      "error_ci95": [
+        6.953950501826409,
+        9.113132763902302
+      ],
+      "excess_ci95": [
+        -0.4328448258290498,
+        0.36514484605251013
+      ]
+    },
+    {
+      "selector": "risk_pp_60",
+      "coverage": 0.5,
+      "outcomes": 464,
+      "assets": 137,
+      "error_pp": 8.983001517244624,
+      "baseline_error_pp": 8.967472044768199,
+      "excess_error_pp": 0.015529472476422734,
+      "direction_hit_pct": 47.19827586206897,
+      "always_up_hit_pct": 52.370689655172406,
+      "error_ci95": [
+        8.25948987474572,
+        9.776729604351905
+      ],
+      "excess_ci95": [
+        -0.3155788868236736,
+        0.34346616260696455
+      ]
+    },
+    {
+      "selector": "risk_pp_60",
+      "coverage": 0.75,
+      "outcomes": 696,
+      "assets": 195,
+      "error_pp": 11.447872562077327,
+      "baseline_error_pp": 11.347554027000177,
+      "excess_error_pp": 0.10031853507715062,
+      "direction_hit_pct": 46.55172413793103,
+      "always_up_hit_pct": 52.72988505747126,
+      "error_ci95": [
+        10.435600248189916,
+        12.5475395651326
+      ],
+      "excess_ci95": [
+        -0.22345191355477864,
+        0.4265289828798265
+      ]
+    },
+    {
+      "selector": "risk_pp_60",
+      "coverage": 1.0,
+      "outcomes": 928,
+      "assets": 232,
+      "error_pp": 15.147957963743384,
+      "baseline_error_pp": 14.986022065840958,
+      "excess_error_pp": 0.16193589790242766,
+      "direction_hit_pct": 48.383620689655174,
+      "always_up_hit_pct": 50.754310344827594,
+      "error_ci95": [
+        13.577541052161832,
+        16.89442798154543
+      ],
+      "excess_ci95": [
+        -0.22744810391198653,
+        0.5551108168685084
+      ]
+    },
+    {
+      "selector": "normalized_disagreement",
+      "coverage": 0.25,
+      "outcomes": 232,
+      "assets": 134,
+      "error_pp": 18.454982411277594,
+      "baseline_error_pp": 18.025880245893184,
+      "excess_error_pp": 0.42910216538440715,
+      "direction_hit_pct": 53.879310344827594,
+      "always_up_hit_pct": 51.724137931034484,
+      "error_ci95": [
+        15.415756080457736,
+        21.697973608174312
+      ],
+      "excess_ci95": [
+        -0.6589144222884551,
+        1.4958382929144547
+      ]
+    },
+    {
+      "selector": "normalized_disagreement",
+      "coverage": 0.5,
+      "outcomes": 464,
+      "assets": 204,
+      "error_pp": 16.986715871304376,
+      "baseline_error_pp": 16.787976029435118,
+      "excess_error_pp": 0.19873984186925742,
+      "direction_hit_pct": 50.0,
+      "always_up_hit_pct": 52.370689655172406,
+      "error_ci95": [
+        14.820998325094944,
+        19.296182919346755
+      ],
+      "excess_ci95": [
+        -0.4510239980336455,
+        0.8486005404764092
+      ]
+    },
+    {
+      "selector": "normalized_disagreement",
+      "coverage": 0.75,
+      "outcomes": 696,
+      "assets": 221,
+      "error_pp": 16.03890714833022,
+      "baseline_error_pp": 15.754231092896044,
+      "excess_error_pp": 0.2846760554341838,
+      "direction_hit_pct": 48.275862068965516,
+      "always_up_hit_pct": 52.1551724137931,
+      "error_ci95": [
+        14.295663641358427,
+        17.949338033386876
+      ],
+      "excess_ci95": [
+        -0.22449556053965405,
+        0.7894084922681673
+      ]
+    },
+    {
+      "selector": "normalized_disagreement",
+      "coverage": 1.0,
+      "outcomes": 928,
+      "assets": 232,
+      "error_pp": 15.147957963743384,
+      "baseline_error_pp": 14.986022065840958,
+      "excess_error_pp": 0.16193589790242766,
+      "direction_hit_pct": 48.383620689655174,
+      "always_up_hit_pct": 50.754310344827594,
+      "error_ci95": [
+        13.577541052161832,
+        16.89442798154543
+      ],
+      "excess_ci95": [
+        -0.22744810391198653,
+        0.5551108168685084
+      ]
+    }
+  ],
+  "regressions": {
+    "log_error": {
+      "intercept": {
+        "estimate": 2.082693132307403,
+        "ci95": [
+          1.7990003582884093,
+          2.3473656675940338
+        ]
+      },
+      "log_risk": {
+        "estimate": 0.35799235861648443,
+        "ci95": [
+          0.2589878628318449,
+          0.46473441743826643
+        ]
+      },
+      "momentum": {
+        "estimate": -0.04903168244207717,
+        "ci95": [
+          -0.1264354485890885,
+          0.018666996587324812
+        ]
+      },
+      "forecast_magnitude": {
+        "estimate": 0.059170321623128255,
+        "ci95": [
+          -0.011068677350875324,
+          0.1331746122970691
+        ]
+      },
+      "log_disagreement": {
+        "estimate": 0.005596785220757105,
+        "ci95": [
+          -0.07224218962431493,
+          0.07929862333919141
+        ]
+      },
+      "batch_4": {
+        "estimate": -0.14231367483754706,
+        "ci95": [
+          -0.28422708297249155,
+          -0.004588206461159513
+        ]
+      },
+      "batch_5": {
+        "estimate": -0.22088177651114393,
+        "ci95": [
+          -0.3955827178731198,
+          -0.03403052756815395
+        ]
+      },
+      "batch_6": {
+        "estimate": -0.13059493092370805,
+        "ci95": [
+          -0.29316575800806416,
+          0.04247219434934691
+        ]
+      },
+      "class_crypto": {
+        "estimate": 0.6617063073789584,
+        "ci95": [
+          0.2613634584786058,
+          1.0570936873467467
+        ]
+      },
+      "class_equity": {
+        "estimate": 0.36762538409522094,
+        "ci95": [
+          0.10370602151616044,
+          0.6309741267888732
+        ]
+      },
+      "class_forex": {
+        "estimate": 0.22658324604975583,
+        "ci95": [
+          -0.28085695194724936,
+          0.8449855299629251
+        ]
+      },
+      "class_fund": {
+        "estimate": 0.5110952564801401,
+        "ci95": [
+          0.0,
+          0.8514407729257785
+        ]
+      },
+      "r_squared": 0.17421656981392408
+    },
+    "excess_error_pp": {
+      "intercept": {
+        "estimate": -1.034896263353869,
+        "ci95": [
+          -4.821576731340453,
+          1.827156386132368
+        ]
+      },
+      "log_risk": {
+        "estimate": 0.010341217901980837,
+        "ci95": [
+          -0.5710723162326906,
+          0.6161650346453574
+        ]
+      },
+      "momentum": {
+        "estimate": 0.28660344719042063,
+        "ci95": [
+          -0.14944144261424386,
+          0.6929933724243641
+        ]
+      },
+      "forecast_magnitude": {
+        "estimate": 0.18568971113137683,
+        "ci95": [
+          -0.2508642218139151,
+          0.6453561790059149
+        ]
+      },
+      "log_disagreement": {
+        "estimate": -0.07845495806953456,
+        "ci95": [
+          -0.6263968888068852,
+          0.42383585856134126
+        ]
+      },
+      "batch_4": {
+        "estimate": -2.3309998468407405,
+        "ci95": [
+          -3.200257165859872,
+          -1.52676352315714
+        ]
+      },
+      "batch_5": {
+        "estimate": -2.4664329642078604,
+        "ci95": [
+          -3.4530272263091377,
+          -1.4864640716203976
+        ]
+      },
+      "batch_6": {
+        "estimate": -2.0666029273288986,
+        "ci95": [
+          -3.0155283296790723,
+          -1.1810325720605037
+        ]
+      },
+      "class_crypto": {
+        "estimate": 1.5857483295561097,
+        "ci95": [
+          -1.6093916547671463,
+          5.929322907197602
+        ]
+      },
+      "class_equity": {
+        "estimate": 3.0481798037069816,
+        "ci95": [
+          0.23727997959526304,
+          7.019178924984059
+        ]
+      },
+      "class_forex": {
+        "estimate": 3.143612219656872,
+        "ci95": [
+          -0.4610766039604366,
+          7.618234870948234
+        ]
+      },
+      "class_fund": {
+        "estimate": 4.967778480824611,
+        "ci95": [
+          0.0,
+          8.957184911468405
+        ]
+      },
+      "r_squared": 0.05716986615659447
+    }
+  },
+  "risk_stratified": {
+    "groups": [
+      {
+        "higher_disagreement_within_risk_bin": false,
+        "outcomes": 460,
+        "assets": 198,
+        "error_pp": 15.662742676180045,
+        "baseline_error_pp": 15.346179213587288,
+        "excess_error_pp": 0.31656346259275986,
+        "direction_hit_pct": 49.130434782608695,
+        "always_up_hit_pct": 53.04347826086957,
+        "error_ci95": [
+          13.468316448287977,
+          18.110019057141272
+        ],
+        "baseline_ci95": [
+          13.346875845548617,
+          17.564864626208944
+        ]
+      },
+      {
+        "higher_disagreement_within_risk_bin": true,
+        "outcomes": 468,
+        "assets": 199,
+        "error_pp": 14.641972989980854,
+        "baseline_error_pp": 14.632021450534735,
+        "excess_error_pp": 0.00995153944611823,
+        "direction_hit_pct": 47.64957264957265,
+        "always_up_hit_pct": 48.504273504273506,
+        "error_ci95": [
+          12.686068255604273,
+          16.85042936511494
+        ],
+        "baseline_ci95": [
+          12.70771593582136,
+          16.745686327609192
+        ]
+      }
+    ],
+    "difference": {
+      "error_pp": {
+        "estimate": -1.0207696861991913,
+        "ci95": [
+          -3.9944489517127204,
+          1.7888294136971645
+        ]
+      },
+      "excess_error_pp": {
+        "estimate": -0.30661192314664165,
+        "ci95": [
+          -1.038525024338367,
+          0.4126691953151333
+        ]
+      }
+    }
+  },
+  "selector_difference": {
+    "volatility_minus_disagreement_error_pp": {
+      "estimate": -2.3356956177407833,
+      "ci95": [
+        -4.263145109906162,
+        -0.800638944869165
+      ]
+    }
+  },
+  "spread_sensitivity": {
+    "disagreement_iqr_pp": {
+      "error_pp": {
+        "estimate": 8.229803633194598,
+        "ci95": [
+          4.434892015114417,
+          12.113992191410793
+        ]
+      },
+      "baseline_error_pp": {
+        "estimate": 8.123037808200497,
+        "ci95": [
+          4.388944808789247,
+          11.72378092074448
+        ]
+      },
+      "excess_error_pp": {
+        "estimate": 0.10676582499410289,
+        "ci95": [
+          -0.9207505955596014,
+          1.1695650852880517
+        ]
+      },
+      "direction_correct": {
+        "estimate": -0.051724137931034475,
+        "ci95": [
+          -0.14435601926972075,
+          0.0408830352727383
+        ]
+      }
+    },
+    "disagreement_mad_pp": {
+      "error_pp": {
+        "estimate": 8.828012678199789,
+        "ci95": [
+          5.815989816896455,
+          12.09554586133686
+        ]
+      },
+      "baseline_error_pp": {
+        "estimate": 9.250006458009247,
+        "ci95": [
+          6.282567089853804,
+          12.441229148378815
+        ]
+      },
+      "excess_error_pp": {
+        "estimate": -0.4219937798094592,
+        "ci95": [
+          -1.4618573115757187,
+          0.6128591542433021
+        ]
+      },
+      "direction_correct": {
+        "estimate": -0.017241379310344862,
+        "ci95": [
+          -0.11010684882129027,
+          0.07629547159327976
+        ]
+      }
+    }
+  },
+  "rmse_by_quartile": [
+    {
+      "quartile": 1,
+      "council_rmse_pp": 17.687113067893357,
+      "no_change_rmse_pp": 16.552312683928736
+    },
+    {
+      "quartile": 2,
+      "council_rmse_pp": 21.011344749400635,
+      "no_change_rmse_pp": 20.06841854700727
+    },
+    {
+      "quartile": 3,
+      "council_rmse_pp": 23.392747014817022,
+      "no_change_rmse_pp": 22.794277905508867
+    },
+    {
+      "quartile": 4,
+      "council_rmse_pp": 31.14292688155567,
+      "no_change_rmse_pp": 30.631669896240084
+    }
+  ],
+  "agreement_groups": [
+    {
+      "agreement": "at least 6 of 7",
+      "outcomes": 436,
+      "assets": 200,
+      "error_pp": 16.837403269160838,
+      "baseline_error_pp": 16.421536246428772,
+      "excess_error_pp": 0.41586702273206405,
+      "direction_hit_pct": 53.21100917431193,
+      "always_up_hit_pct": 49.54128440366973,
+      "direction_ci95": [
+        48.15585548468479,
+        58.333333333333336
+      ],
+      "error_ci95": [
+        14.43977079614397,
+        19.490144231259844
+      ]
+    },
+    {
+      "agreement": "fewer than 6 of 7",
+      "outcomes": 492,
+      "assets": 206,
+      "error_pp": 13.650807245934422,
+      "baseline_error_pp": 13.713899743206225,
+      "excess_error_pp": -0.06309249727180308,
+      "direction_hit_pct": 44.105691056910565,
+      "always_up_hit_pct": 51.829268292682926,
+      "direction_ci95": [
+        39.640594484805874,
+        48.47266000999739
+      ],
+      "error_ci95": [
+        12.200231780362918,
+        15.262767667670484
+      ]
+    }
+  ],
+  "agreement_differences": {
+    "direction_correct": {
+      "estimate": 0.09105318117401362,
+      "ci95": [
+        0.030305111529617346,
+        0.1521659470302311
+      ]
+    },
+    "direction_gain_vs_always_up": {
+      "estimate": 0.1139330200641456,
+      "ci95": [
+        0.019493842040059384,
+        0.20959061561600484
+      ]
+    },
+    "error_pp": {
+      "estimate": 3.186596023226416,
+      "ci95": [
+        0.7322989220432581,
+        5.796380411611001
+      ]
+    }
+  },
+  "volatility_window_sensitivity": [
+    {
+      "window": 20,
+      "selector": "risk_pp_60",
+      "coverage": 0.25,
+      "outcomes": 232,
+      "assets": 101,
+      "error_pp": 7.603198131020877,
+      "baseline_error_pp": 7.5253625716497075,
+      "excess_error_pp": 0.07783555937116901,
+      "direction_hit_pct": 47.8448275862069,
+      "always_up_hit_pct": 48.275862068965516,
+      "error_ci95": [
+        6.658102470362995,
+        8.639421583969149
+      ],
+      "excess_ci95": [
+        -0.3062665675012447,
+        0.44676762138944487
+      ]
+    },
+    {
+      "window": 60,
+      "selector": "risk_pp_60",
+      "coverage": 0.25,
+      "outcomes": 232,
+      "assets": 84,
+      "error_pp": 7.969823441275756,
+      "baseline_error_pp": 8.000305634273584,
+      "excess_error_pp": -0.03048219299782778,
+      "direction_hit_pct": 49.137931034482754,
+      "always_up_hit_pct": 53.44827586206896,
+      "error_ci95": [
+        6.953950501826409,
+        9.113132763902302
+      ],
+      "excess_ci95": [
+        -0.4328448258290498,
+        0.36514484605251013
+      ]
+    },
+    {
+      "window": 90,
+      "selector": "risk_pp_60",
+      "coverage": 0.25,
+      "outcomes": 232,
+      "assets": 74,
+      "error_pp": 7.497882921263301,
+      "baseline_error_pp": 7.475948655458596,
+      "excess_error_pp": 0.021934265804705224,
+      "direction_hit_pct": 46.55172413793103,
+      "always_up_hit_pct": 50.43103448275862,
+      "error_ci95": [
+        6.670076939923811,
+        8.346801108143975
+      ],
+      "excess_ci95": [
+        -0.3638292908866074,
+        0.40715029174875267
+      ]
+    }
+  ],
+  "sensitivity": {
+    "expanded_coverage": {
+      "summary": {
+        "outcomes": 1221,
+        "assets": 373,
+        "error_pp": 15.59133949971093,
+        "baseline_error_pp": 15.489808385462622,
+        "excess_error_pp": 0.10153111424830774,
+        "direction_hit_pct": 48.56674856674857,
+        "always_up_hit_pct": 49.303849303849304
+      },
+      "high_minus_low": {
+        "error_pp": {
+          "estimate": 11.233089651619762,
+          "ci95": [
+            8.063336797917813,
+            14.575183895961906
+          ]
+        },
+        "baseline_error_pp": {
+          "estimate": 11.697880559384574,
+          "ci95": [
+            8.6743991641593,
+            14.929511162587907
+          ]
+        },
+        "excess_error_pp": {
+          "estimate": -0.4647909077648099,
+          "ci95": [
+            -1.556462886520934,
+            0.5398184443641989
+          ]
+        },
+        "direction_correct": {
+          "estimate": 0.04423109891993826,
+          "ci95": [
+            -0.039217855859702444,
+            0.1284191272826751
+          ]
+        }
+      }
+    },
+    "equities_only": {
+      "summary": {
+        "outcomes": 824,
+        "assets": 206,
+        "error_pp": 15.019680797063817,
+        "baseline_error_pp": 14.701572376831487,
+        "excess_error_pp": 0.3181084202323279,
+        "direction_hit_pct": 47.45145631067961,
+        "always_up_hit_pct": 51.334951456310684
+      },
+      "high_minus_low": {
+        "error_pp": {
+          "estimate": 10.018768694583732,
+          "ci95": [
+            5.63383048824689,
+            14.76786089721728
+          ]
+        },
+        "baseline_error_pp": {
+          "estimate": 10.267419733862583,
+          "ci95": [
+            6.29459152400364,
+            14.548612947907223
+          ]
+        },
+        "excess_error_pp": {
+          "estimate": -0.2486510392788486,
+          "ci95": [
+            -1.6198232903964616,
+            1.0381029020196213
+          ]
+        },
+        "direction_correct": {
+          "estimate": 0.0,
+          "ci95": [
+            -0.0954671117300131,
+            0.10235878612246148
+          ]
+        }
+      }
+    },
+    "original_membership": {
+      "summary": {
+        "outcomes": 924,
+        "assets": 232,
+        "error_pp": 15.156025879115054,
+        "baseline_error_pp": 14.988764105957856,
+        "excess_error_pp": 0.16726177315719526,
+        "direction_hit_pct": 48.37662337662338,
+        "always_up_hit_pct": 50.649350649350644
+      },
+      "high_minus_low": {
+        "error_pp": {
+          "estimate": 10.776677014031641,
+          "ci95": [
+            7.117072442467005,
+            14.806707733534079
+          ]
+        },
+        "baseline_error_pp": {
+          "estimate": 11.272921626550716,
+          "ci95": [
+            7.827797518688927,
+            15.137717175064061
+          ]
+        },
+        "excess_error_pp": {
+          "estimate": -0.49624461251907026,
+          "ci95": [
+            -1.7182514219473222,
+            0.6968283882013732
+          ]
+        },
+        "direction_correct": {
+          "estimate": 0.01735382308845579,
+          "ci95": [
+            -0.07760452997079631,
+            0.1108120342079052
+          ]
+        }
+      }
+    },
+    "exclude_largest_1pct_errors": {
+      "summary": {
+        "outcomes": 918,
+        "assets": 232,
+        "error_pp": 13.868806445174236,
+        "baseline_error_pp": 13.788128094362774,
+        "excess_error_pp": 0.08067835081146066,
+        "direction_hit_pct": 48.69281045751634,
+        "always_up_hit_pct": 50.21786492374728
+      },
+      "high_minus_low": {
+        "error_pp": {
+          "estimate": 9.721308531759595,
+          "ci95": [
+            7.1968900261209745,
+            12.296401341243447
+          ]
+        },
+        "baseline_error_pp": {
+          "estimate": 10.235823577575001,
+          "ci95": [
+            7.836361849448886,
+            12.673144057136787
+          ]
+        },
+        "excess_error_pp": {
+          "estimate": -0.5145150458154018,
+          "ci95": [
+            -1.734018962021384,
+            0.6620592707789935
+          ]
+        },
+        "direction_correct": {
+          "estimate": 0.017583004367145327,
+          "ci95": [
+            -0.07918826120756672,
+            0.11096310697681538
+          ]
+        }
+      }
+    },
+    "median_aggregation": {
+      "summary": {
+        "outcomes": 928,
+        "assets": 232,
+        "error_pp": 15.131001082467874,
+        "baseline_error_pp": 14.986022065840958,
+        "excess_error_pp": 0.14497901662691728,
+        "direction_hit_pct": 48.383620689655174,
+        "always_up_hit_pct": 50.754310344827594
+      },
+      "high_minus_low": {
+        "error_pp": {
+          "estimate": 10.842129838920554,
+          "ci95": [
+            7.139881754728365,
+            14.935941332471394
+          ]
+        },
+        "baseline_error_pp": {
+          "estimate": 11.259186044322929,
+          "ci95": [
+            7.819526321113074,
+            15.099376477021677
+          ]
+        },
+        "excess_error_pp": {
+          "estimate": -0.4170562054023722,
+          "ci95": [
+            -1.720477169248652,
+            0.8871783710699847
+          ]
+        },
+        "direction_correct": {
+          "estimate": 0.017241379310344862,
+          "ci95": [
+            -0.07860613477009917,
+            0.11055619486148013
+          ]
+        }
+      }
+    },
+    "anchor_return_scoring": {
+      "summary": {
+        "outcomes": 928,
+        "assets": 232,
+        "error_pp": 15.126619272017026,
+        "baseline_error_pp": 14.988557023576444,
+        "excess_error_pp": 0.13806224844058218,
+        "direction_hit_pct": 48.383620689655174,
+        "always_up_hit_pct": 50.754310344827594
+      },
+      "high_minus_low": {
+        "error_pp": {
+          "estimate": 10.625433571872943,
+          "ci95": [
+            6.802308849237904,
+            14.669867047631634
+          ]
+        },
+        "baseline_error_pp": {
+          "estimate": 11.318254760688776,
+          "ci95": [
+            7.889629694597812,
+            15.213146997660752
+          ]
+        },
+        "excess_error_pp": {
+          "estimate": -0.692821188815838,
+          "ci95": [
+            -1.9077664983532783,
+            0.461359593979827
+          ]
+        },
+        "direction_correct": {
+          "estimate": 0.02155172413793105,
+          "ci95": [
+            -0.07524182187671638,
+            0.11623608039602908
+          ]
+        }
+      }
+    }
+  },
+  "prior_completed_outcomes_at_issue": {
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 1
+  },
+  "limitations": [
+    "Retrospective analysis, not preregistered or a learned prospective deployment test.",
+    "Asset-cluster pointwise percentile intervals condition on fixed selection scores; they do not remove common market dependence.",
+    "Seven frameworks share historical Gemini versions; they are not seven independent provider models.",
+    "Disagreement is spread among point forecasts, not a calibrated probability interval."
+  ]
+}

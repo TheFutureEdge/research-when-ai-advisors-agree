@@ -1,0 +1,1228 @@
+batch,asset_id,asset,symbol,asset_class,issued,entry,target,observed,horizon_days,frameworks,configurations,original_membership_all,balanced,risk_balanced
+3,commodity_35be58ef-7f43-54c9-a726-3c869a214507,Palladium Spot in US Dollar,XPDUSD,commodity,2026-04-11,2026-04-13,2026-07-09,2026-07-09,87,7,10,True,True,True
+3,commodity_5d2f8d54-096c-5b83-9b66-d23b0bc56ed6,Platinum Spot in US Dollar,XPTUSD,commodity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,commodity_7ea082a2-41ea-5733-9761-0157cf429e73,Silver Spot in US Dollar,XAGUSD,commodity,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,commodity_adba51c0-cb27-5e9c-9eb8-e1439f97a611,Gold Spot in US Dollar,XAUUSD,commodity,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,commodity_cf82679d-9e97-5e15-8ece-d56e52101f06,Brent Crude Spot in US Dollar,XBRUSD,commodity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,crypto_2d8162a4-e9a6-5222-8b4f-1d7c0e7e2ec7,Gram (GRAM),GRAM,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_34b4b2bc-b87f-599d-9da7-9481701f3195,Litecoin (LTC),LTC,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_58845559-7ee4-5f2b-a67e-d8b9bf506485,TRON (TRX),TRX,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_5f84e890-c8ae-58db-aecb-2430a8d8c6c4,Bitcoin Cash (BCH),BCH,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_8f824f2d-c67f-55e7-8124-aa113059635d,Bitcoin (BTC),BTC,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_92c1b64e-7e9b-5096-b017-1c169d9493f5,Ethereum (ETH),ETH,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_9638a395-fafb-59e1-b218-57b9190d49cc,Chainlink (LINK),LINK,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_a34bddab-6dac-558c-beff-c31f36d29a1e,Ripple (XRP),XRP,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_a9b10098-59c9-53b1-9f07-07f541ac340d,Binance Coin (BNB),BNB,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_afb25ca6-7aa1-5e99-9255-66dfd353d3a1,Dogecoin (DOGE),DOGE,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_b43c276e-3732-5b6a-bca6-0a1334805833,Solana (SOL),SOL,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_c3f57103-e653-5c16-a919-d37c3a9a877d,Stellar (XLM),XLM,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_cf03c817-33e8-5833-9ec5-c49d96f01e6d,Avalanche (AVAX),AVAX,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,crypto_d714183b-e023-5e80-854f-28ade5b29cc4,Cardano (ADA),ADA,crypto,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,equity_013d2cbc-1a8a-5434-a2ad-8d6d943eb036,Visa Inc.,V,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_0172839b-35e4-5ffa-8e68-078f79726ed3,Snap Inc.,SNAP,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_0303151a-ce6c-5dec-9dcc-07fc57c0714d,"The Home Depot, Inc.",HD,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_04a23db8-2e99-574a-9503-5df65650e440,Vertex Pharmaceuticals Incorporated,VRTX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_07594782-05db-5559-81f8-4d51d3d3c392,Northrop Grumman Corporation,NOC,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_077b74a3-3e50-58c2-aacb-4da6ea222da6,The Charles Schwab Corporation,SCHW,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_09092397-d4bf-5083-ae6f-323e3c4e3493,"Iberdrola, S.A.",IBE,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_0a557cc4-0ccd-5e41-9b75-24b09b77f67e,"Salesforce, Inc.",CRM,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_0d6f9a02-6c61-558c-91a7-934fd208266f,"Prologis, Inc.",PLD,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_0dfa88b2-ae9e-57d7-b899-3c806c590a67,Volkswagen AG,VOW,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_0e372eea-b090-547a-88a2-4a7f958db812,Linde plc,LIN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_0e4d472e-2931-5e69-b6cf-014d397216b0,TotalEnergies SE,TTE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_0eb93e16-78cb-5cc6-b3e1-cc34fe1ec52e,ABB Ltd,ABBN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,equity_0f68a4f7-29d0-5c9a-9d20-41cc8186cddd,Roblox Corporation,RBLX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_105d190f-f458-59ac-bc32-508bcc63ac10,Industrial and Commercial Bank of China,601398,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_11870bd0-eb6e-503f-8036-31e3653b3c09,Quanta Services Inc,PWR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_118d9bb6-18a6-57b5-bf42-8cf50aa0f133,"Lyft, Inc.",LYFT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_13790285-b3e0-5b8c-bf39-67b451154ef2,"Tesla, Inc.",TSLA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_158a90f9-fcd7-5b16-b706-bd529139322e,Rheinmetall AG,RHM,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1682f682-f022-5a4e-84b3-78bee1ee6e81,The Coca-Cola Company,KO,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1720b66a-42d6-5a8b-b25c-7de04a1dc20f,"Cisco Systems, Inc.",CSCO,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_17b2425d-f3ab-5bfe-809e-eafb5bdb1610,QUALCOMM Incorporated,QCOM,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1a8294a9-a56c-53d9-934a-9cea6d9fcd3f,ASML Holding NV,ASML,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1ad229e8-98fd-538e-a91c-a7476979cda2,Howmet Aerospace Inc,HWM,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1c813d87-88dc-564d-9504-8547b80a1cc2,JPMorgan Chase & Co.,JPM,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1d450e7c-5a19-5ef8-b105-97706fe0692c,"Rivian Automotive, Inc.",RIVN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1e28fe98-b931-5889-9c29-a68fa35e0d77,"Meta Platforms, Inc.",META,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1f7d6c01-9f20-5a04-be70-9f4a9bfe3abc,KLA-Tencor Corporation,KLAC,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_1fefba64-281d-54b9-b11d-cf38a85ebdec,Schneider Electric SE,SU,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_2370d3c3-6171-585d-9e31-237c8eb4f476,Saab AB (publ),SAAB-B,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_238acad3-0ea8-5977-8ee3-376e689d95e2,GE Vernova LLC,GEV,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_24b377f3-f43f-576b-9216-ff7e3e56e9eb,Recursion Pharmaceuticals Inc,RXRX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_252124ac-772e-5038-8333-fccb619e00af,Engie SA,ENGI,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_26732afa-a2d8-548b-a63d-002ff608d253,CRISPR Therapeutics AG,CRSP,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_27870ecf-e086-54d7-8222-d855946db377,American Express Company,AXP,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_278e7a41-fd2f-5ab1-9536-f91c9f1c1b68,"Teladoc Health, Inc.",TDOC,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_29935658-88be-5858-aea7-62dfedfde05b,Allianz SE,ALV,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_2d00bda5-696b-550e-b8f9-9a217be569ce,Oklo Inc.,OKLO,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_2d93e113-d967-5620-9994-fd0f1f510899,The Southern Company,SO,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_2e754c83-3225-55c0-b13b-e386f99a8135,Bayerische Motoren Werke AG,BMW,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_2f5dad67-44e3-5eca-a657-a418be6394cd,Arm Holdings plc ADR,ARM,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_2faa504c-f498-5d12-89e6-4da3e57868c5,Palo Alto Networks Inc,PANW,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_2fbd92da-2845-5333-9fa3-59e5c42f9019,Dassault Systemes SE,DSY,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_3094f431-2130-5c31-bfbe-26404e229a12,"Coinbase Global, Inc.",COIN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_31110c28-e4e5-5826-8b96-51ca7f86d439,Monday.Com Ltd,MNDY,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_33682f19-0654-5b05-bc70-c313647fbfd2,SK Hynix Inc,000660,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_347a1ada-c576-5fdd-b126-9ab8d8857834,AXA SA,CS,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_3654a634-bc57-538d-b464-792908e1125d,BNP Paribas SA,BNP,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_3719e395-c0b4-56df-914f-0277e5b495d9,"Air Products and Chemicals, Inc.",APD,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_392c79d4-9e22-5570-9f74-28022eb5b200,"Workday, Inc.",WDAY,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_396caf80-29d7-5d17-adb8-e2e1e368773e,Caterpillar Inc.,CAT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_3ae93f3c-eda4-5ec9-bf36-83f6dd6f0e24,American Tower Corporation,AMT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_3dd6659c-1a88-5d87-86cc-4f05136f1d65,Mercedes-Benz Group AG,MBG,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_3e5cf1f0-b8fc-5e35-9ed0-b05a9be0c731,Unity Software Inc.,U,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_3f8ad8b5-f4b0-5cb9-9c03-b91a45b1c70a,Amgen Inc.,AMGN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_45c5c123-a0cb-5243-9c30-8e721b60478c,ASM International NV,ASM,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_45e92af8-55ef-5e9b-ac6d-cc387d5a8b26,"Merck & Co., Inc.",MRK,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_4797df45-e72a-5d2e-b96c-ace95eff18b2,"Pinterest, Inc.",PINS,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_48d8175f-6b57-55d9-8d1a-c429f551883a,BP plc,BP,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_49812ec8-b303-53bb-91a7-8f6d041625cd,International Business Machines Corporation,IBM,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_4a899291-122f-5088-bcc0-62adff9287ab,IREN Ltd,IREN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_4c034635-ef4d-5d65-9ccf-4a417b2d9972,HSBC Holdings plc,HSBA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_4d04858e-8f04-5ed9-986c-2ea3c1c11fff,BE Semiconductor Industries NV,BESI,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_4fc4c899-ab92-5b30-8b40-9783260057d1,The Boeing Company,BA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_530f1635-0f96-5265-beb4-8ad722d211c7,"Equinix, Inc.",EQIX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_54c895f1-30a1-50d1-b87b-88a23f0db939,Rolls-Royce Holdings PLC,RR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_56b28eb6-34ca-56e9-a0de-0798b00e74da,Sanofi S.A.,SAN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_5754fb9e-f00d-5188-8502-5742733222fa,"Rocket Lab USA, Inc.",RKLB,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_596252ea-ae6c-57cc-8f1c-ff4f1e87d89c,RTX Corporation,RTX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_5a67b993-0334-5475-9ec9-9ababb266b02,China Mobile Ltd,0941,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_5cec2cca-7032-522f-9f48-486b9df96e29,"NIKE, Inc.",NKE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_5d41cba5-6315-5c45-b43e-e3682682532e,Comcast Corporation,CMCSA,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_5fd62c5f-2c8d-560d-9856-1153a496f443,Target Corporation,TGT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_605870fb-31f5-56e1-bb3f-ff917ad68710,Novartis AG,NOVN,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_61d2639f-a079-5015-93eb-1cbc9a373648,Eli Lilly and Company,LLY,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_622c47d4-3114-5935-a088-084754615cf3,LG Chemicals,051910,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_628f5fe4-f60d-5d5d-bd82-f21429c69b5c,Berkshire Hathaway Inc. Class B,BRK.B,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6314f72c-8248-561a-a27a-1b44bda37fde,Shell plc,SHEL,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_643edad1-fae0-593d-a41f-8ffef450e11f,Power Grid Corporation of India Limited,POWERGRID,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6450e9e7-4c57-5c72-97d1-057751df8e53,Pfizer Inc.,PFE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_67e7b9a6-48a8-5dd1-bbc5-db5727f74fd4,"Lucid Group, Inc.",LCID,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_68ddf211-c21a-5b50-a434-fd6a8ae20a11,"CrowdStrike Holdings, Inc.",CRWD,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6aa5515c-952b-5a96-8aa8-824095495923,Applied Materials Inc,AMAT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6b07e976-9dd0-531d-90f9-5bbbaabf1c96,"Tempus AI, Inc. Class A Common Stock",TEM,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6c8e136c-6574-5381-abca-d8c525ace9fb,Industrial and Commercial Bank of China,1398,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6e733fe0-2e3e-594f-a4c1-609f6a481299,Societe Generale S.A.,GLE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6ea61a87-9d2f-5892-8152-c802de2f6d23,Wells Fargo & Company,WFC,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6f455cc1-fa98-5ef5-8e6e-dbabed0ea6a1,Nebius Group N.V.,NBIS,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_6f6d0be0-524d-52a8-bb11-f60b25a783a8,Illinois Tool Works Inc.,ITW,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_73187115-a770-5035-8203-59b70077611f,Air Liquide SA,AI,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_739cdc9f-d524-52db-ad09-5d7c5f3b8334,Volvo AB (publ) Class A,VOLV-B,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_73c23c4e-25e5-561a-9886-64d92976357e,HDFC Bank Limited,HDFCBANK,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_73fd14fb-d2e2-59fd-a5e4-45499d17e077,Roche Holding AG,ROP,equity,2026-04-11,2026-04-13,2026-06-25,2026-06-25,73,7,10,False,True,True
+3,equity_75138a92-ae17-5eef-aa64-afc8372299bb,Exxon Mobil Corporation,XOM,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_75ae4da5-3238-5400-93cc-d8f0bb660019,Carrefour SA,CA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7672b425-c92b-5d8a-81ab-c60724a958d0,Citigroup Inc.,C,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_778b2c1d-426a-5fff-9eda-198e013bd945,"Intuitive Surgical, Inc.",ISRG,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_77a8f069-8c05-523b-aa70-b39a8942b1c1,"Amazon.com, Inc.",AMZN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_789b8a92-7cca-5c0b-bf76-5192d283804a,L'Oréal S.A.,OR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7976a2f1-8279-537d-85d6-05e2d4f65ebf,"Robinhood Markets, Inc.",HOOD,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7a450250-b41b-5c37-992e-3abb7b5c8b66,JD.com Inc ADR,JD,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7ac51593-a969-54db-9992-83d7c56094d8,Siemens Energy AG,ENR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7b5c3d6c-cf15-5fe4-99d4-cd6ecb8c53f2,"The TJX Companies, Inc.",TJX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7c3deb24-9789-551f-b5eb-e932aeabaf83,General Motors Company,GM,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7d4bc152-96eb-5872-be67-303e3002a0fa,GSK plc,GSK,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7e48cabb-84f7-5887-a4f5-4bf0071d6671,Ecolab Inc.,ECL,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7e794ba4-ddfc-5658-bb39-22c0050f665f,BAE Systems plc,BA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7e8a395b-3e8d-5baf-90d4-19f11971fe98,Palantir Technologies Inc.,PLTR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7ef22304-346b-5d5b-abea-92d0948ebc01,AT&T Inc.,T,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7f48b162-c593-5c99-9fef-da5149a75292,Ford Motor Company,F,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7fd7261d-ec71-54a2-b468-3a3e693e788e,Verizon Communications Inc.,VZ,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_7feda97e-a991-555f-ad42-7f3dce5dbc6d,"Netflix, Inc.",NFLX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_824befe3-bb5e-5471-bf51-57eae9d98338,Proximus NV,PROX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_82bc9fbc-ce8f-59b9-b3a7-a7d44160648e,The Procter & Gamble Company,PG,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,equity_83afc793-0f34-5ad0-a25c-b442882abd4d,Meituan,3690,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_843671cc-b0af-525e-a5ab-cc822260c2cf,Micron Technology Inc,MU,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_857469cd-9a16-50e9-a787-c28db4d35a54,AstraZeneca plc,AZN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,equity_85f9f80c-2913-5bac-816a-0b9ad6226c1f,Alibaba Group Holding Ltd,9988,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_86024f0f-e3ec-533a-b886-0101ce4c3a73,Bank of America Corporation,BAC,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_8694f05d-78cc-5277-a0e6-9022d3d7c957,Microsoft Corporation,MSFT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_87cf683d-e37f-57df-b1b2-bcd2c0441706,McDonald's Corporation,MCD,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_8aaa753b-c33b-5de3-844e-8fbb5f9bcf9b,Lockheed Martin Corporation,LMT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_8cbb4c49-1386-50fd-a376-15b8fdea049e,Royal Bank of Canada,RY,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_8ee33a0b-8237-5e0f-8f86-bebb652d100b,3M Company,MMM,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_8f5a7279-ad52-55b0-8af2-9ce67e12e352,Stryker Corporation,SYK,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_8f98da24-43f5-5f39-8967-e694f92167a2,Mastercard Incorporated,MA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_90606491-6d1d-54e4-989e-78da2d2dbfa6,Abbott Laboratories,ABT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_908738df-2761-5dd3-a0fa-299f90d5f90d,"Banco Santander, S.A.",SAN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_934a894c-c3d4-520a-8487-202b920c7091,Chevron Corporation,CVX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_943926b7-ed6b-5754-9734-ed3184f76b20,BigBearai Holdings Inc,BBAI,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_9801ad6a-4e84-5585-8161-d7280773a175,Intel Corporation,INTC,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_9a83d7ac-5850-53a4-9808-9d6642c4dea4,Dutch Bros Inc,BROS,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_9cd62830-89b7-54d4-9564-0db09c41382b,Constellation Energy Corp,CEG,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_9d99e626-9bd8-5d26-b4f7-a12e5b614da1,Vistra Energy Corp,VST,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_a25c1820-1202-5e7e-ad50-18d2166d84c3,The Walt Disney Company,DIS,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_a39349b4-eef3-5fc5-a95f-28f1263df064,"ServiceNow, Inc.",NOW,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_a4365669-74e8-56ca-8bd7-7e859da99f6c,"Dominion Energy, Inc.",D,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_a848a16a-f190-5ccf-a351-a1fcb6863362,Arista Networks,ANET,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_a9221840-c0bb-525f-8819-1aa170c238f3,Infosys Limited,INFY,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_a964efa7-7086-574b-a34a-52efb58a688d,Oracle Corporation,ORCL,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ab48b1a2-e6f0-57d6-bac6-8b9ab8c9ab4f,Duke Energy Corporation,DUK,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ac0356e5-8b2f-56a5-a533-384ef6afd627,Shopify Inc,SHOP,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ac3e6235-70fa-509a-9137-88ef0f3b9a1e,"BlackRock, Inc.",BLK,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_adabd7e7-9fd9-567d-bfa5-7cf913708058,Baidu Inc ADR,BIDU,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_af158cfc-ef4f-5242-a211-aee6176cf17b,"Airbnb, Inc.",ABNB,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_aff2387b-9d08-5e40-8737-a5d658baf07c,NVIDIA Corporation,NVDA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b07ddb27-3d28-59b7-9093-642a86a997a5,Apple Inc.,AAPL,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,equity_b0e4649c-7804-5ca2-899d-98a3301ffd3d,Glencore PLC,GLEN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b1302ac2-6b39-559e-99c3-a49b1bff7da0,"Lowe's Companies, Inc.",LOW,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b1cfd539-bee5-5378-9a1b-c4d7090e3a6d,Alibaba Group Holding Ltd ADR,BABA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,equity_b2ffb1ea-cbc8-5b19-94e4-36a45b603f2f,Wayfair Inc,W,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b5649eae-cacd-5a55-b622-d2acb17d1247,Thermo Fisher Scientific Inc.,TMO,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b5a5aa00-131e-545a-a75f-b3b4c341ef4d,CME Group Inc.,CME,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b5f4e368-91bd-55bb-966e-5e9f31b8ab8d,Unilever plc,ULVR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b621314e-bf12-5462-ae24-4f3c48c5ed34,Vertiv Holdings Co,VRT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b6781778-e97a-5d24-afb4-f7465b6a9321,"The Trade Desk, Inc.",TTD,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b6b4920e-ce4f-5c63-99b7-2ef66f4b8123,Accenture plc,ACN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_b76ae7ab-9aeb-5804-9526-48f3fe46db1a,"DoorDash, Inc.",DASH,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ba12ea48-84e6-5905-9adb-4b8ed803cd70,Starbucks Corporation,SBUX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ba78192b-6157-57ba-9a89-664f6ad5d2a4,Tata Consultancy Services Limited,TCS,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_bd1883b4-abac-5d18-b097-acf25f2fdcf8,Deutsche Bank Aktiengesellschaft,DBK,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_bdad71da-994f-5fe7-bb1b-f99ddc7a4cbc,AbbVie Inc.,ABBV,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_becdb741-0d31-5f88-8b00-de8d5e4d4e7e,"Enphase Energy, Inc.",ENPH,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_c366a36d-4779-51ec-81a1-55b836c27cf6,Adobe Inc.,ADBE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_c3de33a2-667e-51c8-9376-b9ab39fbbca0,Tencent Holdings Ltd,0700,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_c68ee739-d4dd-5667-8a6f-13192ed7a6cc,Fiverr International Ltd,FVRR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_c9a7904f-50b6-57be-a2ec-7c50f3162c70,Deere & Company,DE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_cb34a8e2-2d14-5a05-851c-a3de26c82e84,Infineon Technologies AG,IFX,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_cdc413d2-1e92-5151-9d6b-1cbb7c013976,"Moderna, Inc.",MRNA,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_cf11e8df-1714-520f-a1e9-cfaa0439b486,Samsung Electronics Co Ltd,005930,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_d1faf0de-bcdf-5295-8684-9aa04dc9827b,"Virgin Galactic Holdings, Inc.",SPCE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,equity_d2c1c051-e118-590b-b120-7ae9b496652e,Nestlé S.A.,NESN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_d4d6e071-ca11-593f-b0aa-ca765fa9a008,Thales S.A.,HO,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_d573891f-97f3-5a8e-8b19-5db704eef9c9,Medtronic plc,MDT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_d8c098bb-8cd8-5dc4-a9b4-cba2074b110d,Eaton Corporation plc,ETN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_da8712ca-addc-5ecc-b8fd-9c54f75c71f6,"PayPal Holdings, Inc.",PYPL,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_db3796fa-dbad-5c17-8c00-563cc1f2da1b,"Gilead Sciences, Inc.",GILD,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_dcbb9c53-9bbd-5014-b7df-2706e84c7bb6,Snowflake Inc.,SNOW,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_de594ded-d268-5e4f-99b8-1012df045ef0,Hyundai Motor Co. Ltd.,005380,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_de703932-c64c-5c0f-b762-64317187ac78,Union Pacific Corporation,UNP,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e012cdce-768d-50c7-bb25-1ff8a901546c,Alphabet Inc. Class C,GOOG,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e0bdec68-aad4-5c66-9fcb-b4d41ec73ce9,Reliance Industries Limited,RELIANCE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e0d28302-0a41-5c80-9674-41f8e243b826,"NextEra Energy, Inc.",NEE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e0efbf2a-5587-5503-9a92-3cbe966529f9,"Zillow Group, Inc.",Z,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e1b1eb2c-cfa4-53b8-a488-5ca014963414,PetroChina Company Limited,0857,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e2379ea8-6a57-5013-be82-8037aafa519d,SAP SE,SAP,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e33a8f41-3166-50cb-a503-35881a40f87b,Danaher Corporation,DHR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e3473b64-4b40-506c-a5e7-445ee72d4337,S&P Global Inc.,SPGI,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e3d28f87-c787-5305-999f-1389f1a9896b,Airbus SE,AIR,equity,2026-04-12,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_e5bc02f3-153b-5ec8-8cd6-db352bba01db,Plug Power Inc.,PLUG,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,equity_e75be6eb-3561-558b-b260-c205c7e9c60f,Siemens Aktiengesellschaft,SIE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ea8243e7-75bd-549b-9ba6-48e03cf982c1,"PepsiCo, Inc.",PEP,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_eaa52f1c-7299-50e8-b69f-30df278129a4,Emerson Electric Co.,EMR,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_eb217683-f803-5b98-a357-173c21d56906,Axon Enterprise Inc.,AXON,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_eb4ca0eb-3900-5be1-a809-c716b40fb10f,Walmart Inc.,WMT,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ebfcc30f-5a6c-5d5c-996d-b631de989d6a,SoundHound AI Inc,SOUN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ec5a39fc-469a-5803-8c4d-1bdfda159876,Safran SA,SAF,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_ef82c5fa-7d9d-5bd9-8f1f-fde52e1a388b,Hubbell Inc,HUBB,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_efaee6b2-dc0f-5b4f-bbfe-e46fdcfc1620,General Dynamics Corporation,GD,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_f02e8014-abbb-5a08-bf80-45a174fe3225,Morgan Stanley,MS,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_f07d8826-7230-57a5-888a-89479eb31540,"Regeneron Pharmaceuticals, Inc.",REGN,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_f39e281c-e020-5a97-94c9-8352f25a09f5,"The Goldman Sachs Group, Inc.",GS,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_f477aeb1-d055-5f26-8265-e641f050b330,Upstart Holdings Inc,UPST,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_f648ef52-5189-5867-bc50-d2a5d643523c,"Datadog, Inc.",DDOG,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_f71be61b-f2c9-5c76-8d38-441026d9f9c6,BYD Company Limited,1211,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_f74bd52b-080c-5f81-a102-ae37e1a87727,IONQ Inc,IONQ,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_f990a311-cb32-5507-944e-641f3c16e0d8,General Electric Company,GE,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_fa46c8b3-24ec-594c-b682-1f81d7c0a065,UnitedHealth Group Incorporated,UNH,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_fa617ef7-a4e9-580e-9819-2f5f6468c0dd,LVMH Moët Hennessy Louis Vuitton SE,MC,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_faaeb60e-64f7-5b37-a928-b84ab0c117ed,Nio Inc Class A ADR,NIO,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_fb74255e-7cd4-55af-9674-c7db208f3b91,The Sherwin-Williams Company,SHW,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_fc633f29-09e3-5814-a9d1-7b1ce0913f78,Broadcom Inc.,AVGO,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,equity_fca62f3b-28a6-5ba6-904a-dd5aec4bc8d9,"Advanced Micro Devices, Inc.",AMD,equity,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,forex_0b0cf1ef-37c5-589b-a69c-25a149b2d8df,US Dollar / Russian Ruble,USDRUB,forex,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,forex_1167a44f-4357-5097-8020-e497a9853e58,Euro / US Dollar,EURUSD,forex,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,forex_2342923a-24bd-5471-ae8a-196c3461c879,British Pound / US Dollar,GBPUSD,forex,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,forex_2fffbd8b-d4ab-5b55-80d1-274dde6b2f5a,US Dollar / Japanese Yen,USDJPY,forex,2026-04-11,2026-04-12,2026-07-10,2026-07-10,89,7,10,True,True,True
+3,forex_e6c66c0e-87f1-548c-90da-44ce67af00fa,US Dollar / Chinese Yuan,USDCNY,forex,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,fund_4ab9727e-1ded-52a1-aa4a-8c33219460d0,Invesco QQQ Trust ETF,QQQ,fund,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,fund_87ebbf0a-2dbc-5747-b0ed-76b37a915d74,ProShares UltraPro QQQ ETF,TQQQ,fund,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,False
+3,fund_99b9d918-5e65-59fc-a559-752a7db77ca7,iShares Russell 2000 ETF,IWM,fund,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+3,fund_a02b062d-dd40-55e2-8113-721cc3c315af,SPDR S&P 500 ETF Trust,SPY,fund,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,False,False
+3,fund_dd32d893-f4fa-5c0b-90eb-7bb45c79b13d,Vanguard Total Stock Market ETF,VTI,fund,2026-04-11,2026-04-13,2026-07-10,2026-07-10,88,7,10,True,True,True
+4,commodity_35be58ef-7f43-54c9-a726-3c869a214507,Palladium Spot in US Dollar,XPDUSD,commodity,2026-05-03,2026-05-04,2026-07-30,2026-07-28,87,7,10,True,True,True
+4,commodity_5d2f8d54-096c-5b83-9b66-d23b0bc56ed6,Platinum Spot in US Dollar,XPTUSD,commodity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,commodity_7ea082a2-41ea-5733-9761-0157cf429e73,Silver Spot in US Dollar,XAGUSD,commodity,2026-05-03,2026-05-04,2026-08-01,2026-08-01,89,7,10,True,True,True
+4,commodity_adba51c0-cb27-5e9c-9eb8-e1439f97a611,Gold Spot in US Dollar,XAUUSD,commodity,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,commodity_cf82679d-9e97-5e15-8ece-d56e52101f06,Brent Crude Spot in US Dollar,XBRUSD,commodity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,crypto_2d8162a4-e9a6-5222-8b4f-1d7c0e7e2ec7,Gram (GRAM),GRAM,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_34b4b2bc-b87f-599d-9da7-9481701f3195,Litecoin (LTC),LTC,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_58845559-7ee4-5f2b-a67e-d8b9bf506485,TRON (TRX),TRX,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_5f84e890-c8ae-58db-aecb-2430a8d8c6c4,Bitcoin Cash (BCH),BCH,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_8f824f2d-c67f-55e7-8124-aa113059635d,Bitcoin (BTC),BTC,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_92c1b64e-7e9b-5096-b017-1c169d9493f5,Ethereum (ETH),ETH,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_9638a395-fafb-59e1-b218-57b9190d49cc,Chainlink (LINK),LINK,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_a34bddab-6dac-558c-beff-c31f36d29a1e,Ripple (XRP),XRP,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_a9b10098-59c9-53b1-9f07-07f541ac340d,Binance Coin (BNB),BNB,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_afb25ca6-7aa1-5e99-9255-66dfd353d3a1,Dogecoin (DOGE),DOGE,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_b43c276e-3732-5b6a-bca6-0a1334805833,Solana (SOL),SOL,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_c3f57103-e653-5c16-a919-d37c3a9a877d,Stellar (XLM),XLM,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_cf03c817-33e8-5833-9ec5-c49d96f01e6d,Avalanche (AVAX),AVAX,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,crypto_d714183b-e023-5e80-854f-28ade5b29cc4,Cardano (ADA),ADA,crypto,2026-05-03,2026-05-04,2026-08-02,2026-08-02,90,7,10,True,True,True
+4,equity_013d2cbc-1a8a-5434-a2ad-8d6d943eb036,Visa Inc.,V,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_0172839b-35e4-5ffa-8e68-078f79726ed3,Snap Inc.,SNAP,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_01920302-d04b-570e-9f7d-dc0803f279d5,Joby Aviation,JOBY,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_02d1387b-9087-533d-831f-41b2b68b9a61,Zscaler Inc,ZS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_0303151a-ce6c-5dec-9dcc-07fc57c0714d,"The Home Depot, Inc.",HD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_04a23db8-2e99-574a-9503-5df65650e440,Vertex Pharmaceuticals Incorporated,VRTX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_07594782-05db-5559-81f8-4d51d3d3c392,Northrop Grumman Corporation,NOC,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_077b74a3-3e50-58c2-aacb-4da6ea222da6,The Charles Schwab Corporation,SCHW,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_09092397-d4bf-5083-ae6f-323e3c4e3493,"Iberdrola, S.A.",IBE,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_0a14ece2-c1cd-56c7-aa99-a17ab5832e4f,Beam TherapeuticsInc,BEAM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_0a557cc4-0ccd-5e41-9b75-24b09b77f67e,"Salesforce, Inc.",CRM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_0bcbf61f-ddb2-5b82-91ba-a9a4497cf772,Texas Instruments Incorporated,TXN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_0c400d23-32bd-5ba3-bd4f-919ef066f41d,WuXi Biologics,2269,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_0d6f9a02-6c61-558c-91a7-934fd208266f,"Prologis, Inc.",PLD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_0dfa88b2-ae9e-57d7-b899-3c806c590a67,Volkswagen AG,VOW,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_0e372eea-b090-547a-88a2-4a7f958db812,Linde plc,LIN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_0e4d472e-2931-5e69-b6cf-014d397216b0,TotalEnergies SE,TTE,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_0eb93e16-78cb-5cc6-b3e1-cc34fe1ec52e,ABB Ltd,ABBN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_0f63b301-48b4-532f-82b9-ba9989e9027f,Great Wall Motor Co Ltd,2333,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_0f68a4f7-29d0-5c9a-9d20-41cc8186cddd,Roblox Corporation,RBLX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_105d190f-f458-59ac-bc32-508bcc63ac10,Industrial and Commercial Bank of China,601398,equity,2026-05-03,2026-05-06,2026-07-30,2026-07-30,85,7,10,True,True,True
+4,equity_11870bd0-eb6e-503f-8036-31e3653b3c09,Quanta Services Inc,PWR,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_118d9bb6-18a6-57b5-bf42-8cf50aa0f133,"Lyft, Inc.",LYFT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_13790285-b3e0-5b8c-bf39-67b451154ef2,"Tesla, Inc.",TSLA,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_158a90f9-fcd7-5b16-b706-bd529139322e,Rheinmetall AG,RHM,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_1682f682-f022-5a4e-84b3-78bee1ee6e81,The Coca-Cola Company,KO,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_1720b66a-42d6-5a8b-b25c-7de04a1dc20f,"Cisco Systems, Inc.",CSCO,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_17b2425d-f3ab-5bfe-809e-eafb5bdb1610,QUALCOMM Incorporated,QCOM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_1a8294a9-a56c-53d9-934a-9cea6d9fcd3f,ASML Holding NV,ASML,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_1ad229e8-98fd-538e-a91c-a7476979cda2,Howmet Aerospace Inc,HWM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_1b132012-977f-520f-bf6a-ce0626e9fcc7,Ferrari NV,2FE,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_1c813d87-88dc-564d-9504-8547b80a1cc2,JPMorgan Chase & Co.,JPM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_1d450e7c-5a19-5ef8-b105-97706fe0692c,"Rivian Automotive, Inc.",RIVN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_1e28fe98-b931-5889-9c29-a68fa35e0d77,"Meta Platforms, Inc.",META,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_1e351718-edfb-5dde-93d9-2219503d35d1,Fair Isaac Corporation,FICO,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_1f7d6c01-9f20-5a04-be70-9f4a9bfe3abc,KLA-Tencor Corporation,KLAC,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_1fefba64-281d-54b9-b11d-cf38a85ebdec,Schneider Electric SE,SU,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_2370d3c3-6171-585d-9e31-237c8eb4f476,Saab AB (publ),SAAB-B,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_238acad3-0ea8-5977-8ee3-376e689d95e2,GE Vernova LLC,GEV,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_2461f883-5729-5da7-b4b0-5b30c872a0a3,Inspire Medical Systems Inc,INSP,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_24b377f3-f43f-576b-9216-ff7e3e56e9eb,Recursion Pharmaceuticals Inc,RXRX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_252124ac-772e-5038-8333-fccb619e00af,Engie SA,ENGI,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_253c7cbe-670a-5ab1-91a2-536080a502bf,China Literature Ltd,0772,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_26732afa-a2d8-548b-a63d-002ff608d253,CRISPR Therapeutics AG,CRSP,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_27870ecf-e086-54d7-8222-d855946db377,American Express Company,AXP,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_278e7a41-fd2f-5ab1-9536-f91c9f1c1b68,"Teladoc Health, Inc.",TDOC,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_29935658-88be-5858-aea7-62dfedfde05b,Allianz SE,ALV,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_2d00bda5-696b-550e-b8f9-9a217be569ce,Oklo Inc.,OKLO,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_2d93e113-d967-5620-9994-fd0f1f510899,The Southern Company,SO,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_2e754c83-3225-55c0-b13b-e386f99a8135,Bayerische Motoren Werke AG,BMW,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_2f5dad67-44e3-5eca-a657-a418be6394cd,Arm Holdings plc ADR,ARM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_2faa504c-f498-5d12-89e6-4da3e57868c5,Palo Alto Networks Inc,PANW,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_2fbd92da-2845-5333-9fa3-59e5c42f9019,Dassault Systemes SE,DSY,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_3094f431-2130-5c31-bfbe-26404e229a12,"Coinbase Global, Inc.",COIN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_31110c28-e4e5-5826-8b96-51ca7f86d439,Monday.Com Ltd,MNDY,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_33682f19-0654-5b05-bc70-c313647fbfd2,SK Hynix Inc,000660,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_3448ed91-1365-51d0-8e39-1bb85c70b3f8,Veeva Systems Inc Class A,VEEV,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_345a5311-cbb1-5f16-9080-a36da2111f3a,NetEaseInc,9999,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_347a1ada-c576-5fdd-b126-9ab8d8857834,AXA SA,CS,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_3654a634-bc57-538d-b464-792908e1125d,BNP Paribas SA,BNP,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_3719e395-c0b4-56df-914f-0277e5b495d9,"Air Products and Chemicals, Inc.",APD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_3879b2c2-adeb-567a-a9df-5f196f9a4c43,"CAVA Group, Inc.",CAVA,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_392c79d4-9e22-5570-9f74-28022eb5b200,"Workday, Inc.",WDAY,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_396caf80-29d7-5d17-adb8-e2e1e368773e,Caterpillar Inc.,CAT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_3ae93f3c-eda4-5ec9-bf36-83f6dd6f0e24,American Tower Corporation,AMT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_3b75a39a-268f-5c12-bc4a-4e26a649a7e1,Toast Inc,TOST,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_3dd6659c-1a88-5d87-86cc-4f05136f1d65,Mercedes-Benz Group AG,MBG,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_3e4476c6-0155-587c-b886-46acd1bb8f57,Ping An Insurance,2318,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_3e5cf1f0-b8fc-5e35-9ed0-b05a9be0c731,Unity Software Inc.,U,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_3f12ff70-e632-584b-89ba-69d0782d9ad0,MongoDB,MDB,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_3f8ad8b5-f4b0-5cb9-9c03-b91a45b1c70a,Amgen Inc.,AMGN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_41099493-8a45-5cdf-be6c-31a33eda0145,Hua Hong Semiconductor Ltd,1347,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_45c5c123-a0cb-5243-9c30-8e721b60478c,ASM International NV,ASM,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_45e92af8-55ef-5e9b-ac6d-cc387d5a8b26,"Merck & Co., Inc.",MRK,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_4797df45-e72a-5d2e-b96c-ace95eff18b2,"Pinterest, Inc.",PINS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_48d8175f-6b57-55d9-8d1a-c429f551883a,BP plc,BP,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,True,True
+4,equity_49812ec8-b303-53bb-91a7-8f6d041625cd,International Business Machines Corporation,IBM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_4a899291-122f-5088-bcc0-62adff9287ab,IREN Ltd,IREN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_4b443ba6-d413-5851-a560-431dd9491d00,Sea Ltd,SE,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_4c034635-ef4d-5d65-9ccf-4a417b2d9972,HSBC Holdings plc,HSBA,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,True,True
+4,equity_4d04858e-8f04-5ed9-986c-2ea3c1c11fff,BE Semiconductor Industries NV,BESI,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_4d39e69a-a9b6-5d88-89d1-63af8648dc58,Xpeng Inc,9868,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_4fc4c899-ab92-5b30-8b40-9783260057d1,The Boeing Company,BA,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_52efa765-6df3-5464-a54c-3434d7d41172,Celsius Holdings Inc,CELH,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_530f1635-0f96-5265-beb4-8ad722d211c7,"Equinix, Inc.",EQIX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_541d1e40-311d-537c-99cb-3ba773bef294,"Astera Labs, Inc.",ALAB,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_54c895f1-30a1-50d1-b87b-88a23f0db939,Rolls-Royce Holdings PLC,RR,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,True,True
+4,equity_56b28eb6-34ca-56e9-a0de-0798b00e74da,Sanofi S.A.,SAN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_572a7254-f158-5cbc-b139-339cc838f991,Relx PLC,REL,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,False,False
+4,equity_5754fb9e-f00d-5188-8502-5742733222fa,"Rocket Lab USA, Inc.",RKLB,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_596252ea-ae6c-57cc-8f1c-ff4f1e87d89c,RTX Corporation,RTX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_5a67b993-0334-5475-9ec9-9ababb266b02,China Mobile Ltd,0941,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_5c0cca8f-0cd5-513b-a290-b3e43a456679,Comfort Systems USA Inc,FIX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_5cec2cca-7032-522f-9f48-486b9df96e29,"NIKE, Inc.",NKE,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_5d41cba5-6315-5c45-b43e-e3682682532e,Comcast Corporation,CMCSA,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_5fd62c5f-2c8d-560d-9856-1153a496f443,Target Corporation,TGT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_605870fb-31f5-56e1-bb3f-ff917ad68710,Novartis AG,NOVN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_61d2639f-a079-5015-93eb-1cbc9a373648,Eli Lilly and Company,LLY,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_61df4ce6-6c9d-5d3d-a3a3-5484dc955671,Sonova H Ag,SOON,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_622c47d4-3114-5935-a088-084754615cf3,LG Chemicals,051910,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_628f5fe4-f60d-5d5d-bd82-f21429c69b5c,Berkshire Hathaway Inc. Class B,BRK.B,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_6314f72c-8248-561a-a27a-1b44bda37fde,Shell plc,SHEL,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,True,True
+4,equity_643edad1-fae0-593d-a41f-8ffef450e11f,Power Grid Corporation of India Limited,POWERGRID,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_6450e9e7-4c57-5c72-97d1-057751df8e53,Pfizer Inc.,PFE,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_64670054-ae94-56a7-adec-c0b1d83b5f89,Viking Holdings Ltd,VIK,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_66030d24-c4db-5de4-b6cd-c0c5afaa1703,Hims Hers Health Inc,HIMS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_67e7b9a6-48a8-5dd1-bbc5-db5727f74fd4,"Lucid Group, Inc.",LCID,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_6806a066-5267-5030-b741-8fd776bea2ca,Cloudflare Inc,NET,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_68ddf211-c21a-5b50-a434-fd6a8ae20a11,"CrowdStrike Holdings, Inc.",CRWD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_691fcac3-274c-5746-bf9e-d61e881c987b,Valiant Holding AG,VATN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_6aa5515c-952b-5a96-8aa8-824095495923,Applied Materials Inc,AMAT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_6b07e976-9dd0-531d-90f9-5bbbaabf1c96,"Tempus AI, Inc. Class A Common Stock",TEM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_6b33ef2c-cd56-560f-b478-26b9ed3e1f6d,Wise plc,WISE,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,False,False
+4,equity_6c8e136c-6574-5381-abca-d8c525ace9fb,Industrial and Commercial Bank of China,1398,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_6e733fe0-2e3e-594f-a4c1-609f6a481299,Societe Generale S.A.,GLE,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_6ea61a87-9d2f-5892-8152-c802de2f6d23,Wells Fargo & Company,WFC,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_6f455cc1-fa98-5ef5-8e6e-dbabed0ea6a1,Nebius Group N.V.,NBIS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_6f6d0be0-524d-52a8-bb11-f60b25a783a8,Illinois Tool Works Inc.,ITW,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_73187115-a770-5035-8203-59b70077611f,Air Liquide SA,AI,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_739cdc9f-d524-52db-ad09-5d7c5f3b8334,Volvo AB (publ) Class A,VOLV-B,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_73a29d7a-0803-5db8-ad83-65732918f5f9,Worldline SA,WLN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_73c23c4e-25e5-561a-9886-64d92976357e,HDFC Bank Limited,HDFCBANK,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_73fd14fb-d2e2-59fd-a5e4-45499d17e077,Roche Holding AG,ROP,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_7510cc5f-de04-5514-a13c-8cc5bc6b4d3a,Gitlab Inc,GTLB,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_75138a92-ae17-5eef-aa64-afc8372299bb,Exxon Mobil Corporation,XOM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_75ae4da5-3238-5400-93cc-d8f0bb660019,Carrefour SA,CA,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_7638e22b-6c30-523c-9d32-68a94a074a36,Hensoldt AG,HAG,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_7672b425-c92b-5d8a-81ab-c60724a958d0,Citigroup Inc.,C,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_778b2c1d-426a-5fff-9eda-198e013bd945,"Intuitive Surgical, Inc.",ISRG,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_77a8f069-8c05-523b-aa70-b39a8942b1c1,"Amazon.com, Inc.",AMZN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7845e72e-ee7b-570c-b9c1-606234f64a58,Trane Technologies plc,TT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_78949a37-2de6-5bab-a465-05a33a4f8eaa,Haier Smart Home Co Ltd,6690,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_789b8a92-7cca-5c0b-bf76-5192d283804a,L'Oréal S.A.,OR,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_7976a2f1-8279-537d-85d6-05e2d4f65ebf,"Robinhood Markets, Inc.",HOOD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7a450250-b41b-5c37-992e-3abb7b5c8b66,JD.com Inc ADR,JD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7ac51593-a969-54db-9992-83d7c56094d8,Siemens Energy AG,ENR,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_7b5c3d6c-cf15-5fe4-99d4-cd6ecb8c53f2,"The TJX Companies, Inc.",TJX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7c3deb24-9789-551f-b5eb-e932aeabaf83,General Motors Company,GM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7cd4c68a-b632-5182-b1d1-52e55c3a2df3,Li Auto Inc,2015,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_7d4bc152-96eb-5872-be67-303e3002a0fa,GSK plc,GSK,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,True,True
+4,equity_7e48cabb-84f7-5887-a4f5-4bf0071d6671,Ecolab Inc.,ECL,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7e794ba4-ddfc-5658-bb39-22c0050f665f,BAE Systems plc,BA,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,True,True
+4,equity_7e8a395b-3e8d-5baf-90d4-19f11971fe98,Palantir Technologies Inc.,PLTR,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7ef22304-346b-5d5b-abea-92d0948ebc01,AT&T Inc.,T,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7f48b162-c593-5c99-9fef-da5149a75292,Ford Motor Company,F,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7fd7261d-ec71-54a2-b468-3a3e693e788e,Verizon Communications Inc.,VZ,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_7feda97e-a991-555f-ad42-7f3dce5dbc6d,"Netflix, Inc.",NFLX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_80fd811f-6852-5205-a17a-a955c166c782,Duolingo Inc,DUOL,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_824befe3-bb5e-5471-bf51-57eae9d98338,Proximus NV,PROX,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_83afc793-0f34-5ad0-a25c-b442882abd4d,Meituan,3690,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_843671cc-b0af-525e-a5ab-cc822260c2cf,Micron Technology Inc,MU,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_84fa1055-5544-5b95-ab2c-1dcbae92f9ab,Lonza Group AG,LONN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_857469cd-9a16-50e9-a787-c28db4d35a54,AstraZeneca plc,AZN,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,False,False
+4,equity_8575df20-9c5a-5044-bb52-0e0b3ecc9d93,Intuitive Machines Inc.,LUNR,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_85f9f80c-2913-5bac-816a-0b9ad6226c1f,Alibaba Group Holding Ltd,9988,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_86024f0f-e3ec-533a-b886-0101ce4c3a73,Bank of America Corporation,BAC,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_8694f05d-78cc-5277-a0e6-9022d3d7c957,Microsoft Corporation,MSFT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_87cf683d-e37f-57df-b1b2-bcd2c0441706,McDonald's Corporation,MCD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_8aaa753b-c33b-5de3-844e-8fbb5f9bcf9b,Lockheed Martin Corporation,LMT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_8cbb4c49-1386-50fd-a376-15b8fdea049e,Royal Bank of Canada,RY,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_8d479f24-2700-5d8e-8044-863adac4ce72,Lam Research Corp,LRCX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_8ec54a63-98e4-5c76-ab93-11b94e6c512a,Super Micro Computer Inc,SMCI,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_8ee33a0b-8237-5e0f-8f86-bebb652d100b,3M Company,MMM,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_8f5a7279-ad52-55b0-8af2-9ce67e12e352,Stryker Corporation,SYK,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_8f98da24-43f5-5f39-8967-e694f92167a2,Mastercard Incorporated,MA,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_90606491-6d1d-54e4-989e-78da2d2dbfa6,Abbott Laboratories,ABT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_908738df-2761-5dd3-a0fa-299f90d5f90d,"Banco Santander, S.A.",SAN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_913727ed-97f0-5377-91df-a1068ef091f3,Argen-X,ARGX,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_934a894c-c3d4-520a-8487-202b920c7091,Chevron Corporation,CVX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_943926b7-ed6b-5754-9734-ed3184f76b20,BigBearai Holdings Inc,BBAI,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_974e2550-0928-5297-b3d9-f09b22edd483,Applovin Corp,APP,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_9801ad6a-4e84-5585-8161-d7280773a175,Intel Corporation,INTC,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_9a83d7ac-5850-53a4-9808-9d6642c4dea4,Dutch Bros Inc,BROS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_9bcb5738-6092-5a90-83b0-28f2be8172b2,Natera Inc,NTRA,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_9cd62830-89b7-54d4-9564-0db09c41382b,Constellation Energy Corp,CEG,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_9d99e626-9bd8-5d26-b4f7-a12e5b614da1,Vistra Energy Corp,VST,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_a18945ae-e7c6-55d7-bfc3-74438183e6a1,Compass Group PLC,CPG,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,False,False
+4,equity_a20ab55e-afdf-5659-b70c-b18a9649084c,Nu Holdings Ltd,NU,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_a25c1820-1202-5e7e-ad50-18d2166d84c3,The Walt Disney Company,DIS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_a39349b4-eef3-5fc5-a95f-28f1263df064,"ServiceNow, Inc.",NOW,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_a4365669-74e8-56ca-8bd7-7e859da99f6c,"Dominion Energy, Inc.",D,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_a848a16a-f190-5ccf-a351-a1fcb6863362,Arista Networks,ANET,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_a9221840-c0bb-525f-8819-1aa170c238f3,Infosys Limited,INFY,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_a964efa7-7086-574b-a34a-52efb58a688d,Oracle Corporation,ORCL,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_a9857ed6-131b-5672-9d7c-3f8dd9c70966,Sunny Optical Technology Group Co Ltd,2382,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_aa668713-ba4d-5567-abd7-7b2dc58c3924,STMicroelectronics N.V.,STMPA,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_ab48b1a2-e6f0-57d6-bac6-8b9ab8c9ab4f,Duke Energy Corporation,DUK,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_ac0356e5-8b2f-56a5-a533-384ef6afd627,Shopify Inc,SHOP,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_ac3e6235-70fa-509a-9137-88ef0f3b9a1e,"BlackRock, Inc.",BLK,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_adabd7e7-9fd9-567d-bfa5-7cf913708058,Baidu Inc ADR,BIDU,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_af158cfc-ef4f-5242-a211-aee6176cf17b,"Airbnb, Inc.",ABNB,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_aff2387b-9d08-5e40-8737-a5d658baf07c,NVIDIA Corporation,NVDA,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_b07ddb27-3d28-59b7-9093-642a86a997a5,Apple Inc.,AAPL,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_b0e4649c-7804-5ca2-899d-98a3301ffd3d,Glencore PLC,GLEN,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,True,True
+4,equity_b1302ac2-6b39-559e-99c3-a49b1bff7da0,"Lowe's Companies, Inc.",LOW,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_b2ffb1ea-cbc8-5b19-94e4-36a45b603f2f,Wayfair Inc,W,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_b3373c42-3686-5901-b0e6-692fc09a5748,ELF Beauty Inc,ELF,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_b5649eae-cacd-5a55-b622-d2acb17d1247,Thermo Fisher Scientific Inc.,TMO,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_b571d0a3-1231-5868-8c7f-c28d2a52406d,MercadoLibre Inc.,MELI,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_b5a5aa00-131e-545a-a75f-b3b4c341ef4d,CME Group Inc.,CME,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_b5f4e368-91bd-55bb-966e-5e9f31b8ab8d,Unilever plc,ULVR,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,True,True
+4,equity_b621314e-bf12-5462-ae24-4f3c48c5ed34,Vertiv Holdings Co,VRT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_b6781778-e97a-5d24-afb4-f7465b6a9321,"The Trade Desk, Inc.",TTD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_b6b4920e-ce4f-5c63-99b7-2ef66f4b8123,Accenture plc,ACN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_b76ae7ab-9aeb-5804-9526-48f3fe46db1a,"DoorDash, Inc.",DASH,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_ba12ea48-84e6-5905-9adb-4b8ed803cd70,Starbucks Corporation,SBUX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_ba78192b-6157-57ba-9a89-664f6ad5d2a4,Tata Consultancy Services Limited,TCS,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_bd1883b4-abac-5d18-b097-acf25f2fdcf8,Deutsche Bank Aktiengesellschaft,DBK,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_bdad71da-994f-5fe7-bb1b-f99ddc7a4cbc,AbbVie Inc.,ABBV,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_becdb741-0d31-5f88-8b00-de8d5e4d4e7e,"Enphase Energy, Inc.",ENPH,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_c3269539-01b8-5845-8971-363e7e618c20,Johnson & Johnson,JNJ,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_c366a36d-4779-51ec-81a1-55b836c27cf6,Adobe Inc.,ADBE,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_c3de33a2-667e-51c8-9376-b9ab39fbbca0,Tencent Holdings Ltd,0700,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_c68ee739-d4dd-5667-8a6f-13192ed7a6cc,Fiverr International Ltd,FVRR,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_c864ecb9-9c8f-51c3-908b-f06268302528,Doximity Inc,DOCS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_c98b03ab-c85e-5bc0-8555-96e6249733e7,Evolution AB (publ),EVO,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_c9a7904f-50b6-57be-a2ec-7c50f3162c70,Deere & Company,DE,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_cb34a8e2-2d14-5a05-851c-a3de26c82e84,Infineon Technologies AG,IFX,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_cdc413d2-1e92-5151-9d6b-1cbb7c013976,"Moderna, Inc.",MRNA,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_ce52977e-d094-577a-b8ce-6d4a33b46832,Kuaishou Technology,1024,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_cf11e8df-1714-520f-a1e9-cfaa0439b486,Samsung Electronics Co Ltd,005930,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_cfe51880-dd08-5db8-9534-d55ddcbb8a18,BYD Electronic International Co Ltd,0285,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_d0e52831-27bf-5496-8ea8-205972891f93,Edenred SA,EDEN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_d0e6c420-61a9-5220-9575-e2d844908589,Sage Group PLC,SGE,equity,2026-05-03,2026-05-05,2026-08-01,2026-07-31,88,7,10,True,False,False
+4,equity_d1faf0de-bcdf-5295-8684-9aa04dc9827b,"Virgin Galactic Holdings, Inc.",SPCE,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_d2c1c051-e118-590b-b120-7ae9b496652e,Nestlé S.A.,NESN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_d3232e9c-432e-5a27-a286-7ab5401f97b9,Xiaomi Corp,1810,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_d4d6e071-ca11-593f-b0aa-ca765fa9a008,Thales S.A.,HO,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_d573891f-97f3-5a8e-8b19-5db704eef9c9,Medtronic plc,MDT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_d62d0544-c7ef-5aac-89a3-9c2c26cb704d,TransMedics Group Inc,TMDX,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_d8c098bb-8cd8-5dc4-a9b4-cba2074b110d,Eaton Corporation plc,ETN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_da8712ca-addc-5ecc-b8fd-9c54f75c71f6,"PayPal Holdings, Inc.",PYPL,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_db3796fa-dbad-5c17-8c00-563cc1f2da1b,"Gilead Sciences, Inc.",GILD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_db49741d-aa9e-525e-92e4-4b0b4f0bda19,Costco Wholesale Corporation,COST,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_db63c64a-5406-5b81-9b96-959ac4a9962b,Nemetschek AG O.N.,NEM,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_db854dfc-1804-5019-afe5-223ef5e047fd,Geberit AG,GEBN,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_db8be0ab-5c67-5565-ad17-12673dfde07e,Ast Spacemobile Inc,ASTS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_dcbb9c53-9bbd-5014-b7df-2706e84c7bb6,Snowflake Inc.,SNOW,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_de594ded-d268-5e4f-99b8-1012df045ef0,Hyundai Motor Co. Ltd.,005380,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_de703932-c64c-5c0f-b762-64317187ac78,Union Pacific Corporation,UNP,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_e012cdce-768d-50c7-bb25-1ff8a901546c,Alphabet Inc. Class C,GOOG,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_e0bdec68-aad4-5c66-9fcb-b4d41ec73ce9,Reliance Industries Limited,RELIANCE,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_e0d28302-0a41-5c80-9674-41f8e243b826,"NextEra Energy, Inc.",NEE,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_e0efbf2a-5587-5503-9a92-3cbe966529f9,"Zillow Group, Inc.",Z,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_e0fcc553-0791-5581-a0f1-e1a1e5f92964,Hermes International SCA,RMS,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_e159b6d2-aa08-54db-9484-af8443d74188,UCB SA,UCB,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_e1b1eb2c-cfa4-53b8-a488-5ca014963414,PetroChina Company Limited,0857,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_e2379ea8-6a57-5013-be82-8037aafa519d,SAP SE,SAP,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_e33a8f41-3166-50cb-a503-35881a40f87b,Danaher Corporation,DHR,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_e3473b64-4b40-506c-a5e7-445ee72d4337,S&P Global Inc.,SPGI,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_e3d28f87-c787-5305-999f-1389f1a9896b,Airbus SE,AIR,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_e575933a-1490-5bf1-9c5e-635db20b4cac,Innovent Biologics Inc,1801,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_e5bc02f3-153b-5ec8-8cd6-db352bba01db,Plug Power Inc.,PLUG,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_e75be6eb-3561-558b-b260-c205c7e9c60f,Siemens Aktiengesellschaft,SIE,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_ea8243e7-75bd-549b-9ba6-48e03cf982c1,"PepsiCo, Inc.",PEP,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_eaa52f1c-7299-50e8-b69f-30df278129a4,Emerson Electric Co.,EMR,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_eb217683-f803-5b98-a357-173c21d56906,Axon Enterprise Inc.,AXON,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_eb4ca0eb-3900-5be1-a809-c716b40fb10f,Walmart Inc.,WMT,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_ebfcc30f-5a6c-5d5c-996d-b631de989d6a,SoundHound AI Inc,SOUN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_ec5a39fc-469a-5803-8c4d-1bdfda159876,Safran SA,SAF,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_ef82c5fa-7d9d-5bd9-8f1f-fde52e1a388b,Hubbell Inc,HUBB,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_efaee6b2-dc0f-5b4f-bbfe-e46fdcfc1620,General Dynamics Corporation,GD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_f02e8014-abbb-5a08-bf80-45a174fe3225,Morgan Stanley,MS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_f07d8826-7230-57a5-888a-89479eb31540,"Regeneron Pharmaceuticals, Inc.",REGN,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_f249c87d-ad66-57a1-8949-95dca1a352ba,Kingdee International Software Group Co Ltd,0268,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,False,False
+4,equity_f39e281c-e020-5a97-94c9-8352f25a09f5,"The Goldman Sachs Group, Inc.",GS,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_f477aeb1-d055-5f26-8265-e641f050b330,Upstart Holdings Inc,UPST,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_f648ef52-5189-5867-bc50-d2a5d643523c,"Datadog, Inc.",DDOG,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_f71be61b-f2c9-5c76-8d38-441026d9f9c6,BYD Company Limited,1211,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_f74bd52b-080c-5f81-a102-ae37e1a87727,IONQ Inc,IONQ,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_f990a311-cb32-5507-944e-641f3c16e0d8,General Electric Company,GE,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_fa46c8b3-24ec-594c-b682-1f81d7c0a065,UnitedHealth Group Incorporated,UNH,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_fa617ef7-a4e9-580e-9819-2f5f6468c0dd,LVMH Moët Hennessy Louis Vuitton SE,MC,equity,2026-05-03,2026-05-04,2026-07-30,2026-07-30,87,7,10,True,True,True
+4,equity_faaeb60e-64f7-5b37-a928-b84ab0c117ed,Nio Inc Class A ADR,NIO,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_faef6935-60d0-576b-bacb-cf1cafea5c70,Archer Aviation Inc,ACHR,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,equity_fb74255e-7cd4-55af-9674-c7db208f3b91,The Sherwin-Williams Company,SHW,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_fc633f29-09e3-5814-a9d1-7b1ce0913f78,Broadcom Inc.,AVGO,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,equity_fca62f3b-28a6-5ba6-904a-dd5aec4bc8d9,"Advanced Micro Devices, Inc.",AMD,equity,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,forex_0b0cf1ef-37c5-589b-a69c-25a149b2d8df,US Dollar / Russian Ruble,USDRUB,forex,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,forex_1167a44f-4357-5097-8020-e497a9853e58,Euro / US Dollar,EURUSD,forex,2026-05-03,2026-05-04,2026-08-02,2026-07-31,90,7,10,True,True,True
+4,forex_2342923a-24bd-5471-ae8a-196c3461c879,British Pound / US Dollar,GBPUSD,forex,2026-05-03,2026-05-04,2026-08-02,2026-08-01,90,7,10,True,True,True
+4,forex_2fffbd8b-d4ab-5b55-80d1-274dde6b2f5a,US Dollar / Japanese Yen,USDJPY,forex,2026-05-03,2026-05-04,2026-08-02,2026-07-31,90,7,10,True,True,True
+4,forex_e6c66c0e-87f1-548c-90da-44ce67af00fa,US Dollar / Chinese Yuan,USDCNY,forex,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,fund_4ab9727e-1ded-52a1-aa4a-8c33219460d0,Invesco QQQ Trust ETF,QQQ,fund,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,fund_87ebbf0a-2dbc-5747-b0ed-76b37a915d74,ProShares UltraPro QQQ ETF,TQQQ,fund,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,False
+4,fund_99b9d918-5e65-59fc-a559-752a7db77ca7,iShares Russell 2000 ETF,IWM,fund,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+4,fund_a02b062d-dd40-55e2-8113-721cc3c315af,SPDR S&P 500 ETF Trust,SPY,fund,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,False,False
+4,fund_dd32d893-f4fa-5c0b-90eb-7bb45c79b13d,Vanguard Total Stock Market ETF,VTI,fund,2026-05-03,2026-05-04,2026-08-01,2026-07-31,89,7,10,True,True,True
+5,commodity_35be58ef-7f43-54c9-a726-3c869a214507,Palladium Spot in US Dollar,XPDUSD,commodity,2026-06-05,2026-06-07,2026-09-05,2026-09-04,90,7,10,True,True,True
+5,commodity_5d2f8d54-096c-5b83-9b66-d23b0bc56ed6,Platinum Spot in US Dollar,XPTUSD,commodity,2026-06-05,2026-06-07,2026-09-04,2026-09-04,89,7,10,True,True,True
+5,commodity_7ea082a2-41ea-5733-9761-0157cf429e73,Silver Spot in US Dollar,XAGUSD,commodity,2026-06-05,2026-06-06,2026-09-05,2026-09-05,91,7,10,True,True,True
+5,commodity_adba51c0-cb27-5e9c-9eb8-e1439f97a611,Gold Spot in US Dollar,XAUUSD,commodity,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,commodity_cf82679d-9e97-5e15-8ece-d56e52101f06,Brent Crude Spot in US Dollar,XBRUSD,commodity,2026-06-05,2026-06-07,2026-09-04,2026-09-04,89,7,10,True,True,True
+5,crypto_2d8162a4-e9a6-5222-8b4f-1d7c0e7e2ec7,Gram (GRAM),GRAM,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_34b4b2bc-b87f-599d-9da7-9481701f3195,Litecoin (LTC),LTC,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_58845559-7ee4-5f2b-a67e-d8b9bf506485,TRON (TRX),TRX,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_5f84e890-c8ae-58db-aecb-2430a8d8c6c4,Bitcoin Cash (BCH),BCH,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_8f824f2d-c67f-55e7-8124-aa113059635d,Bitcoin (BTC),BTC,crypto,2026-06-05,2026-06-06,2026-09-05,2026-09-05,91,7,10,True,True,True
+5,crypto_92c1b64e-7e9b-5096-b017-1c169d9493f5,Ethereum (ETH),ETH,crypto,2026-06-05,2026-06-06,2026-09-05,2026-09-05,91,7,10,True,True,True
+5,crypto_9638a395-fafb-59e1-b218-57b9190d49cc,Chainlink (LINK),LINK,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_a34bddab-6dac-558c-beff-c31f36d29a1e,Ripple (XRP),XRP,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_a9b10098-59c9-53b1-9f07-07f541ac340d,Binance Coin (BNB),BNB,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_afb25ca6-7aa1-5e99-9255-66dfd353d3a1,Dogecoin (DOGE),DOGE,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_b43c276e-3732-5b6a-bca6-0a1334805833,Solana (SOL),SOL,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_c3f57103-e653-5c16-a919-d37c3a9a877d,Stellar (XLM),XLM,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_cf03c817-33e8-5833-9ec5-c49d96f01e6d,Avalanche (AVAX),AVAX,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,crypto_d714183b-e023-5e80-854f-28ade5b29cc4,Cardano (ADA),ADA,crypto,2026-06-05,2026-06-06,2026-09-04,2026-09-04,90,7,10,True,True,True
+5,equity_013d2cbc-1a8a-5434-a2ad-8d6d943eb036,Visa Inc.,V,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_0172839b-35e4-5ffa-8e68-078f79726ed3,Snap Inc.,SNAP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_01920302-d04b-570e-9f7d-dc0803f279d5,Joby Aviation,JOBY,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_02d1387b-9087-533d-831f-41b2b68b9a61,Zscaler Inc,ZS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_0303151a-ce6c-5dec-9dcc-07fc57c0714d,"The Home Depot, Inc.",HD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_04a23db8-2e99-574a-9503-5df65650e440,Vertex Pharmaceuticals Incorporated,VRTX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_07594782-05db-5559-81f8-4d51d3d3c392,Northrop Grumman Corporation,NOC,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_077b74a3-3e50-58c2-aacb-4da6ea222da6,The Charles Schwab Corporation,SCHW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_09092397-d4bf-5083-ae6f-323e3c4e3493,"Iberdrola, S.A.",IBE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_0a14ece2-c1cd-56c7-aa99-a17ab5832e4f,Beam TherapeuticsInc,BEAM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_0a557cc4-0ccd-5e41-9b75-24b09b77f67e,"Salesforce, Inc.",CRM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_0bcbf61f-ddb2-5b82-91ba-a9a4497cf772,Texas Instruments Incorporated,TXN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_0c400d23-32bd-5ba3-bd4f-919ef066f41d,WuXi Biologics,2269,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_0d6f9a02-6c61-558c-91a7-934fd208266f,"Prologis, Inc.",PLD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_0dfa88b2-ae9e-57d7-b899-3c806c590a67,Volkswagen AG,VOW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_0e372eea-b090-547a-88a2-4a7f958db812,Linde plc,LIN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_0e4d472e-2931-5e69-b6cf-014d397216b0,TotalEnergies SE,TTE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_0f63b301-48b4-532f-82b9-ba9989e9027f,Great Wall Motor Co Ltd,2333,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_0f68a4f7-29d0-5c9a-9d20-41cc8186cddd,Roblox Corporation,RBLX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_105d190f-f458-59ac-bc32-508bcc63ac10,Industrial and Commercial Bank of China,601398,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_11870bd0-eb6e-503f-8036-31e3653b3c09,Quanta Services Inc,PWR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_118d9bb6-18a6-57b5-bf42-8cf50aa0f133,"Lyft, Inc.",LYFT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_13790285-b3e0-5b8c-bf39-67b451154ef2,"Tesla, Inc.",TSLA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_158a90f9-fcd7-5b16-b706-bd529139322e,Rheinmetall AG,RHM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1682f682-f022-5a4e-84b3-78bee1ee6e81,The Coca-Cola Company,KO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1720b66a-42d6-5a8b-b25c-7de04a1dc20f,"Cisco Systems, Inc.",CSCO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_179c3802-40a8-5085-82d2-acaf9de8ff19,Novo Nordisk A/S,NOV,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_17b2425d-f3ab-5bfe-809e-eafb5bdb1610,QUALCOMM Incorporated,QCOM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1a8294a9-a56c-53d9-934a-9cea6d9fcd3f,ASML Holding NV,ASML,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1ad229e8-98fd-538e-a91c-a7476979cda2,Howmet Aerospace Inc,HWM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1b132012-977f-520f-bf6a-ce0626e9fcc7,Ferrari NV,2FE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_1c813d87-88dc-564d-9504-8547b80a1cc2,JPMorgan Chase & Co.,JPM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1d450e7c-5a19-5ef8-b105-97706fe0692c,"Rivian Automotive, Inc.",RIVN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1e28fe98-b931-5889-9c29-a68fa35e0d77,"Meta Platforms, Inc.",META,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1e351718-edfb-5dde-93d9-2219503d35d1,Fair Isaac Corporation,FICO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_1f7d6c01-9f20-5a04-be70-9f4a9bfe3abc,KLA-Tencor Corporation,KLAC,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_1fefba64-281d-54b9-b11d-cf38a85ebdec,Schneider Electric SE,SU,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_2370d3c3-6171-585d-9e31-237c8eb4f476,Saab AB (publ),SAAB-B,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_238acad3-0ea8-5977-8ee3-376e689d95e2,GE Vernova LLC,GEV,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_2461f883-5729-5da7-b4b0-5b30c872a0a3,Inspire Medical Systems Inc,INSP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_24b377f3-f43f-576b-9216-ff7e3e56e9eb,Recursion Pharmaceuticals Inc,RXRX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_252124ac-772e-5038-8333-fccb619e00af,Engie SA,ENGI,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_253c7cbe-670a-5ab1-91a2-536080a502bf,China Literature Ltd,0772,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_26732afa-a2d8-548b-a63d-002ff608d253,CRISPR Therapeutics AG,CRSP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_27870ecf-e086-54d7-8222-d855946db377,American Express Company,AXP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_278e7a41-fd2f-5ab1-9536-f91c9f1c1b68,"Teladoc Health, Inc.",TDOC,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_29935658-88be-5858-aea7-62dfedfde05b,Allianz SE,ALV,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_2d00bda5-696b-550e-b8f9-9a217be569ce,Oklo Inc.,OKLO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_2d93e113-d967-5620-9994-fd0f1f510899,The Southern Company,SO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_2e754c83-3225-55c0-b13b-e386f99a8135,Bayerische Motoren Werke AG,BMW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_2f5dad67-44e3-5eca-a657-a418be6394cd,Arm Holdings plc ADR,ARM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_2faa504c-f498-5d12-89e6-4da3e57868c5,Palo Alto Networks Inc,PANW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_2fbd92da-2845-5333-9fa3-59e5c42f9019,Dassault Systemes SE,DSY,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3094f431-2130-5c31-bfbe-26404e229a12,"Coinbase Global, Inc.",COIN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_31110c28-e4e5-5826-8b96-51ca7f86d439,Monday.Com Ltd,MNDY,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_33682f19-0654-5b05-bc70-c313647fbfd2,SK Hynix Inc,000660,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3448ed91-1365-51d0-8e39-1bb85c70b3f8,Veeva Systems Inc Class A,VEEV,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_345a5311-cbb1-5f16-9080-a36da2111f3a,NetEaseInc,9999,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_347a1ada-c576-5fdd-b126-9ab8d8857834,AXA SA,CS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3654a634-bc57-538d-b464-792908e1125d,BNP Paribas SA,BNP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3719e395-c0b4-56df-914f-0277e5b495d9,"Air Products and Chemicals, Inc.",APD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3879b2c2-adeb-567a-a9df-5f196f9a4c43,"CAVA Group, Inc.",CAVA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_392c79d4-9e22-5570-9f74-28022eb5b200,"Workday, Inc.",WDAY,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_396caf80-29d7-5d17-adb8-e2e1e368773e,Caterpillar Inc.,CAT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3ae93f3c-eda4-5ec9-bf36-83f6dd6f0e24,American Tower Corporation,AMT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3b75a39a-268f-5c12-bc4a-4e26a649a7e1,Toast Inc,TOST,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_3dd6659c-1a88-5d87-86cc-4f05136f1d65,Mercedes-Benz Group AG,MBG,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3e4476c6-0155-587c-b886-46acd1bb8f57,Ping An Insurance,2318,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_3e5cf1f0-b8fc-5e35-9ed0-b05a9be0c731,Unity Software Inc.,U,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_3f12ff70-e632-584b-89ba-69d0782d9ad0,MongoDB,MDB,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_3f8ad8b5-f4b0-5cb9-9c03-b91a45b1c70a,Amgen Inc.,AMGN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_41099493-8a45-5cdf-be6c-31a33eda0145,Hua Hong Semiconductor Ltd,1347,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_45c5c123-a0cb-5243-9c30-8e721b60478c,ASM International NV,ASM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_45e92af8-55ef-5e9b-ac6d-cc387d5a8b26,"Merck & Co., Inc.",MRK,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_4797df45-e72a-5d2e-b96c-ace95eff18b2,"Pinterest, Inc.",PINS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_48d8175f-6b57-55d9-8d1a-c429f551883a,BP plc,BP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_49812ec8-b303-53bb-91a7-8f6d041625cd,International Business Machines Corporation,IBM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_4a899291-122f-5088-bcc0-62adff9287ab,IREN Ltd,IREN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_4b443ba6-d413-5851-a560-431dd9491d00,Sea Ltd,SE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_4c034635-ef4d-5d65-9ccf-4a417b2d9972,HSBC Holdings plc,HSBA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_4d04858e-8f04-5ed9-986c-2ea3c1c11fff,BE Semiconductor Industries NV,BESI,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_4d39e69a-a9b6-5d88-89d1-63af8648dc58,Xpeng Inc,9868,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_4fc4c899-ab92-5b30-8b40-9783260057d1,The Boeing Company,BA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_52efa765-6df3-5464-a54c-3434d7d41172,Celsius Holdings Inc,CELH,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_530f1635-0f96-5265-beb4-8ad722d211c7,"Equinix, Inc.",EQIX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_541d1e40-311d-537c-99cb-3ba773bef294,"Astera Labs, Inc.",ALAB,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_54c895f1-30a1-50d1-b87b-88a23f0db939,Rolls-Royce Holdings PLC,RR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_56b28eb6-34ca-56e9-a0de-0798b00e74da,Sanofi S.A.,SAN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_572a7254-f158-5cbc-b139-339cc838f991,Relx PLC,REL,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_5754fb9e-f00d-5188-8502-5742733222fa,"Rocket Lab USA, Inc.",RKLB,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_596252ea-ae6c-57cc-8f1c-ff4f1e87d89c,RTX Corporation,RTX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_5a67b993-0334-5475-9ec9-9ababb266b02,China Mobile Ltd,0941,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_5c0cca8f-0cd5-513b-a290-b3e43a456679,Comfort Systems USA Inc,FIX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_5cec2cca-7032-522f-9f48-486b9df96e29,"NIKE, Inc.",NKE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_5d41cba5-6315-5c45-b43e-e3682682532e,Comcast Corporation,CMCSA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_5fd62c5f-2c8d-560d-9856-1153a496f443,Target Corporation,TGT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_605870fb-31f5-56e1-bb3f-ff917ad68710,Novartis AG,NOVN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_61d2639f-a079-5015-93eb-1cbc9a373648,Eli Lilly and Company,LLY,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_61df4ce6-6c9d-5d3d-a3a3-5484dc955671,Sonova H Ag,SOON,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_622c47d4-3114-5935-a088-084754615cf3,LG Chemicals,051910,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_628f5fe4-f60d-5d5d-bd82-f21429c69b5c,Berkshire Hathaway Inc. Class B,BRK.B,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6314f72c-8248-561a-a27a-1b44bda37fde,Shell plc,SHEL,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_643edad1-fae0-593d-a41f-8ffef450e11f,Power Grid Corporation of India Limited,POWERGRID,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6450e9e7-4c57-5c72-97d1-057751df8e53,Pfizer Inc.,PFE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_64670054-ae94-56a7-adec-c0b1d83b5f89,Viking Holdings Ltd,VIK,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_66030d24-c4db-5de4-b6cd-c0c5afaa1703,Hims Hers Health Inc,HIMS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_67e7b9a6-48a8-5dd1-bbc5-db5727f74fd4,"Lucid Group, Inc.",LCID,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6806a066-5267-5030-b741-8fd776bea2ca,Cloudflare Inc,NET,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_68ddf211-c21a-5b50-a434-fd6a8ae20a11,"CrowdStrike Holdings, Inc.",CRWD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_691fcac3-274c-5746-bf9e-d61e881c987b,Valiant Holding AG,VATN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_6aa5515c-952b-5a96-8aa8-824095495923,Applied Materials Inc,AMAT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6b07e976-9dd0-531d-90f9-5bbbaabf1c96,"Tempus AI, Inc. Class A Common Stock",TEM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6b33ef2c-cd56-560f-b478-26b9ed3e1f6d,Wise plc,WISE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_6c8e136c-6574-5381-abca-d8c525ace9fb,Industrial and Commercial Bank of China,1398,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6e733fe0-2e3e-594f-a4c1-609f6a481299,Societe Generale S.A.,GLE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6ea61a87-9d2f-5892-8152-c802de2f6d23,Wells Fargo & Company,WFC,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6f455cc1-fa98-5ef5-8e6e-dbabed0ea6a1,Nebius Group N.V.,NBIS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_6f6d0be0-524d-52a8-bb11-f60b25a783a8,Illinois Tool Works Inc.,ITW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_73187115-a770-5035-8203-59b70077611f,Air Liquide SA,AI,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_739cdc9f-d524-52db-ad09-5d7c5f3b8334,Volvo AB (publ) Class A,VOLV-B,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_73a29d7a-0803-5db8-ad83-65732918f5f9,Worldline SA,WLN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_73c23c4e-25e5-561a-9886-64d92976357e,HDFC Bank Limited,HDFCBANK,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_73fd14fb-d2e2-59fd-a5e4-45499d17e077,Roche Holding AG,ROP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7510cc5f-de04-5514-a13c-8cc5bc6b4d3a,Gitlab Inc,GTLB,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_75138a92-ae17-5eef-aa64-afc8372299bb,Exxon Mobil Corporation,XOM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_75ae4da5-3238-5400-93cc-d8f0bb660019,Carrefour SA,CA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7638e22b-6c30-523c-9d32-68a94a074a36,Hensoldt AG,HAG,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_7672b425-c92b-5d8a-81ab-c60724a958d0,Citigroup Inc.,C,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_778b2c1d-426a-5fff-9eda-198e013bd945,"Intuitive Surgical, Inc.",ISRG,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_77a8f069-8c05-523b-aa70-b39a8942b1c1,"Amazon.com, Inc.",AMZN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7845e72e-ee7b-570c-b9c1-606234f64a58,Trane Technologies plc,TT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_78949a37-2de6-5bab-a465-05a33a4f8eaa,Haier Smart Home Co Ltd,6690,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_789b8a92-7cca-5c0b-bf76-5192d283804a,L'Oréal S.A.,OR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7976a2f1-8279-537d-85d6-05e2d4f65ebf,"Robinhood Markets, Inc.",HOOD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7a450250-b41b-5c37-992e-3abb7b5c8b66,JD.com Inc ADR,JD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7ac51593-a969-54db-9992-83d7c56094d8,Siemens Energy AG,ENR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7b5c3d6c-cf15-5fe4-99d4-cd6ecb8c53f2,"The TJX Companies, Inc.",TJX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7c3deb24-9789-551f-b5eb-e932aeabaf83,General Motors Company,GM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7cd4c68a-b632-5182-b1d1-52e55c3a2df3,Li Auto Inc,2015,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_7d4bc152-96eb-5872-be67-303e3002a0fa,GSK plc,GSK,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7e48cabb-84f7-5887-a4f5-4bf0071d6671,Ecolab Inc.,ECL,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7e794ba4-ddfc-5658-bb39-22c0050f665f,BAE Systems plc,BA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7e8a395b-3e8d-5baf-90d4-19f11971fe98,Palantir Technologies Inc.,PLTR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7ef22304-346b-5d5b-abea-92d0948ebc01,AT&T Inc.,T,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7f48b162-c593-5c99-9fef-da5149a75292,Ford Motor Company,F,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7fd7261d-ec71-54a2-b468-3a3e693e788e,Verizon Communications Inc.,VZ,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_7feda97e-a991-555f-ad42-7f3dce5dbc6d,"Netflix, Inc.",NFLX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_80fd811f-6852-5205-a17a-a955c166c782,Duolingo Inc,DUOL,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_824befe3-bb5e-5471-bf51-57eae9d98338,Proximus NV,PROX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_82bc9fbc-ce8f-59b9-b3a7-a7d44160648e,The Procter & Gamble Company,PG,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_83afc793-0f34-5ad0-a25c-b442882abd4d,Meituan,3690,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_843671cc-b0af-525e-a5ab-cc822260c2cf,Micron Technology Inc,MU,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_84fa1055-5544-5b95-ab2c-1dcbae92f9ab,Lonza Group AG,LONN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_8575df20-9c5a-5044-bb52-0e0b3ecc9d93,Intuitive Machines Inc.,LUNR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_85f9f80c-2913-5bac-816a-0b9ad6226c1f,Alibaba Group Holding Ltd,9988,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_86024f0f-e3ec-533a-b886-0101ce4c3a73,Bank of America Corporation,BAC,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_8694f05d-78cc-5277-a0e6-9022d3d7c957,Microsoft Corporation,MSFT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_87cf683d-e37f-57df-b1b2-bcd2c0441706,McDonald's Corporation,MCD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_8aaa753b-c33b-5de3-844e-8fbb5f9bcf9b,Lockheed Martin Corporation,LMT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_8cbb4c49-1386-50fd-a376-15b8fdea049e,Royal Bank of Canada,RY,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_8d479f24-2700-5d8e-8044-863adac4ce72,Lam Research Corp,LRCX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_8ec54a63-98e4-5c76-ab93-11b94e6c512a,Super Micro Computer Inc,SMCI,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_8ee33a0b-8237-5e0f-8f86-bebb652d100b,3M Company,MMM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_8f5a7279-ad52-55b0-8af2-9ce67e12e352,Stryker Corporation,SYK,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_8f98da24-43f5-5f39-8967-e694f92167a2,Mastercard Incorporated,MA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_90606491-6d1d-54e4-989e-78da2d2dbfa6,Abbott Laboratories,ABT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_908738df-2761-5dd3-a0fa-299f90d5f90d,"Banco Santander, S.A.",SAN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_934a894c-c3d4-520a-8487-202b920c7091,Chevron Corporation,CVX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_943926b7-ed6b-5754-9734-ed3184f76b20,BigBearai Holdings Inc,BBAI,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_974e2550-0928-5297-b3d9-f09b22edd483,Applovin Corp,APP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_9801ad6a-4e84-5585-8161-d7280773a175,Intel Corporation,INTC,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_9a83d7ac-5850-53a4-9808-9d6642c4dea4,Dutch Bros Inc,BROS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_9bcb5738-6092-5a90-83b0-28f2be8172b2,Natera Inc,NTRA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_9cd62830-89b7-54d4-9564-0db09c41382b,Constellation Energy Corp,CEG,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_9d99e626-9bd8-5d26-b4f7-a12e5b614da1,Vistra Energy Corp,VST,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_a18945ae-e7c6-55d7-bfc3-74438183e6a1,Compass Group PLC,CPG,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_a20ab55e-afdf-5659-b70c-b18a9649084c,Nu Holdings Ltd,NU,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_a25c1820-1202-5e7e-ad50-18d2166d84c3,The Walt Disney Company,DIS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_a39349b4-eef3-5fc5-a95f-28f1263df064,"ServiceNow, Inc.",NOW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_a4365669-74e8-56ca-8bd7-7e859da99f6c,"Dominion Energy, Inc.",D,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_a848a16a-f190-5ccf-a351-a1fcb6863362,Arista Networks,ANET,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_a9221840-c0bb-525f-8819-1aa170c238f3,Infosys Limited,INFY,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_a964efa7-7086-574b-a34a-52efb58a688d,Oracle Corporation,ORCL,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_a9857ed6-131b-5672-9d7c-3f8dd9c70966,Sunny Optical Technology Group Co Ltd,2382,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_aa668713-ba4d-5567-abd7-7b2dc58c3924,STMicroelectronics N.V.,STMPA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_ab48b1a2-e6f0-57d6-bac6-8b9ab8c9ab4f,Duke Energy Corporation,DUK,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ac0356e5-8b2f-56a5-a533-384ef6afd627,Shopify Inc,SHOP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ac3e6235-70fa-509a-9137-88ef0f3b9a1e,"BlackRock, Inc.",BLK,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_adabd7e7-9fd9-567d-bfa5-7cf913708058,Baidu Inc ADR,BIDU,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_af158cfc-ef4f-5242-a211-aee6176cf17b,"Airbnb, Inc.",ABNB,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_aff2387b-9d08-5e40-8737-a5d658baf07c,NVIDIA Corporation,NVDA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b0e4649c-7804-5ca2-899d-98a3301ffd3d,Glencore PLC,GLEN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b1302ac2-6b39-559e-99c3-a49b1bff7da0,"Lowe's Companies, Inc.",LOW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b1cfd539-bee5-5378-9a1b-c4d7090e3a6d,Alibaba Group Holding Ltd ADR,BABA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_b2ffb1ea-cbc8-5b19-94e4-36a45b603f2f,Wayfair Inc,W,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b3373c42-3686-5901-b0e6-692fc09a5748,ELF Beauty Inc,ELF,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_b5649eae-cacd-5a55-b622-d2acb17d1247,Thermo Fisher Scientific Inc.,TMO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b571d0a3-1231-5868-8c7f-c28d2a52406d,MercadoLibre Inc.,MELI,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_b5a5aa00-131e-545a-a75f-b3b4c341ef4d,CME Group Inc.,CME,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b5f4e368-91bd-55bb-966e-5e9f31b8ab8d,Unilever plc,ULVR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b621314e-bf12-5462-ae24-4f3c48c5ed34,Vertiv Holdings Co,VRT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b6781778-e97a-5d24-afb4-f7465b6a9321,"The Trade Desk, Inc.",TTD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b6b4920e-ce4f-5c63-99b7-2ef66f4b8123,Accenture plc,ACN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_b76ae7ab-9aeb-5804-9526-48f3fe46db1a,"DoorDash, Inc.",DASH,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ba12ea48-84e6-5905-9adb-4b8ed803cd70,Starbucks Corporation,SBUX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ba78192b-6157-57ba-9a89-664f6ad5d2a4,Tata Consultancy Services Limited,TCS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_bd1883b4-abac-5d18-b097-acf25f2fdcf8,Deutsche Bank Aktiengesellschaft,DBK,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_bdad71da-994f-5fe7-bb1b-f99ddc7a4cbc,AbbVie Inc.,ABBV,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_becdb741-0d31-5f88-8b00-de8d5e4d4e7e,"Enphase Energy, Inc.",ENPH,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_c3269539-01b8-5845-8971-363e7e618c20,Johnson & Johnson,JNJ,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_c366a36d-4779-51ec-81a1-55b836c27cf6,Adobe Inc.,ADBE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_c3de33a2-667e-51c8-9376-b9ab39fbbca0,Tencent Holdings Ltd,0700,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_c68ee739-d4dd-5667-8a6f-13192ed7a6cc,Fiverr International Ltd,FVRR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_c864ecb9-9c8f-51c3-908b-f06268302528,Doximity Inc,DOCS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_c98b03ab-c85e-5bc0-8555-96e6249733e7,Evolution AB (publ),EVO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_c9a7904f-50b6-57be-a2ec-7c50f3162c70,Deere & Company,DE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_cb34a8e2-2d14-5a05-851c-a3de26c82e84,Infineon Technologies AG,IFX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_cdc413d2-1e92-5151-9d6b-1cbb7c013976,"Moderna, Inc.",MRNA,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ce52977e-d094-577a-b8ce-6d4a33b46832,Kuaishou Technology,1024,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_cf11e8df-1714-520f-a1e9-cfaa0439b486,Samsung Electronics Co Ltd,005930,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_cfe51880-dd08-5db8-9534-d55ddcbb8a18,BYD Electronic International Co Ltd,0285,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_d0e52831-27bf-5496-8ea8-205972891f93,Edenred SA,EDEN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_d0e6c420-61a9-5220-9575-e2d844908589,Sage Group PLC,SGE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_d2c1c051-e118-590b-b120-7ae9b496652e,Nestlé S.A.,NESN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_d3232e9c-432e-5a27-a286-7ab5401f97b9,Xiaomi Corp,1810,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_d4d6e071-ca11-593f-b0aa-ca765fa9a008,Thales S.A.,HO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_d573891f-97f3-5a8e-8b19-5db704eef9c9,Medtronic plc,MDT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_d62d0544-c7ef-5aac-89a3-9c2c26cb704d,TransMedics Group Inc,TMDX,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_d8c098bb-8cd8-5dc4-a9b4-cba2074b110d,Eaton Corporation plc,ETN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_da8712ca-addc-5ecc-b8fd-9c54f75c71f6,"PayPal Holdings, Inc.",PYPL,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_db3796fa-dbad-5c17-8c00-563cc1f2da1b,"Gilead Sciences, Inc.",GILD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_db49741d-aa9e-525e-92e4-4b0b4f0bda19,Costco Wholesale Corporation,COST,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_db63c64a-5406-5b81-9b96-959ac4a9962b,Nemetschek AG O.N.,NEM,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_db854dfc-1804-5019-afe5-223ef5e047fd,Geberit AG,GEBN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_db8be0ab-5c67-5565-ad17-12673dfde07e,Ast Spacemobile Inc,ASTS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_dcbb9c53-9bbd-5014-b7df-2706e84c7bb6,Snowflake Inc.,SNOW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_de594ded-d268-5e4f-99b8-1012df045ef0,Hyundai Motor Co. Ltd.,005380,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_de703932-c64c-5c0f-b762-64317187ac78,Union Pacific Corporation,UNP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e012cdce-768d-50c7-bb25-1ff8a901546c,Alphabet Inc. Class C,GOOG,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e0bdec68-aad4-5c66-9fcb-b4d41ec73ce9,Reliance Industries Limited,RELIANCE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e0d28302-0a41-5c80-9674-41f8e243b826,"NextEra Energy, Inc.",NEE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e0efbf2a-5587-5503-9a92-3cbe966529f9,"Zillow Group, Inc.",Z,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e0fcc553-0791-5581-a0f1-e1a1e5f92964,Hermes International SCA,RMS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_e159b6d2-aa08-54db-9484-af8443d74188,UCB SA,UCB,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_e1b1eb2c-cfa4-53b8-a488-5ca014963414,PetroChina Company Limited,0857,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e2379ea8-6a57-5013-be82-8037aafa519d,SAP SE,SAP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e33a8f41-3166-50cb-a503-35881a40f87b,Danaher Corporation,DHR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e3473b64-4b40-506c-a5e7-445ee72d4337,S&P Global Inc.,SPGI,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e3d28f87-c787-5305-999f-1389f1a9896b,Airbus SE,AIR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_e575933a-1490-5bf1-9c5e-635db20b4cac,Innovent Biologics Inc,1801,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_e75be6eb-3561-558b-b260-c205c7e9c60f,Siemens Aktiengesellschaft,SIE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ea8243e7-75bd-549b-9ba6-48e03cf982c1,"PepsiCo, Inc.",PEP,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_eaa52f1c-7299-50e8-b69f-30df278129a4,Emerson Electric Co.,EMR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_eb217683-f803-5b98-a357-173c21d56906,Axon Enterprise Inc.,AXON,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_eb4ca0eb-3900-5be1-a809-c716b40fb10f,Walmart Inc.,WMT,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ebfcc30f-5a6c-5d5c-996d-b631de989d6a,SoundHound AI Inc,SOUN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ec5a39fc-469a-5803-8c4d-1bdfda159876,Safran SA,SAF,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_ef82c5fa-7d9d-5bd9-8f1f-fde52e1a388b,Hubbell Inc,HUBB,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_efaee6b2-dc0f-5b4f-bbfe-e46fdcfc1620,General Dynamics Corporation,GD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_f02e8014-abbb-5a08-bf80-45a174fe3225,Morgan Stanley,MS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_f07d8826-7230-57a5-888a-89479eb31540,"Regeneron Pharmaceuticals, Inc.",REGN,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_f249c87d-ad66-57a1-8949-95dca1a352ba,Kingdee International Software Group Co Ltd,0268,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_f39e281c-e020-5a97-94c9-8352f25a09f5,"The Goldman Sachs Group, Inc.",GS,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_f477aeb1-d055-5f26-8265-e641f050b330,Upstart Holdings Inc,UPST,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_f648ef52-5189-5867-bc50-d2a5d643523c,"Datadog, Inc.",DDOG,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_f71be61b-f2c9-5c76-8d38-441026d9f9c6,BYD Company Limited,1211,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_f74bd52b-080c-5f81-a102-ae37e1a87727,IONQ Inc,IONQ,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_f990a311-cb32-5507-944e-641f3c16e0d8,General Electric Company,GE,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_fa46c8b3-24ec-594c-b682-1f81d7c0a065,UnitedHealth Group Incorporated,UNH,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_fa617ef7-a4e9-580e-9819-2f5f6468c0dd,LVMH Moët Hennessy Louis Vuitton SE,MC,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_faaeb60e-64f7-5b37-a928-b84ab0c117ed,Nio Inc Class A ADR,NIO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_faef6935-60d0-576b-bacb-cf1cafea5c70,Archer Aviation Inc,ACHR,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,equity_fb74255e-7cd4-55af-9674-c7db208f3b91,The Sherwin-Williams Company,SHW,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_fc633f29-09e3-5814-a9d1-7b1ce0913f78,Broadcom Inc.,AVGO,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,equity_fca62f3b-28a6-5ba6-904a-dd5aec4bc8d9,"Advanced Micro Devices, Inc.",AMD,equity,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,forex_0b0cf1ef-37c5-589b-a69c-25a149b2d8df,US Dollar / Russian Ruble,USDRUB,forex,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,forex_1167a44f-4357-5097-8020-e497a9853e58,Euro / US Dollar,EURUSD,forex,2026-06-05,2026-06-07,2026-09-05,2026-09-04,90,7,10,True,True,True
+5,forex_2342923a-24bd-5471-ae8a-196c3461c879,British Pound / US Dollar,GBPUSD,forex,2026-06-05,2026-06-07,2026-09-04,2026-09-04,89,7,10,True,True,True
+5,forex_2fffbd8b-d4ab-5b55-80d1-274dde6b2f5a,US Dollar / Japanese Yen,USDJPY,forex,2026-06-05,2026-06-07,2026-09-05,2026-09-04,90,7,10,True,True,True
+5,forex_e6c66c0e-87f1-548c-90da-44ce67af00fa,US Dollar / Chinese Yuan,USDCNY,forex,2026-06-05,2026-06-08,2026-09-05,2026-09-04,89,7,10,True,True,True
+5,fund_4ab9727e-1ded-52a1-aa4a-8c33219460d0,Invesco QQQ Trust ETF,QQQ,fund,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,False,False
+5,fund_87ebbf0a-2dbc-5747-b0ed-76b37a915d74,ProShares UltraPro QQQ ETF,TQQQ,fund,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,False
+5,fund_99b9d918-5e65-59fc-a559-752a7db77ca7,iShares Russell 2000 ETF,IWM,fund,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+5,fund_dd32d893-f4fa-5c0b-90eb-7bb45c79b13d,Vanguard Total Stock Market ETF,VTI,fund,2026-06-05,2026-06-08,2026-09-04,2026-09-04,88,7,10,True,True,True
+6,commodity_35be58ef-7f43-54c9-a726-3c869a214507,Palladium Spot in US Dollar,XPDUSD,commodity,2026-07-05,2026-07-06,2026-09-26,2026-09-25,82,7,10,False,True,True
+6,commodity_5d2f8d54-096c-5b83-9b66-d23b0bc56ed6,Platinum Spot in US Dollar,XPTUSD,commodity,2026-07-05,2026-07-06,2026-09-26,2026-09-25,82,7,10,False,True,True
+6,commodity_7ea082a2-41ea-5733-9761-0157cf429e73,Silver Spot in US Dollar,XAGUSD,commodity,2026-07-05,2026-07-06,2026-10-03,2026-10-03,89,7,10,True,True,True
+6,commodity_adba51c0-cb27-5e9c-9eb8-e1439f97a611,Gold Spot in US Dollar,XAUUSD,commodity,2026-07-05,2026-07-06,2026-10-03,2026-10-03,89,7,10,True,True,True
+6,commodity_cf82679d-9e97-5e15-8ece-d56e52101f06,Brent Crude Spot in US Dollar,XBRUSD,commodity,2026-07-05,2026-07-06,2026-09-15,2026-09-15,71,7,10,False,True,True
+6,crypto_2d8162a4-e9a6-5222-8b4f-1d7c0e7e2ec7,Gram (GRAM),GRAM,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_34b4b2bc-b87f-599d-9da7-9481701f3195,Litecoin (LTC),LTC,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_58845559-7ee4-5f2b-a67e-d8b9bf506485,TRON (TRX),TRX,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_5f84e890-c8ae-58db-aecb-2430a8d8c6c4,Bitcoin Cash (BCH),BCH,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_8f824f2d-c67f-55e7-8124-aa113059635d,Bitcoin (BTC),BTC,crypto,2026-07-05,2026-07-06,2026-10-05,2026-10-05,91,7,10,True,True,True
+6,crypto_92c1b64e-7e9b-5096-b017-1c169d9493f5,Ethereum (ETH),ETH,crypto,2026-07-05,2026-07-06,2026-10-05,2026-10-05,91,7,10,True,True,True
+6,crypto_9638a395-fafb-59e1-b218-57b9190d49cc,Chainlink (LINK),LINK,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_a34bddab-6dac-558c-beff-c31f36d29a1e,Ripple (XRP),XRP,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_a9b10098-59c9-53b1-9f07-07f541ac340d,Binance Coin (BNB),BNB,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_afb25ca6-7aa1-5e99-9255-66dfd353d3a1,Dogecoin (DOGE),DOGE,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_b43c276e-3732-5b6a-bca6-0a1334805833,Solana (SOL),SOL,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_c3f57103-e653-5c16-a919-d37c3a9a877d,Stellar (XLM),XLM,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_cf03c817-33e8-5833-9ec5-c49d96f01e6d,Avalanche (AVAX),AVAX,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,crypto_d714183b-e023-5e80-854f-28ade5b29cc4,Cardano (ADA),ADA,crypto,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,equity_00879a02-14cb-52c5-be0d-4857fbc0f4e1,Fluence Energy Inc,FLNC,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_013d2cbc-1a8a-5434-a2ad-8d6d943eb036,Visa Inc.,V,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_0172839b-35e4-5ffa-8e68-078f79726ed3,Snap Inc.,SNAP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_01920302-d04b-570e-9f7d-dc0803f279d5,Joby Aviation,JOBY,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_02d1387b-9087-533d-831f-41b2b68b9a61,Zscaler Inc,ZS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_0303151a-ce6c-5dec-9dcc-07fc57c0714d,"The Home Depot, Inc.",HD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_04a23db8-2e99-574a-9503-5df65650e440,Vertex Pharmaceuticals Incorporated,VRTX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_0579a633-c87b-5164-baf2-d61c68124a89,ConocoPhillips,COP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_07594782-05db-5559-81f8-4d51d3d3c392,Northrop Grumman Corporation,NOC,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_077b74a3-3e50-58c2-aacb-4da6ea222da6,The Charles Schwab Corporation,SCHW,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_09092397-d4bf-5083-ae6f-323e3c4e3493,"Iberdrola, S.A.",IBE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_0a14ece2-c1cd-56c7-aa99-a17ab5832e4f,Beam TherapeuticsInc,BEAM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_0a557cc4-0ccd-5e41-9b75-24b09b77f67e,"Salesforce, Inc.",CRM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_0bcbf61f-ddb2-5b82-91ba-a9a4497cf772,Texas Instruments Incorporated,TXN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_0c400d23-32bd-5ba3-bd4f-919ef066f41d,WuXi Biologics,2269,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_0d6f9a02-6c61-558c-91a7-934fd208266f,"Prologis, Inc.",PLD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_0dfa88b2-ae9e-57d7-b899-3c806c590a67,Volkswagen AG,VOW,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_0e372eea-b090-547a-88a2-4a7f958db812,Linde plc,LIN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_0e4d472e-2931-5e69-b6cf-014d397216b0,TotalEnergies SE,TTE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_0eb93e16-78cb-5cc6-b3e1-cc34fe1ec52e,ABB Ltd,ABBN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_0ecf41f4-6e14-54d0-a24f-d9a1c1a58c68,Hesai Group ADR,HSAI,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_0f63b301-48b4-532f-82b9-ba9989e9027f,Great Wall Motor Co Ltd,2333,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_0f68a4f7-29d0-5c9a-9d20-41cc8186cddd,Roblox Corporation,RBLX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_105d190f-f458-59ac-bc32-508bcc63ac10,Industrial and Commercial Bank of China,601398,equity,2026-07-05,2026-07-06,2026-10-03,2026-09-30,89,7,10,True,True,True
+6,equity_113fed74-a09d-5aee-9fa5-b2986a584264,POET Technologies Inc,POET,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_11870bd0-eb6e-503f-8036-31e3653b3c09,Quanta Services Inc,PWR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_118d9bb6-18a6-57b5-bf42-8cf50aa0f133,"Lyft, Inc.",LYFT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_13790285-b3e0-5b8c-bf39-67b451154ef2,"Tesla, Inc.",TSLA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_158a90f9-fcd7-5b16-b706-bd529139322e,Rheinmetall AG,RHM,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_1682f682-f022-5a4e-84b3-78bee1ee6e81,The Coca-Cola Company,KO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_1720b66a-42d6-5a8b-b25c-7de04a1dc20f,"Cisco Systems, Inc.",CSCO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_179c3802-40a8-5085-82d2-acaf9de8ff19,Novo Nordisk A/S,NOV,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_17b2425d-f3ab-5bfe-809e-eafb5bdb1610,QUALCOMM Incorporated,QCOM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_1a1e0028-e2e1-5345-9b27-ecdf50e140e3,NuScale Power Corp,SMR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_1a8294a9-a56c-53d9-934a-9cea6d9fcd3f,ASML Holding NV,ASML,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_1ad229e8-98fd-538e-a91c-a7476979cda2,Howmet Aerospace Inc,HWM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_1b132012-977f-520f-bf6a-ce0626e9fcc7,Ferrari NV,2FE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_1c813d87-88dc-564d-9504-8547b80a1cc2,JPMorgan Chase & Co.,JPM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_1d450e7c-5a19-5ef8-b105-97706fe0692c,"Rivian Automotive, Inc.",RIVN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_1de07560-60a7-5236-8a78-c544542807fa,United Parcel Service Inc,UPS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_1e28fe98-b931-5889-9c29-a68fa35e0d77,"Meta Platforms, Inc.",META,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_1e351718-edfb-5dde-93d9-2219503d35d1,Fair Isaac Corporation,FICO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_1f7d6c01-9f20-5a04-be70-9f4a9bfe3abc,KLA-Tencor Corporation,KLAC,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_1fc2e21a-fc19-5705-bd95-b46201595d36,TeraWulf Inc,WULF,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_1fefba64-281d-54b9-b11d-cf38a85ebdec,Schneider Electric SE,SU,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_21381989-d6f7-5f5e-a316-4ab9600ebdb7,JD Health International Inc,6618,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_2370d3c3-6171-585d-9e31-237c8eb4f476,Saab AB (publ),SAAB-B,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_238acad3-0ea8-5977-8ee3-376e689d95e2,GE Vernova LLC,GEV,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_241af43b-c97d-5f75-8fbf-8a8533374580,Adyen NV,ADYEN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_2461f883-5729-5da7-b4b0-5b30c872a0a3,Inspire Medical Systems Inc,INSP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_24b377f3-f43f-576b-9216-ff7e3e56e9eb,Recursion Pharmaceuticals Inc,RXRX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_252124ac-772e-5038-8333-fccb619e00af,Engie SA,ENGI,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_253c7cbe-670a-5ab1-91a2-536080a502bf,China Literature Ltd,0772,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_26732afa-a2d8-548b-a63d-002ff608d253,CRISPR Therapeutics AG,CRSP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_26bcc074-f39a-56a6-9bba-b407ccae53c7,QuantumScape Corporation,QS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_27870ecf-e086-54d7-8222-d855946db377,American Express Company,AXP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_278e7a41-fd2f-5ab1-9536-f91c9f1c1b68,"Teladoc Health, Inc.",TDOC,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_289f5bc0-2938-5590-9cce-b75e748f2cd3,Cellebrite DI Ltd,CLBT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_28cec7aa-7fb5-58c2-a279-375b7b0fc205,Booking Holdings Inc,BKNG,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_297d8cd4-4492-52d5-93d2-ffa7075c2176,EVgo Inc,EVGO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_29935658-88be-5858-aea7-62dfedfde05b,Allianz SE,ALV,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_2bd88d74-af34-5d18-ad54-cb29ec0005d9,Telefonaktiebolaget LM Ericsson,ERIC-B,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_2c8f0561-aa8b-55dc-b149-a28e30e34b73,Industria de Diseno Textil SA,ITX,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_2d00bda5-696b-550e-b8f9-9a217be569ce,Oklo Inc.,OKLO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_2d93e113-d967-5620-9994-fd0f1f510899,The Southern Company,SO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_2e754c83-3225-55c0-b13b-e386f99a8135,Bayerische Motoren Werke AG,BMW,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_2f5dad67-44e3-5eca-a657-a418be6394cd,Arm Holdings plc ADR,ARM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_2faa504c-f498-5d12-89e6-4da3e57868c5,Palo Alto Networks Inc,PANW,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_2fbd92da-2845-5333-9fa3-59e5c42f9019,Dassault Systemes SE,DSY,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_3094f431-2130-5c31-bfbe-26404e229a12,"Coinbase Global, Inc.",COIN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_31110c28-e4e5-5826-8b96-51ca7f86d439,Monday.Com Ltd,MNDY,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_33682f19-0654-5b05-bc70-c313647fbfd2,SK Hynix Inc,000660,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_3448ed91-1365-51d0-8e39-1bb85c70b3f8,Veeva Systems Inc Class A,VEEV,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_345a5311-cbb1-5f16-9080-a36da2111f3a,NetEaseInc,9999,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_347a1ada-c576-5fdd-b126-9ab8d8857834,AXA SA,CS,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_3654a634-bc57-538d-b464-792908e1125d,BNP Paribas SA,BNP,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_3719e395-c0b4-56df-914f-0277e5b495d9,"Air Products and Chemicals, Inc.",APD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_3879b2c2-adeb-567a-a9df-5f196f9a4c43,"CAVA Group, Inc.",CAVA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_392c79d4-9e22-5570-9f74-28022eb5b200,"Workday, Inc.",WDAY,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_396caf80-29d7-5d17-adb8-e2e1e368773e,Caterpillar Inc.,CAT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_3a9fecbb-2fa3-50ba-ab14-06d206ad3cbb,ING Groep NV,INGA,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_3ae93f3c-eda4-5ec9-bf36-83f6dd6f0e24,American Tower Corporation,AMT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_3b75a39a-268f-5c12-bc4a-4e26a649a7e1,Toast Inc,TOST,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_3dd6659c-1a88-5d87-86cc-4f05136f1d65,Mercedes-Benz Group AG,MBG,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_3e15e918-231b-5f15-b0c0-7e8a4ab742d4,Deutsche Telekom AG,DTE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_3e4476c6-0155-587c-b886-46acd1bb8f57,Ping An Insurance,2318,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_3e5cf1f0-b8fc-5e35-9ed0-b05a9be0c731,Unity Software Inc.,U,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_3e8c23d9-2520-561d-9869-ef8f0f4d619e,Space Exploration Technologies Corp. Class A,SPCX,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_3ed5998a-59fd-53b0-a4f4-bc8470ba84d4,Aehr Test Systems,AEHR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_3f12ff70-e632-584b-89ba-69d0782d9ad0,MongoDB,MDB,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_3f8ad8b5-f4b0-5cb9-9c03-b91a45b1c70a,Amgen Inc.,AMGN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_41099493-8a45-5cdf-be6c-31a33eda0145,Hua Hong Semiconductor Ltd,1347,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_423118de-14b5-5c35-bf46-f4b456161668,Philip Morris International Inc,PM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_4278512d-ae80-57cf-96af-bf9d5cf8590e,Lithium Americas Corp,LAC,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_45c5c123-a0cb-5243-9c30-8e721b60478c,ASM International NV,ASM,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_45e92af8-55ef-5e9b-ac6d-cc387d5a8b26,"Merck & Co., Inc.",MRK,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_4797df45-e72a-5d2e-b96c-ace95eff18b2,"Pinterest, Inc.",PINS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_48d8175f-6b57-55d9-8d1a-c429f551883a,BP plc,BP,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_49812ec8-b303-53bb-91a7-8f6d041625cd,International Business Machines Corporation,IBM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_4a899291-122f-5088-bcc0-62adff9287ab,IREN Ltd,IREN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_4b443ba6-d413-5851-a560-431dd9491d00,Sea Ltd,SE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_4c034635-ef4d-5d65-9ccf-4a417b2d9972,HSBC Holdings plc,HSBA,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_4d04858e-8f04-5ed9-986c-2ea3c1c11fff,BE Semiconductor Industries NV,BESI,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_4d39e69a-a9b6-5d88-89d1-63af8648dc58,Xpeng Inc,9868,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_4fc4c899-ab92-5b30-8b40-9783260057d1,The Boeing Company,BA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_503271a8-06cb-5972-a876-b2b1793abc9c,GigaCloud Technology Inc,GCT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_522c048e-32e2-5d83-8949-2ce0a2e8bbab,Nano Nuclear Energy Inc.,NNE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_52efa765-6df3-5464-a54c-3434d7d41172,Celsius Holdings Inc,CELH,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_530f1635-0f96-5265-beb4-8ad722d211c7,"Equinix, Inc.",EQIX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_541d1e40-311d-537c-99cb-3ba773bef294,"Astera Labs, Inc.",ALAB,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_54c895f1-30a1-50d1-b87b-88a23f0db939,Rolls-Royce Holdings PLC,RR,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_55b13a19-f596-5d01-addd-94c29b3953c9,Boston Scientific Corporation,BSX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_56b28eb6-34ca-56e9-a0de-0798b00e74da,Sanofi S.A.,SAN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_572a7254-f158-5cbc-b139-339cc838f991,Relx PLC,REL,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_5754fb9e-f00d-5188-8502-5742733222fa,"Rocket Lab USA, Inc.",RKLB,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_596252ea-ae6c-57cc-8f1c-ff4f1e87d89c,RTX Corporation,RTX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_5a67b993-0334-5475-9ec9-9ababb266b02,China Mobile Ltd,0941,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_5b81b0a3-3ccd-5ea0-9f2b-47d3c5e6b90c,SoFi Technologies Inc.,SOFI,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_5c0cca8f-0cd5-513b-a290-b3e43a456679,Comfort Systems USA Inc,FIX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_5cec2cca-7032-522f-9f48-486b9df96e29,"NIKE, Inc.",NKE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_5d41cba5-6315-5c45-b43e-e3682682532e,Comcast Corporation,CMCSA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_5fd62c5f-2c8d-560d-9856-1153a496f443,Target Corporation,TGT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_605870fb-31f5-56e1-bb3f-ff917ad68710,Novartis AG,NOVN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_61d2639f-a079-5015-93eb-1cbc9a373648,Eli Lilly and Company,LLY,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_61df4ce6-6c9d-5d3d-a3a3-5484dc955671,Sonova H Ag,SOON,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_622c47d4-3114-5935-a088-084754615cf3,LG Chemicals,051910,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_628f5fe4-f60d-5d5d-bd82-f21429c69b5c,Berkshire Hathaway Inc. Class B,BRK.B,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_6314f72c-8248-561a-a27a-1b44bda37fde,Shell plc,SHEL,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_643edad1-fae0-593d-a41f-8ffef450e11f,Power Grid Corporation of India Limited,POWERGRID,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-01,89,7,10,True,True,True
+6,equity_6450e9e7-4c57-5c72-97d1-057751df8e53,Pfizer Inc.,PFE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_64670054-ae94-56a7-adec-c0b1d83b5f89,Viking Holdings Ltd,VIK,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_64acd6c6-cf2a-5efe-9bdd-e606f31e647f,Semiconductor Manufacturing International Corp,0981,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_66030d24-c4db-5de4-b6cd-c0c5afaa1703,Hims Hers Health Inc,HIMS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_664068b6-3562-5716-9688-4f3db274dcf6,Honeywell International Inc.,HON,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_67e7b9a6-48a8-5dd1-bbc5-db5727f74fd4,"Lucid Group, Inc.",LCID,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_6806a066-5267-5030-b741-8fd776bea2ca,Cloudflare Inc,NET,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_68ddf211-c21a-5b50-a434-fd6a8ae20a11,"CrowdStrike Holdings, Inc.",CRWD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_691fcac3-274c-5746-bf9e-d61e881c987b,Valiant Holding AG,VATN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_6aa5515c-952b-5a96-8aa8-824095495923,Applied Materials Inc,AMAT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_6b07e976-9dd0-531d-90f9-5bbbaabf1c96,"Tempus AI, Inc. Class A Common Stock",TEM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_6b33ef2c-cd56-560f-b478-26b9ed3e1f6d,Wise plc,WISE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_6c8e136c-6574-5381-abca-d8c525ace9fb,Industrial and Commercial Bank of China,1398,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_6d8f7777-c3b3-58e8-8483-65a4eb441fbd,AvePoint Inc,AVPT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_6e733fe0-2e3e-594f-a4c1-609f6a481299,Societe Generale S.A.,GLE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_6ea61a87-9d2f-5892-8152-c802de2f6d23,Wells Fargo & Company,WFC,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_6f455cc1-fa98-5ef5-8e6e-dbabed0ea6a1,Nebius Group N.V.,NBIS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_6f6d0be0-524d-52a8-bb11-f60b25a783a8,Illinois Tool Works Inc.,ITW,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_70a7c71e-84a6-50f3-becc-6ffb19ddb1cf,CoreWeave Inc. Class A,CRWV,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_73187115-a770-5035-8203-59b70077611f,Air Liquide SA,AI,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_739cdc9f-d524-52db-ad09-5d7c5f3b8334,Volvo AB (publ) Class A,VOLV-B,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_73a29d7a-0803-5db8-ad83-65732918f5f9,Worldline SA,WLN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_73ac566d-3909-558b-b1ed-6b4754a19ed8,RxSight Inc,RXST,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_73c23c4e-25e5-561a-9886-64d92976357e,HDFC Bank Limited,HDFCBANK,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-01,89,7,10,True,True,True
+6,equity_73fd14fb-d2e2-59fd-a5e4-45499d17e077,Roche Holding AG,ROP,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_7510cc5f-de04-5514-a13c-8cc5bc6b4d3a,Gitlab Inc,GTLB,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_75138a92-ae17-5eef-aa64-afc8372299bb,Exxon Mobil Corporation,XOM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_75ae4da5-3238-5400-93cc-d8f0bb660019,Carrefour SA,CA,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_7638e22b-6c30-523c-9d32-68a94a074a36,Hensoldt AG,HAG,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_7672b425-c92b-5d8a-81ab-c60724a958d0,Citigroup Inc.,C,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_778b2c1d-426a-5fff-9eda-198e013bd945,"Intuitive Surgical, Inc.",ISRG,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_77a8f069-8c05-523b-aa70-b39a8942b1c1,"Amazon.com, Inc.",AMZN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7845e72e-ee7b-570c-b9c1-606234f64a58,Trane Technologies plc,TT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_78949a37-2de6-5bab-a465-05a33a4f8eaa,Haier Smart Home Co Ltd,6690,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_789b8a92-7cca-5c0b-bf76-5192d283804a,L'Oréal S.A.,OR,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_7976a2f1-8279-537d-85d6-05e2d4f65ebf,"Robinhood Markets, Inc.",HOOD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7a450250-b41b-5c37-992e-3abb7b5c8b66,JD.com Inc ADR,JD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7ac51593-a969-54db-9992-83d7c56094d8,Siemens Energy AG,ENR,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_7b5c3d6c-cf15-5fe4-99d4-cd6ecb8c53f2,"The TJX Companies, Inc.",TJX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7c3deb24-9789-551f-b5eb-e932aeabaf83,General Motors Company,GM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7ccf94c0-abfe-5a07-8b54-0545a93e74dd,Nextracker Inc.,NXT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_7cd4c68a-b632-5182-b1d1-52e55c3a2df3,Li Auto Inc,2015,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_7d4bc152-96eb-5872-be67-303e3002a0fa,GSK plc,GSK,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_7e48cabb-84f7-5887-a4f5-4bf0071d6671,Ecolab Inc.,ECL,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7e794ba4-ddfc-5658-bb39-22c0050f665f,BAE Systems plc,BA,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_7e8a395b-3e8d-5baf-90d4-19f11971fe98,Palantir Technologies Inc.,PLTR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7ef22304-346b-5d5b-abea-92d0948ebc01,AT&T Inc.,T,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7f48b162-c593-5c99-9fef-da5149a75292,Ford Motor Company,F,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7fd7261d-ec71-54a2-b468-3a3e693e788e,Verizon Communications Inc.,VZ,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_7fed0151-c9e4-58bf-a99e-19f7602a64ab,Aurora Innovation Inc,AUR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_7feda97e-a991-555f-ad42-7f3dce5dbc6d,"Netflix, Inc.",NFLX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_804a2def-b0be-59de-ae2c-48ecef21117b,Pop Mart International Group Ltd,9992,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_80e6bf6a-44b6-5956-a57c-c94fde3bae6b,Akeso Inc,9926,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_80fd811f-6852-5205-a17a-a955c166c782,Duolingo Inc,DUOL,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_822ed8cd-c3d6-5744-9304-0c7a5de1fc34,Vericel Corporation,VCEL,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_824befe3-bb5e-5471-bf51-57eae9d98338,Proximus NV,PROX,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_82bc9fbc-ce8f-59b9-b3a7-a7d44160648e,The Procter & Gamble Company,PG,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_83afc793-0f34-5ad0-a25c-b442882abd4d,Meituan,3690,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_843671cc-b0af-525e-a5ab-cc822260c2cf,Micron Technology Inc,MU,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_84fa1055-5544-5b95-ab2c-1dcbae92f9ab,Lonza Group AG,LONN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_857469cd-9a16-50e9-a787-c28db4d35a54,AstraZeneca plc,AZN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_8575df20-9c5a-5044-bb52-0e0b3ecc9d93,Intuitive Machines Inc.,LUNR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_85f9f80c-2913-5bac-816a-0b9ad6226c1f,Alibaba Group Holding Ltd,9988,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_86024f0f-e3ec-533a-b886-0101ce4c3a73,Bank of America Corporation,BAC,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_8694f05d-78cc-5277-a0e6-9022d3d7c957,Microsoft Corporation,MSFT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_87cf683d-e37f-57df-b1b2-bcd2c0441706,McDonald's Corporation,MCD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_89c855f6-be03-5ac0-846d-09396d1799dd,Quantum Computing Inc,QUBT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_8aaa753b-c33b-5de3-844e-8fbb5f9bcf9b,Lockheed Martin Corporation,LMT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_8cbb4c49-1386-50fd-a376-15b8fdea049e,Royal Bank of Canada,RY,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_8d479f24-2700-5d8e-8044-863adac4ce72,Lam Research Corp,LRCX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_8ec54a63-98e4-5c76-ab93-11b94e6c512a,Super Micro Computer Inc,SMCI,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_8ee33a0b-8237-5e0f-8f86-bebb652d100b,3M Company,MMM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_8f5a7279-ad52-55b0-8af2-9ce67e12e352,Stryker Corporation,SYK,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_8f98da24-43f5-5f39-8967-e694f92167a2,Mastercard Incorporated,MA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_90606491-6d1d-54e4-989e-78da2d2dbfa6,Abbott Laboratories,ABT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_908738df-2761-5dd3-a0fa-299f90d5f90d,"Banco Santander, S.A.",SAN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_913727ed-97f0-5377-91df-a1068ef091f3,Argen-X,ARGX,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_9311a48d-21ca-5d46-80c4-b50cef1bb921,Tarsus Pharmaceuticals Inc,TARS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_934a894c-c3d4-520a-8487-202b920c7091,Chevron Corporation,CVX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_943926b7-ed6b-5754-9734-ed3184f76b20,BigBearai Holdings Inc,BBAI,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_95f7c8a3-90d3-53bd-8561-4c8b81f01cf5,Heineken N.V.,HEIA,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_974e2550-0928-5297-b3d9-f09b22edd483,Applovin Corp,APP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_9801ad6a-4e84-5585-8161-d7280773a175,Intel Corporation,INTC,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_98d5a290-64ae-560c-bc17-2a5f7b1bfcc6,Eos Energy Enterprises Inc,EOSE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_9a83d7ac-5850-53a4-9808-9d6642c4dea4,Dutch Bros Inc,BROS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_9bcb5738-6092-5a90-83b0-28f2be8172b2,Natera Inc,NTRA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_9cd62830-89b7-54d4-9564-0db09c41382b,Constellation Energy Corp,CEG,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_9d99e626-9bd8-5d26-b4f7-a12e5b614da1,Vistra Energy Corp,VST,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_a18945ae-e7c6-55d7-bfc3-74438183e6a1,Compass Group PLC,CPG,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_a1a76089-0f91-5394-b7ca-7e3316acac95,TSS Inc.,TSSI,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_a20ab55e-afdf-5659-b70c-b18a9649084c,Nu Holdings Ltd,NU,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_a2290b9f-3c3a-5acd-b1a2-9c39a578b1e6,Prosus N.V.,PRX,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_a25c1820-1202-5e7e-ad50-18d2166d84c3,The Walt Disney Company,DIS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_a39349b4-eef3-5fc5-a95f-28f1263df064,"ServiceNow, Inc.",NOW,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_a4365669-74e8-56ca-8bd7-7e859da99f6c,"Dominion Energy, Inc.",D,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_a665b955-e456-5ac0-bc95-6cd5c0083913,Humacyte Inc,HUMA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_a848a16a-f190-5ccf-a351-a1fcb6863362,Arista Networks,ANET,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_a9221840-c0bb-525f-8819-1aa170c238f3,Infosys Limited,INFY,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-01,89,7,10,True,True,True
+6,equity_a964efa7-7086-574b-a34a-52efb58a688d,Oracle Corporation,ORCL,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_a9857ed6-131b-5672-9d7c-3f8dd9c70966,Sunny Optical Technology Group Co Ltd,2382,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_aa668713-ba4d-5567-abd7-7b2dc58c3924,STMicroelectronics N.V.,STMPA,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_ab48b1a2-e6f0-57d6-bac6-8b9ab8c9ab4f,Duke Energy Corporation,DUK,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_ac0356e5-8b2f-56a5-a533-384ef6afd627,Shopify Inc,SHOP,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_ac3e6235-70fa-509a-9137-88ef0f3b9a1e,"BlackRock, Inc.",BLK,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_adabd7e7-9fd9-567d-bfa5-7cf913708058,Baidu Inc ADR,BIDU,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_af158cfc-ef4f-5242-a211-aee6176cf17b,"Airbnb, Inc.",ABNB,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_aff2387b-9d08-5e40-8737-a5d658baf07c,NVIDIA Corporation,NVDA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_b07ddb27-3d28-59b7-9093-642a86a997a5,Apple Inc.,AAPL,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_b0e4649c-7804-5ca2-899d-98a3301ffd3d,Glencore PLC,GLEN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_b1302ac2-6b39-559e-99c3-a49b1bff7da0,"Lowe's Companies, Inc.",LOW,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_b1cfd539-bee5-5378-9a1b-c4d7090e3a6d,Alibaba Group Holding Ltd ADR,BABA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_b2ffb1ea-cbc8-5b19-94e4-36a45b603f2f,Wayfair Inc,W,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_b3373c42-3686-5901-b0e6-692fc09a5748,ELF Beauty Inc,ELF,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_b5649eae-cacd-5a55-b622-d2acb17d1247,Thermo Fisher Scientific Inc.,TMO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_b571d0a3-1231-5868-8c7f-c28d2a52406d,MercadoLibre Inc.,MELI,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_b5a5aa00-131e-545a-a75f-b3b4c341ef4d,CME Group Inc.,CME,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_b5c5eb1f-d267-5874-a111-06456edf268a,D-Wave Quantum Inc.,QBTS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_b5f4e368-91bd-55bb-966e-5e9f31b8ab8d,Unilever plc,ULVR,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_b621314e-bf12-5462-ae24-4f3c48c5ed34,Vertiv Holdings Co,VRT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_b6781778-e97a-5d24-afb4-f7465b6a9321,"The Trade Desk, Inc.",TTD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_b6b4920e-ce4f-5c63-99b7-2ef66f4b8123,Accenture plc,ACN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_b76ae7ab-9aeb-5804-9526-48f3fe46db1a,"DoorDash, Inc.",DASH,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_ba12ea48-84e6-5905-9adb-4b8ed803cd70,Starbucks Corporation,SBUX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_ba78192b-6157-57ba-9a89-664f6ad5d2a4,Tata Consultancy Services Limited,TCS,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-01,89,7,10,True,True,True
+6,equity_baea1d0b-bf48-52d8-b08b-d87fe363ebcc,The Estee Lauder Companies Inc.,EL,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_bd1883b4-abac-5d18-b097-acf25f2fdcf8,Deutsche Bank Aktiengesellschaft,DBK,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_bdad71da-994f-5fe7-bb1b-f99ddc7a4cbc,AbbVie Inc.,ABBV,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_bdc81ae4-4612-5b63-88ea-ab3073f47759,Credo Technology Group Holding Ltd,CRDO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_becdb741-0d31-5f88-8b00-de8d5e4d4e7e,"Enphase Energy, Inc.",ENPH,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_c00d89f7-6119-50b5-b6ab-c857ce253878,Sana Biotechnology Inc,SANA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_c2f7069f-97d4-599f-86ae-c77165f1795b,Rigetti Computing Inc,RGTI,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_c3269539-01b8-5845-8971-363e7e618c20,Johnson & Johnson,JNJ,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_c366a36d-4779-51ec-81a1-55b836c27cf6,Adobe Inc.,ADBE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_c3de33a2-667e-51c8-9376-b9ab39fbbca0,Tencent Holdings Ltd,0700,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_c68ee739-d4dd-5667-8a6f-13192ed7a6cc,Fiverr International Ltd,FVRR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_c864ecb9-9c8f-51c3-908b-f06268302528,Doximity Inc,DOCS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_c98b03ab-c85e-5bc0-8555-96e6249733e7,Evolution AB (publ),EVO,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_c9a7904f-50b6-57be-a2ec-7c50f3162c70,Deere & Company,DE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_cb34a8e2-2d14-5a05-851c-a3de26c82e84,Infineon Technologies AG,IFX,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_cdc413d2-1e92-5151-9d6b-1cbb7c013976,"Moderna, Inc.",MRNA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_ce52977e-d094-577a-b8ce-6d4a33b46832,Kuaishou Technology,1024,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_cf11e8df-1714-520f-a1e9-cfaa0439b486,Samsung Electronics Co Ltd,005930,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_cfe51880-dd08-5db8-9534-d55ddcbb8a18,BYD Electronic International Co Ltd,0285,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_d0e52831-27bf-5496-8ea8-205972891f93,Edenred SA,EDEN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_d0e6c420-61a9-5220-9575-e2d844908589,Sage Group PLC,SGE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_d12814c3-73ac-5e69-8ffb-de8a945b8357,Amprius Technologies Inc.,AMPX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_d1faf0de-bcdf-5295-8684-9aa04dc9827b,"Virgin Galactic Holdings, Inc.",SPCE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_d2392226-825a-538b-a80b-e76d223ad92c,JFrog Ltd,FROG,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_d2c1c051-e118-590b-b120-7ae9b496652e,Nestlé S.A.,NESN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_d3232e9c-432e-5a27-a286-7ab5401f97b9,Xiaomi Corp,1810,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_d4d6e071-ca11-593f-b0aa-ca765fa9a008,Thales S.A.,HO,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_d573891f-97f3-5a8e-8b19-5db704eef9c9,Medtronic plc,MDT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_d620e41c-a941-50d1-953a-a198ca15eb5f,Ginkgo Bioworks Holdings Inc,DNA,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_d62d0544-c7ef-5aac-89a3-9c2c26cb704d,TransMedics Group Inc,TMDX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_d7aa340b-cc07-5c11-bd9d-f3ff398cf5c2,The Progressive Corporation,PGR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_d8c098bb-8cd8-5dc4-a9b4-cba2074b110d,Eaton Corporation plc,ETN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_da418b65-ebd9-54c4-b540-2cc04109c57c,Intuit Inc,INTU,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_da8712ca-addc-5ecc-b8fd-9c54f75c71f6,"PayPal Holdings, Inc.",PYPL,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_db3796fa-dbad-5c17-8c00-563cc1f2da1b,"Gilead Sciences, Inc.",GILD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_db3bd955-d757-5d5e-9a1b-86d949839fd9,Sandvik AB,SAND,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_db49741d-aa9e-525e-92e4-4b0b4f0bda19,Costco Wholesale Corporation,COST,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_db63c64a-5406-5b81-9b96-959ac4a9962b,Nemetschek AG O.N.,NEM,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_db854dfc-1804-5019-afe5-223ef5e047fd,Geberit AG,GEBN,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_db8be0ab-5c67-5565-ad17-12673dfde07e,Ast Spacemobile Inc,ASTS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_dc24e91f-dad1-58c2-87c5-0d5af260cc83,Atlas Copco AB Series A,ATCO-A,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_dcbb9c53-9bbd-5014-b7df-2706e84c7bb6,Snowflake Inc.,SNOW,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_de594ded-d268-5e4f-99b8-1012df045ef0,Hyundai Motor Co. Ltd.,005380,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_de703932-c64c-5c0f-b762-64317187ac78,Union Pacific Corporation,UNP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_e012cdce-768d-50c7-bb25-1ff8a901546c,Alphabet Inc. Class C,GOOG,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_e0bdec68-aad4-5c66-9fcb-b4d41ec73ce9,Reliance Industries Limited,RELIANCE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-01,89,7,10,True,True,True
+6,equity_e0d28302-0a41-5c80-9674-41f8e243b826,"NextEra Energy, Inc.",NEE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_e0efbf2a-5587-5503-9a92-3cbe966529f9,"Zillow Group, Inc.",Z,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_e0f8864a-b6fa-5577-9967-4fb9abd63006,Core Scientific Inc,CORZ,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_e0fcc553-0791-5581-a0f1-e1a1e5f92964,Hermes International SCA,RMS,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_e159b6d2-aa08-54db-9484-af8443d74188,UCB SA,UCB,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_e1b1eb2c-cfa4-53b8-a488-5ca014963414,PetroChina Company Limited,0857,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_e2379ea8-6a57-5013-be82-8037aafa519d,SAP SE,SAP,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_e3159bf8-928e-5abf-bf08-c16b441fd4a5,Rubrik Inc.,RBRK,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_e33a8f41-3166-50cb-a503-35881a40f87b,Danaher Corporation,DHR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_e3473b64-4b40-506c-a5e7-445ee72d4337,S&P Global Inc.,SPGI,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_e3d28f87-c787-5305-999f-1389f1a9896b,Airbus SE,AIR,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_e575933a-1490-5bf1-9c5e-635db20b4cac,Innovent Biologics Inc,1801,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_e5bc02f3-153b-5ec8-8cd6-db352bba01db,Plug Power Inc.,PLUG,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_e697f4ef-81d4-5075-9989-d3da9a43c5c8,ASSA ABLOY AB,ASSA-B,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_e75be6eb-3561-558b-b260-c205c7e9c60f,Siemens Aktiengesellschaft,SIE,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_e7f574a1-3412-5dbe-9250-b1b3f8332da0,Symbotic Inc,SYM,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_e8f957d7-9738-5810-ac59-6af4850c95c6,Solid Power Inc,SLDP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_ea8243e7-75bd-549b-9ba6-48e03cf982c1,"PepsiCo, Inc.",PEP,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_eaa52f1c-7299-50e8-b69f-30df278129a4,Emerson Electric Co.,EMR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_eb217683-f803-5b98-a357-173c21d56906,Axon Enterprise Inc.,AXON,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_eb4ca0eb-3900-5be1-a809-c716b40fb10f,Walmart Inc.,WMT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_ebfcc30f-5a6c-5d5c-996d-b631de989d6a,SoundHound AI Inc,SOUN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_ec5a39fc-469a-5803-8c4d-1bdfda159876,Safran SA,SAF,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_ecd65b79-da39-564e-8194-048879286eac,Uber Technologies Inc,UBER,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_ef7c9957-bef7-59ee-ae9e-8438347c031e,Serve Robotics Inc.,SERV,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_ef82c5fa-7d9d-5bd9-8f1f-fde52e1a388b,Hubbell Inc,HUBB,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_efaee6b2-dc0f-5b4f-bbfe-e46fdcfc1620,General Dynamics Corporation,GD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_f02e8014-abbb-5a08-bf80-45a174fe3225,Morgan Stanley,MS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_f07d8826-7230-57a5-888a-89479eb31540,"Regeneron Pharmaceuticals, Inc.",REGN,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_f249c87d-ad66-57a1-8949-95dca1a352ba,Kingdee International Software Group Co Ltd,0268,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_f39e281c-e020-5a97-94c9-8352f25a09f5,"The Goldman Sachs Group, Inc.",GS,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_f477aeb1-d055-5f26-8265-e641f050b330,Upstart Holdings Inc,UPST,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_f648ef52-5189-5867-bc50-d2a5d643523c,"Datadog, Inc.",DDOG,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_f6be6304-76e8-55fb-a5ae-fefcad11d4eb,Samsara Inc,IOT,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_f71be61b-f2c9-5c76-8d38-441026d9f9c6,BYD Company Limited,1211,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_f74bd52b-080c-5f81-a102-ae37e1a87727,IONQ Inc,IONQ,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_f76a49bf-a51d-5907-b65d-d03722366bc5,Victoria's Secret & Co,VSXY,equity,2026-07-05,2026-07-06,2026-09-26,2026-09-25,82,7,10,False,False,False
+6,equity_f7da2b96-30f0-52e7-a846-c33b069a1a84,Chubb Ltd,CB,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_f8251938-9060-5719-abe7-2867292ef656,CNOOC Ltd,0883,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,False,False
+6,equity_f990a311-cb32-5507-944e-641f3c16e0d8,General Electric Company,GE,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_fa46c8b3-24ec-594c-b682-1f81d7c0a065,UnitedHealth Group Incorporated,UNH,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_fa617ef7-a4e9-580e-9819-2f5f6468c0dd,LVMH Moët Hennessy Louis Vuitton SE,MC,equity,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,equity_fa6d1623-8f13-5cd3-bd0d-f2c8798658e5,Enovix Corp,ENVX,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_faaeb60e-64f7-5b37-a928-b84ab0c117ed,Nio Inc Class A ADR,NIO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_faef6935-60d0-576b-bacb-cf1cafea5c70,Archer Aviation Inc,ACHR,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,equity_fb74255e-7cd4-55af-9674-c7db208f3b91,The Sherwin-Williams Company,SHW,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_fc633f29-09e3-5814-a9d1-7b1ce0913f78,Broadcom Inc.,AVGO,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,equity_fca62f3b-28a6-5ba6-904a-dd5aec4bc8d9,"Advanced Micro Devices, Inc.",AMD,equity,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,forex_0b0cf1ef-37c5-589b-a69c-25a149b2d8df,US Dollar / Russian Ruble,USDRUB,forex,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,forex_1167a44f-4357-5097-8020-e497a9853e58,Euro / US Dollar,EURUSD,forex,2026-07-05,2026-07-06,2026-10-03,2026-10-03,89,7,10,True,True,True
+6,forex_2342923a-24bd-5471-ae8a-196c3461c879,British Pound / US Dollar,GBPUSD,forex,2026-07-05,2026-07-06,2026-10-04,2026-10-04,90,7,10,True,True,True
+6,forex_2fffbd8b-d4ab-5b55-80d1-274dde6b2f5a,US Dollar / Japanese Yen,USDJPY,forex,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,forex_e6c66c0e-87f1-548c-90da-44ce67af00fa,US Dollar / Chinese Yuan,USDCNY,forex,2026-07-05,2026-07-06,2026-10-03,2026-10-02,89,7,10,True,True,True
+6,fund_87ebbf0a-2dbc-5747-b0ed-76b37a915d74,ProShares UltraPro QQQ ETF,TQQQ,fund,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,False
+6,fund_99b9d918-5e65-59fc-a559-752a7db77ca7,iShares Russell 2000 ETF,IWM,fund,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
+6,fund_a02b062d-dd40-55e2-8113-721cc3c315af,SPDR S&P 500 ETF Trust,SPY,fund,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,False,False
+6,fund_dd32d893-f4fa-5c0b-90eb-7bb45c79b13d,Vanguard Total Stock Market ETF,VTI,fund,2026-07-05,2026-07-06,2026-10-02,2026-10-02,88,7,10,True,True,True
