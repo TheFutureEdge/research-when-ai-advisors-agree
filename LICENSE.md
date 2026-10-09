@@ -4,7 +4,7 @@ Original manuscript text and original research figures: Creative Commons Attribu
 
 Reproduction code: MIT License, reproduced below.
 
-Derived market variables and realized returns retain any applicable third-party source terms. Their presence in this local author package does not establish permission for unrestricted public redistribution. Raw market-history CSVs are not included. Before a separate public dataset deposit, publish only material whose redistribution rights are established; the original paper, charts, code and model-generated forecasts are distinct from provider-derived price values. No false provider attribution is permitted.
+The public edition excludes raw market-history CSVs and the full market-derived outcome panel. Third-party material retains its own terms. The original model-generated forecast tables, cohort metadata and aggregate research summaries are covered by CC BY 4.0 to the extent of rights held by the author. Public chart display was authorized; that does not grant redistribution rights to underlying market data. No false provider attribution is permitted.
 
 ## MIT License (code)
 

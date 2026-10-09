@@ -6,6 +6,8 @@ Russlan Ramdowar · Future Edge Group FZE / iPulse AI · 9 October 2026
 
 An observational study of 928 completed quarterly forecasts for 232 assets across four production batches. Ten historical Gemini configurations represent seven framework labels. The study separates asset risk, agreement about direction, and precision of forecast magnitude; it does not evaluate current models or the evidence-weighted synthesizer.
 
+Public repository: https://github.com/TheFutureEdge/research-when-ai-advisors-agree
+
 ## Read and inspect
 
 - `When_AI_Advisors_Agree.pdf`: manuscript.
@@ -14,6 +16,8 @@ An observational study of 928 completed quarterly forecasts for 232 assets acros
 - `data/cohort.csv`: 1,227 matched records and primary-cohort membership.
 - `results/`: aggregate estimates, confidence intervals, quartile and selection analyses.
 - `METHODS.md`: timing, grouping, baseline and inference definitions.
+
+Run `python code/validate_public_forecasts.py` to validate all public rows and regenerate the seven-framework summaries in `data/forecast_grouping.csv`. Those summaries use the original generation anchor; outcome evaluation uses the separate market rebasing explained in the manuscript.
 
 ## Reproduction boundary
 

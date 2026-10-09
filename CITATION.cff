@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using these research artifacts."
+title: "When AI Advisors Agree: Distinguishing Forecast Risk from Forecast Reliability"
+type: dataset
+authors:
+  - family-names: Ramdowar
+    given-names: Russlan
+    orcid: "https://orcid.org/0009-0004-9311-6957"
+    affiliation: "Future Edge Group FZE / iPulse AI"
+version: 1.0.0
+date-released: 2026-10-09
+url: "https://github.com/TheFutureEdge/research-when-ai-advisors-agree"
+license: CC-BY-4.0
