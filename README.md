@@ -8,6 +8,8 @@ An observational study of 928 completed quarterly forecasts for 232 assets acros
 
 Public repository: https://github.com/TheFutureEdge/research-when-ai-advisors-agree
 
+Research artifacts DOI: https://doi.org/10.5281/zenodo.23262216
+
 ## Read and inspect
 
 - `When_AI_Advisors_Agree.pdf`: manuscript.
