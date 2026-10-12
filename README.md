@@ -10,6 +10,10 @@ Public repository: https://github.com/TheFutureEdge/research-when-ai-advisors-ag
 
 Research artifacts DOI: https://doi.org/10.5281/zenodo.23262216
 
+Paper: [arXiv:2610.13431](https://arxiv.org/abs/2610.13431) · [arXiv PDF](https://arxiv.org/pdf/2610.13431)
+
+iPulse AI research page: https://ipulseai.com/research/when-ai-advisors-agree
+
 ## Read and inspect
 
 - `When_AI_Advisors_Agree.pdf`: manuscript.

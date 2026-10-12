@@ -12,3 +12,18 @@ date-released: 2026-10-09
 url: "https://github.com/TheFutureEdge/research-when-ai-advisors-agree"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.23262216"
+preferred-citation:
+  type: article
+  title: "When AI Advisors Agree: Distinguishing Forecast Risk from Forecast Reliability"
+  authors:
+    - family-names: Ramdowar
+      given-names: Russlan
+      orcid: "https://orcid.org/0009-0004-9311-6957"
+  year: 2026
+  month: 10
+  journal: "arXiv preprint"
+  url: "https://arxiv.org/abs/2610.13431"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.13431"
+      description: "Permanent arXiv identifier, cs.MA"
