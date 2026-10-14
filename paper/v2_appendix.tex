@@ -1,0 +1,102 @@
+\clearpage
+\section{Framework interpretation and historical modes}\label{app:frameworks}
+The following short descriptions explain the platform's configured perspectives; they are not reproductions of every historical prompt. Current framework descriptions cannot certify historical information sets, and persona labels imply no human endorsement. A researcher mode organizes evidence and a thinker mode adds a differently configured reasoning perspective; their effects were not randomized or independently isolated here. Exact archived technical mode strings, including configured creativity/thinking suffixes, and model-version labels remain in the public forecast CSV.
+\begin{table}[H]
+\centering\small
+\begin{tabular}{p{.23\linewidth}p{.24\linewidth}p{.43\linewidth}}
+\toprule
+Neutral name & Archive label & Interpretation\\
+\midrule
+Paradigm shift & Elon Musk & Technology adoption, disruption, and execution constraints.\\
+Contrarian forensic & Michael Burry & Downside asymmetry, balance-sheet fragility, and accounting risk.\\
+Power audit & Niccolo Machiavelli & Incentives, control, counterparties, and distribution of economic rents.\\
+Forensic deduction & Sherlock Holmes & Evidence chains, inconsistencies, and competing explanations.\\
+Economic machine & Ray Dalio & Macro cycles, liquidity, debt, and regime transmission.\\
+Civilizational compute & Superintelligence & Compute and energy constraints across long-term system transitions.\\
+Value ownership & Warren Buffett & Durable cash generation, competitive moats, and valuation discipline.\\
+\bottomrule
+\end{tabular}
+\caption{Explanatory framework map. Descriptions summarize configured perspectives, not historical human decisions.}
+\end{table}
+\section{Additional v2 diagnostics}\label{app:diagnostics}
+\begin{table}[H]
+\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Comparator & MAE (pp) & Excess (pp) & Direction\\
+\midrule
+No change & 14.99 & 0.00 & 2.48\%\\
+Council mean & 15.15 & 0.16 & 48.38\%\\
+Council median & 15.13 & 0.14 & 51.94\%\\
+Repeat prior 60-observation return & 25.47 & 10.49 & 42.13\%\\
+\bottomrule
+\end{tabular}
+\caption{Unfitted benchmark diagnostics on 928 outcomes. No-change direction is always flat under the three-category sign rule, not the always-up benchmark. Momentum is an intentionally simple comparator with a different lookback length.}
+\end{table}
+\begin{table}[H]
+\centering\small
+\begin{tabular}{lrr}
+\toprule
+Framework & MAE (pp) & Direction\\
+\midrule
+Paradigm shift & 15.76 & 49.78\%\\
+Contrarian forensic & 17.01 & 47.84\%\\
+Power audit & 15.64 & 51.72\%\\
+Economic machine & 15.17 & 50.11\%\\
+Forensic deduction & 15.93 & 47.95\%\\
+Civilizational compute & 15.17 & 49.78\%\\
+Value ownership & 15.08 & 49.89\%\\
+\bottomrule
+\end{tabular}
+\caption{Per-framework point forecasts, averaged across retained modes before scoring. These descriptive comparisons are not model-provider rankings.}
+\end{table}
+\begin{table}[H]
+\centering\small
+\begin{tabular}{lrrrr}
+\toprule
+Variable (pp unless noted) & Minimum & Median & 95th pct. & Maximum\\
+\midrule
+Absolute council forecast & 0.01 & 3.16 & 11.35 & 22.24\\
+Realized return & -52.10 & 0.83 & 40.57 & 205.78\\
+Council dispersion & 0.22 & 3.87 & 9.26 & 17.83\\
+Horizon-scale historical risk & 1.21 & 17.71 & 40.45 & 62.23\\
+Horizon (calendar days) & 71.00 & 88.00 & 90.00 & 91.00\\
+\bottomrule
+\end{tabular}
+\caption{Distribution summaries of the 928 primary records.}
+\end{table}
+\begin{table}[H]
+\centering\small
+\begin{tabular}{lrrrrr}
+\toprule
+Subset & Records & Mean risk & Mean spread & Mean momentum & MAE\\
+\midrule
+Primary balanced & 928 & 20.61 & 4.41 & 4.34 & 15.15\\
+Other valid-risk matched & 293 & 27.78 & 5.54 & 7.92 & 17.00\\
+\bottomrule
+\end{tabular}
+\caption{Retained versus excluded valid-risk records; variables and MAE are in pp. The excluded set has 293 records across 141 assets, rather than four observations per asset. Differences describe selection and do not establish its cause.}
+\end{table}
+The six matched records without valid risk comprise five flagged split-suspect histories and one other unavailable-risk record. They are distinct from the 15 incomplete configuration groups excluded before matching. Primary entry delays are one day for 515 records, two for 202, and three for 211. Daily-history availability and the split heuristic are recorded rather than attributed to delisting without evidence. Asset-class by quartile and selector counts appear in \texttt{results\_v2.json}; the expanded valid-risk set contains 1,221 records for 373 assets.
+
+The original adjusted design has 928 observations and 12 parameters including intercept, three batch indicators, four asset-class indicators, and four continuous terms. Its condition number is 24.88; continuous-term variance inflation factors range from 1.33 to 2.84. The v2 signed-momentum sensitivity adds standardized $\operatorname{asinh}(\text{momentum}/10)$, giving 13 parameters. Its disagreement coefficient is 0.008 [$-0.071$, 0.083] for $\log(1+E)$ ($R^2=0.178$), and $-0.077$ pp [$-0.620$, 0.451] for excess error ($R^2=0.057$). The original model has $R^2=0.174$ for log error and $R^2=0.057$ for excess error; the companion reports all coefficients. Sparse asset classes and resamples without a class limit interpretation of class coefficients; these are not validated error predictors.
+
+Empirical coverage of the council mean plus/minus one, two, and three times framework spread is 21.34\%, 38.25\%, and 53.77\%. These are observed coverages of specified intervals, not nominal Gaussian confidence levels, and no calibrated predictive distribution is inferred. Multiple exploratory analyses increase the opportunity for favorable patterns. All tested thresholds and selectors are reported; none is claimed to have been chosen on an untouched test set.
+
+\begin{table}[H]
+\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Omitted batch & Mean-sign gap & Modal gap & Excess-error Q4--Q1\\
+\midrule
+3 & 13.55 & 2.86 & -0.59\\
+4 & 7.07 & -1.89 & -0.35\\
+5 & 6.56 & -4.37 & -0.59\\
+6 & 9.41 & -0.62 & -0.53\\
+\bottomrule
+\end{tabular}
+\caption{Leave-one-batch-out point sensitivities. Accuracy gaps are high-minus-lower agreement in percentage points; excess-error gaps are pp. These overlapping subsets are not independent validation samples.}
+\end{table}
+\paragraph{Reconstruction boundary.} \texttt{reconstruct\_panel.py} accepts the public original-anchor forecasts, cohort metadata, and a compatible external market-input table. The recipe specifies anchor-to-entry conversion, outcome dates, price-only native-currency returns, pre-issue historical windows, and split handling. The public edition includes a synthetic fixture and a schema, not the licensed input rows. The adapter was checked against the private frozen derived panel; this is author-side validation, not independent external replication. Without compatible original anchor prices, histories, and corporate-action conventions, substituting a different price feed can change the estimand and results.
+
+\paragraph{Version record.} V2 adds modal voting, ties and threshold diagnostics, resampled-rank selection, scale-aware losses, dependence matrices, period sensitivities, cohort diagnostics, and an external-input adapter. The outcome cutoff, eligible configuration set, and primary cohort remain unchanged. Original fixed-membership calculations retain seed 20261009; resampled-rank and signed-momentum diagnostics use seed 20261014. No new model invocation, retrospective prompt regeneration, or extension to the immature Batch 7 is part of this revision.

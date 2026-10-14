@@ -16,11 +16,11 @@
 \newcommand{\pp}{\text{pp}}
 \title{When AI Advisors Agree:\\Distinguishing Forecast Risk from Forecast Reliability}
 \author{Russlan Ramdowar\\\small Future Edge Group FZE, United Arab Emirates\\\small iPulse AI\\\small\texttt{russlan@ipulseai.com}\\\small ORCID: \href{https://orcid.org/0009-0004-9311-6957}{0009-0004-9311-6957}}
-\date{9 October 2026}
+\date{14 October 2026 (version 2)}
 \begin{document}
 \maketitle
 \begin{abstract}
-If seven AI advisors give similar forecasts, should we trust them more? Agreement can indicate useful shared evidence, but it can also reflect an asset that was easier to forecast in the first place. We examine this distinction using 928 completed first-quarter forecasts for 232 assets across four production batches of iPulse AI. Ten historical Gemini configurations are grouped into seven investment frameworks; their archived forecasts are compared with later market outcomes, without generating new reports. Mean absolute return error rises from 10.31 percentage points in the lowest-disagreement quartile to 21.05 in the highest. Yet a forecast of no price change shows almost the same increase, from 9.89 to 21.15. The relationship between disagreement and additional forecast error is not resolved after accounting for visible asset risk. Retaining the quarter of forecasts with lowest historical volatility produces lower error than retaining those with least disagreement: 7.97 versus 10.31 percentage points. Agreement about direction behaves differently. When at least six of seven frameworks share a direction, directional accuracy is higher, but return-magnitude error is also larger. These results distinguish three questions often collapsed into one confidence score: how risky the asset is, whether advisors agree on its direction, and how precisely they forecast its return. For this historical council, agreement is informative in specific ways; it is not a general certificate of forecast reliability.
+If seven AI advisors agree, what have we learned: that their forecast is reliable, or that the asset is easier to forecast? We examine 928 completed first-quarter outcomes for 232 assets across four historical iPulse AI batches. Ten Gemini configurations form seven equally weighted investment frameworks; no forecasts are regenerated. The council has mean absolute return error of 15.15 percentage points (pp), versus 14.99 for no change, with an unresolved paired difference of +0.16 pp. Error rises from 10.31 to 21.05 pp across disagreement quartiles, but the no-change baseline rises almost identically, from 9.89 to 21.15. In the pooled archive, selecting the lowest-volatility quarter produces lower error than selecting the least-disagreeing quarter: 7.97 versus 10.31 pp. Directional agreement introduces a second trap: its apparent value depends on the aggregation rule. When at least six of seven frameworks share a direction, the sign of their mean return is correct in 53.21\% of cases, versus 44.11\% with lower agreement. Scoring the modal direction instead changes the lower-agreement accuracy to 54.27\%, removing that positive contrast. Recomputed-rank bootstraps, scale-aware losses, and period sensitivities qualify these descriptive results; four overlapping periods cannot establish future-regime performance. Agreement, visible asset risk, and aggregation-specific skill should be evaluated separately before consensus is presented as confidence.
 \end{abstract}
 
 \section{Introduction}
@@ -32,7 +32,7 @@ This paper tests that distinction in the ordinary production archive of iPulse A
 
 We analyze four batches issued between April and July 2026. The central comparison asks whether forecast dispersion predicts error \emph{beyond} what is already visible in an asset's price variability and in a no-change baseline. We then distinguish agreement about numerical returns from agreement about up, flat, or down. These are related signals, but they answer different questions.
 
-The contribution is an auditable outcome study with three connected results. First, a strong raw relationship between council disagreement and return error is largely mirrored by a simple baseline. Second, selecting forecasts by historical volatility performs better than selecting them by raw disagreement in this sample. Third, directional agreement has a positive association with directional accuracy while failing to identify more precise return estimates. Together, these findings show why a single agreement score can hide materially different notions of reliability.
+We use \emph{reliability} as a question to be tested, not a single measured property. Raw return error measures numerical precision; error relative to a baseline measures incremental skill; directional accuracy measures up/flat/down classification. None establishes probabilistic calibration. The contribution is a historical outcome study with three connected results: the disagreement--error gradient is largely mirrored by a no-change baseline; historical volatility selects lower-error forecasts than raw disagreement; and the apparent directional benefit of agreement depends on how framework forecasts are aggregated. Public forecasts and aggregate diagnostics support inspection of these claims, while full outcome replication requires compatible authorized market inputs.
 
 \section{Related work}
 The distinction between disagreement and uncertainty predates language models. Lahiri and Sheng \cite{lahiri2010} show, under their forecasting model, that dispersion among forecasters does not capture all uncertainty associated with future common shocks. Glas \cite{glas2020} documents that the disagreement--uncertainty relationship depends on the forecast setting and how the quantities are measured. Our study brings this concern into an operational AI council: a forecast-spread signal should be tested against ordinary, observable task risk before it is interpreted as model-specific confidence.
@@ -43,30 +43,32 @@ ForecastBench \cite{karger2024} emphasizes forecasts about genuinely future even
 
 Selective prediction studies the tradeoff between retaining more predictions and accepting more error \cite{elyaniv2010}. We use retention curves descriptively: how much error remains when a rule keeps only a specified fraction of forecasts? We do not transfer selective-classification guarantees to market returns. Finally, point-forecast evaluation requires attention to the forecast functional and scoring rule \cite{gneiting2011}. Our arithmetic council mean is evaluated under absolute error as a practical decision loss; it is not asserted to be an optimal conditional median. A median-aggregation sensitivity check addresses this choice.
 
+Christoffersen and Diebold \cite{christoffersen2006} distinguish conditional-mean, sign, and volatility forecastability and show how sign dependence can arise through volatility dynamics. This supports evaluating direction separately from return magnitude; it does not validate our particular council. Scale-aware evaluation also has a forecasting literature \cite{hyndman2006}. Our $E/V$ diagnostic uses historical volatility, not the naive-error denominator of mean absolute scaled error, and should not be called MASE.
+
 \section{Study setting and cohort}
 \subsection{A fixed historical council}
-The frozen evaluation archive has an outcome cutoff of 8 October 2026. We use native first-quarter forecasts from Batches 3--6, rather than daily refreshes, partially completed paths, or longer horizons. Batch 7, issued in September, is excluded because its native first-quarter targets had not matured at the cutoff. Earlier batches are excluded from the primary panel because their coverage and horizon representations are not comparable to the selected four-batch council.
+The frozen evaluation archive has an outcome cutoff of 8 October 2026. Its individual-forecast extraction covers Batches 3--7. We use completed native first-quarter forecasts from Batches 3--6, rather than daily refreshes, partially completed paths, or longer horizons. Batch 7, issued in September, is excluded because its native first-quarter targets had not matured. Batches 1--2 are outside this comparable ten-configuration extraction, not additional matched cohorts rejected on forecast performance; this study does not quantify their outcome attrition.
 
 The eligible set contains ten configurations representing seven frameworks (Table~\ref{tab:frameworks}). These are platform persona labels for configured AI research perspectives, not forecasts made or endorsed by the named individuals. Four frameworks have a researcher mode; the other three have researcher and thinker modes. We first average modes within each framework, then average the seven framework forecasts. This gives each framework equal weight and prevents those with two modes from receiving twice the influence.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \begin{tabular}{llr}
 \toprule
 Framework label & Historical modes retained & Configurations\\
 \midrule
-Elon Musk & Researcher & 1\\
-Michael Burry & Researcher & 1\\
-Niccolo Machiavelli & Researcher & 1\\
-Sherlock Holmes & Researcher & 1\\
-Ray Dalio & Researcher; thinker & 2\\
-Superintelligence & Researcher; thinker & 2\\
-Warren Buffett & Researcher; thinker & 2\\
+Paradigm shift & Researcher & 1\\
+Contrarian forensic & Researcher & 1\\
+Power audit & Researcher & 1\\
+Forensic deduction & Researcher & 1\\
+Economic machine & Researcher; thinker & 2\\
+Civilizational compute & Researcher; thinker & 2\\
+Value ownership & Researcher; thinker & 2\\
 \midrule
 Total & Seven framework perspectives & 10\\
 \bottomrule
 \end{tabular}
-\caption{Fixed historical council. All configurations use archived Gemini model versions. Framework diversity is not provider diversity or statistical independence.}
+\caption{Fixed historical council, with neutral framework names. Appendix~\ref{app:frameworks} maps archive labels and explains the perspectives. All configurations use archived Gemini versions; framework diversity is not provider diversity or statistical independence.}
 \label{tab:frameworks}
 \end{table}
 
@@ -114,7 +116,7 @@ Directional agreement is measured separately. A return above $+0.5$ pp is up, be
 \begin{equation}
 A_{ab}=\max_{c\in\{-1,0,1\}}\frac{1}{J}\sum_{j=1}^{J}\mathbf{1}\{s(p_{abj})=c\}.
 \end{equation}
-High directional agreement means $A\geq6/7$. Directional accuracy evaluates the sign of the \emph{council mean}, not the modal framework sign. An extreme forecast can therefore make the two disagree. We compare directional accuracy with an always-up baseline; predicting no change is the appropriate separate baseline for return error.
+High directional agreement means $A\geq6/7$. We evaluate two predictions separately: the sign of the \emph{council mean} and the \emph{modal framework direction}. For modal ties we fall back to the mean sign, and also report accuracy after excluding ties. Mean and modal direction need not coincide. We compare both with an always-up directional baseline; no change is the separate return-error baseline. V2 adds the modal sensitivity to the original mean-sign analysis rather than selecting a better-performing rule retrospectively.
 
 \subsection{Visible asset risk}
 Historical volatility is computed from the most recent 60 observed daily log returns before generation, requiring at least 45 observations. Recorded active splits are incorporated into the historical returns. A conservative check excludes histories with an unsupported large split adjustment; 20- and 90-observation windows provide sensitivity comparisons.
@@ -128,19 +130,26 @@ where $h$ is the number of calendar days from entry to target, and $n_a$ is 365 
 \subsection{Comparisons and uncertainty}
 We assign disagreement quartiles \emph{within each batch}, so a change in the overall forecast scale cannot alone create the pooled gradient. Each primary quartile contains 58 assets per batch, or 232 outcomes. We also form five within-batch volatility groups and compare lower and higher disagreement within each group.
 
-The adjusted model relates $\log(1+E)$ to historical volatility, absolute forecast magnitude, absolute historical momentum, and disagreement, with batch and asset-class indicators. Continuous predictors are transformed and standardized; exact definitions appear in Appendix~\ref{app:reproduce}. A second model uses $\Delta E$ as the response. These controls test conditional associations in this sample. They do not identify a causal effect of disagreement, remove all risk, or establish the absence of a small useful signal.
+The adjusted model relates $\log(1+E)$ to historical volatility, absolute forecast magnitude, absolute historical momentum, and disagreement, with batch and asset-class indicators. The logarithm reduces the influence of very large errors and defines an association on a transformed scale; it is not equivalent to modeling MAE. Continuous predictors are transformed and standardized; exact definitions appear in Appendix~\ref{app:reproduce}. A second model uses $\Delta E$ as the response; v2 also fits untransformed $E$ as a sensitivity. These controls test conditional associations, not a causal effect, complete risk removal, or absence of a small useful signal.
 
-For selective evaluation, we retain the lowest 25\%, 50\%, 75\%, or 100\% of scores within each batch and measure subsequent error among those retained. The selectors are $D$, $V$, and $D/V$. These are descriptive coverage comparisons, not an investment backtest: they contain no position sizing, execution, transaction costs, or utility objective.
+For selective evaluation, we rank $D$, $V$, and $D/V$ within each batch. V2 expands the original 25/50/75/100\% comparisons to 5\% increments and adds a residual-spread diagnostic: residuals from within-batch OLS of $\log(1+D)$ on an intercept and $\log V$. This uses no outcome labels but fits the observed cross-section, so it is not a validated deployment policy. We also report mean $E/V$ and the pooled skill ratio $1-\sum E/\sum E^0$. The latter avoids unstable per-record ratios when $E^0$ approaches zero. These descriptive coverage comparisons contain no position sizing, execution, transaction costs, or utility objective.
 
-We report pointwise 95\% percentile intervals from 5,000 asset-cluster bootstrap draws, resampling entire assets with their four outcomes together. Regression intervals use 2,000 draws. Paired contrasts use the same cluster draws for both groups or selectors. Intervals condition on the archived observations and fixed rank membership. They account for repeated assets, but not fully for common market shocks across assets or the four overlapping periods. They are neither simultaneous intervals nor prospective performance guarantees.
+We report pointwise 95\% percentile intervals from 5,000 asset-cluster bootstrap draws, resampling entire assets with their four outcomes together. Regression intervals use 2,000 draws. Paired contrasts use the same draws. The original fixed-membership intervals describe the selected archived groups. A second bootstrap recomputes within-batch ranks and retained membership in every sampled asset population, addressing selection-rule variability under asset resampling. Both condition on these four observed periods; neither represents arbitrary common market shocks or new regimes. We therefore report period-specific and leave-one-batch-out point sensitivities, rather than treating four overlapping batches as sufficient for reliable two-way-cluster inference. Intervals are pointwise, exploratory, and not multiplicity-adjusted. A further sensitivity resamples 16 whole equity-sector/non-equity-class blocks with all their assets and periods. This grouping preserves within-block dependence, holds archived ranks fixed, and uses frozen metadata; it cannot capture a shock shared by every group or provide future-regime inference.
 
 \section{Results}
+\subsection{Establishing the council's overall skill}
+Across the full panel, council MAE is 15.15 pp versus 14.99 pp for no change. The paired difference is +0.16 pp [$-0.23$, 0.56]. Council mean-sign accuracy is 48.38\%, compared with 50.75\% for always up. These comparisons provide no clear evidence of an overall advantage under the chosen losses; they do not establish equivalence or evaluate qualitative research. Median aggregation has MAE 15.13 pp. Averaging the seven separate framework MAEs gives 15.68 pp, and individual framework MAEs range from 15.08 to 17.01 pp. Aggregation improves on the average member descriptively, but that is a different comparison from improving on a simple baseline.
+
+Forecast magnitude matters for interpreting excess error. The median absolute council forecast is 3.16 pp (mean 4.20), while realized returns range from $-52.10$ to +205.78 pp. The reverse triangle inequality gives $|E-E^0|\leq|\bar p|$: forecasts close to zero necessarily produce losses close to no change. This does not force a zero difference or invalidate the benchmark, but limits how much incremental loss separation these forecasts can exhibit. Forecast--outcome Pearson correlation is 0.027 in this panel. Appendix~\ref{app:diagnostics} reports distributions and framework results.
+
+As an additional unfitted comparator, repeating the preceding 60-observation cumulative return yields MAE 25.47 pp. Its lookback differs from some target lengths and it is neither an optimized momentum model nor a comprehensive finance benchmark. The council's lower loss against this rule cannot substitute for its unresolved difference against no change.
+
 \subsection{The apparent confidence signal mirrors a simple baseline}
 Numerical disagreement strongly separates later absolute error. Mean error rises from 10.31 pp in the lowest-disagreement quartile to 21.05 pp in the highest (Figure~\ref{fig:quartiles}). The high-minus-low gap is 10.74 pp, with a 95\% interval of [7.11, 14.78]. Viewed alone, this looks like a useful confidence signal.
 
 The no-change baseline, however, rises almost identically: 9.89 pp to 21.15 pp. Its high-minus-low gap is 11.26 pp [7.82, 15.10]. The corresponding gap in error \emph{beyond the baseline} is $-0.52$ pp [$-1.74$, 0.69]. Thus, the raw gradient does not establish that low disagreement identifies greater council skill. Much of the separation also describes how far prices subsequently move from their starting values.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \begin{tabular}{lrrrr}
 \toprule
@@ -162,7 +171,7 @@ Highest & 21.05 & 21.15 & $-0.10$ & 30.03\\
 \label{fig:quartiles}
 \end{figure}
 
-Across the full panel, council MAE is 15.15 pp versus 14.99 pp for no change. The paired difference is +0.16 pp [$-0.23$, 0.56]. Council directional accuracy is 48.38\%, compared with 50.75\% for always up. These aggregate comparisons provide no clear evidence of an overall advantage under the chosen losses. They do not prove that the systems are equivalent, nor do they evaluate the quality of their qualitative research.
+The recomputed-rank bootstrap gives an excess-error gap interval of [$-1.70$, 0.72] pp, compared with [$-1.74$, 0.69] under fixed membership. Accounting for rank selection under asset resampling does not resolve the excess-error gradient. These intervals still condition on the same four periods.
 
 \subsection{Disagreement tracks risk visible before generation}
 The raw gradient has a plausible, observable explanation. Disagreement and historical volatility have within-batch Spearman correlations between 0.56 and 0.69 (Figure~\ref{fig:risk}). Historical volatility also correlates with subsequent council error, more strongly than disagreement does in each of the four batches. Advisors tend to spread their forecasts more widely on assets whose recent price behavior already signals greater variability.
@@ -175,7 +184,7 @@ The raw gradient has a plausible, observable explanation. Disagreement and histo
 
 In the adjusted model, the standardized log-disagreement coefficient for $\log(1+E)$ is 0.006 [$-0.072$, 0.079], while the historical-volatility coefficient is 0.358 [0.259, 0.465]. The disagreement coefficient in the excess-error model is $-0.08$ pp [$-0.63$, 0.42]. These estimates do not resolve an additional association after the specified controls; they are not an equivalence test.
 
-The coarse, less model-dependent comparison gives a similar result. Within volatility groups, higher-disagreement forecasts have a mean error 1.02 pp lower than lower-disagreement forecasts, with an interval spanning both directions [$-3.99$, 1.79]. Their excess-error difference is $-0.31$ pp [$-1.04$, 0.41]. A strong unconditional association is therefore insufficient to justify treating dispersion as a distinct reliability measure.
+The coarse, less model-dependent comparison gives a similar result. Within volatility groups, the higher-minus-lower disagreement mean-error contrast is $-1.02$ pp [$-3.99$, 1.79], spanning both directions. Their excess-error contrast is $-0.31$ pp [$-1.04$, 0.41]. Five risk bins permit comparing spread halves at broadly similar risk while retaining usable cell sizes; four disagreement quartiles summarize the unconditional gradient. Neither scheme eliminates all continuous-risk differences.
 
 \begin{figure}[htbp]
 \centering\includegraphics[width=\linewidth]{figures/06_adjusted_comparison.pdf}
@@ -184,8 +193,10 @@ The coarse, less model-dependent comparison gives a similar result. Within volat
 \end{figure}
 \FloatBarrier
 
-\subsection{A cheaper observable ranks low-error forecasts better}
-Selecting the least-disagreeing quarter of forecasts reduces MAE from 15.15 pp to 10.31 pp. Selecting the lowest-volatility quarter reduces it further, to 7.97 pp (Figure~\ref{fig:coverage}). The paired difference between the volatility and disagreement selectors is $-2.34$ pp [$-4.26$, $-0.80$]. Both rules retain 58 assets per batch, but need not retain the same assets.
+\subsection{Historical volatility selects lower-error forecasts}
+Selecting the least-disagreeing quarter of forecasts reduces MAE from 15.15 pp to 10.31 pp. Selecting the lowest-volatility quarter reduces it further, to 7.97 pp (Figure~\ref{fig:coverage}). The paired difference between the volatility and disagreement selectors is $-2.34$ pp [$-4.26$, $-0.80$] under fixed membership; recomputing selection gives [$-4.34$, $-0.98$]. Both rules retain 58 assets per batch, but need not retain the same assets.
+
+The pooled selector advantage is period-sensitive. Leaving out Batch 3 reduces the volatility-minus-disagreement MAE difference to $-0.02$ pp; omitting Batches 4, 5, or 6 gives $-2.66$, $-3.18$, or $-3.49$ pp. Resampling 16 larger cross-asset sector/class blocks gives an interval of [$-5.68$, $-0.04$] pp under fixed archived selection. This sensitivity preserves more within-group co-movement, but few unequal groups and unchanged market periods limit its interpretation. The pooled advantage should not be presented as stable prospective performance.
 
 This improvement is about selecting easier cases, not demonstrating greater forecasting skill. On the lowest-volatility quarter, no change has MAE 8.00 pp; the council-minus-baseline difference is $-0.03$ pp [$-0.43$, 0.37]. On the least-disagreeing quarter, the council's difference is +0.41 pp. A selection rule can substantially reduce error while leaving the council's advantage over the baseline unresolved.
 
@@ -193,26 +204,34 @@ Dividing disagreement by volatility does not automatically produce a better conf
 
 \begin{figure}[htbp]
 \centering\includegraphics[width=\linewidth]{figures/05_selective_evaluation.pdf}
-\caption{Selective evaluation at equal within-batch coverage. A: absolute error among retained forecasts. B: paired error relative to no change, with pointwise cluster intervals. At 100\% all rules retain the same panel. The rules require no fitted outcome labels; their evaluation is retrospective.}
+\caption{Selective evaluation at equal within-batch coverage. A: absolute error among retained forecasts. B: paired error relative to no change. Points are observed estimates at 5\% coverage increments; these curves have no uncertainty bands. Paired selector intervals are reported in the text. At 100\% all rules retain the same panel. The rules require no fitted outcome labels; their evaluation is retrospective.}
 \label{fig:coverage}
 \end{figure}
 
-\subsection{Agreement about direction is a different signal}
-High directional agreement occurs in 436 outcomes; the other 492 have fewer than six frameworks sharing a direction. Council directional accuracy is 53.21\% in the high-agreement group versus 44.11\% in the other group (Figure~\ref{fig:direction}). The difference is 9.11 percentage points [3.03, 15.22]. The corresponding contrast in accuracy relative to always up is 11.39 points [1.95, 20.96]. The descriptive association is therefore not explained simply by there being more upward outcomes in the high-agreement group.
+\subsection{Directional agreement depends on the aggregation rule}
+High agreement occurs in 436 outcomes; the other 492 have fewer than six frameworks sharing a direction. For the sign of the arithmetic mean, accuracy is 53.21\% versus 44.11\%, a +9.11-point contrast [3.03, 15.22]. But agreement itself counts categorical votes, while the arithmetic mean also gives large numerical forecasts more influence. These are distinct ways to turn the same council into a prediction.
 
-Return precision moves in the opposite direction. The high-agreement group has MAE 16.84 pp, compared with 13.65 pp in the other group: a difference of +3.19 pp [0.73, 5.80]. Six advisors can agree that a price will rise while disagreeing substantially about how much, or while jointly misjudging its magnitude. Numerical dispersion and directional concordance should not be used interchangeably.
+Scoring the modal direction leaves high-agreement accuracy at 53.21\% but raises lower-agreement accuracy to 54.27\% (Figure~\ref{fig:direction}). The contrast becomes $-1.06$ points [$-7.53$, 5.30]. In 108 of 901 untied cases the mean and modal predictions differ; all 108 are in the lower-agreement group. There are 27 modal ties. Excluding those ties gives lower-agreement modal accuracy of 55.91\% on 465 outcomes. No mean/modal mismatch occurs among the 436 high-agreement outcomes. Thus, the original positive association describes \emph{mean-sign accuracy}, not a general benefit of agreement for majority-vote direction.
 
-This is a secondary, exploratory finding under an explicit threshold. The unadjusted association may reflect asset composition and trend conditions. It supports further testing of direction-specific confidence, not a claim that 53.21\% is a calibrated probability or that the rule is profitable. It has not been validated on an untouched subsequent batch.
+Return magnitude supplies another distinct estimand. Council/no-change MAEs are 16.84/16.42 pp under high agreement and 13.65/13.71 under lower agreement. The high-minus-lower \emph{raw} error difference is +3.19 pp, but the difference in \emph{excess} error is only +0.48 pp [$-0.26$, 1.23]. Larger raw error therefore does not establish worse baseline-relative skill, just as the directional contrast does not establish better numerical precision.
 
 \begin{figure}[htbp]
 \centering\includegraphics[width=\linewidth]{figures/07_direction_vs_magnitude.pdf}
-\caption{Directional concordance does not imply numerical precision. A: council directional accuracy and the always-up baseline. B: return MAE and no-change MAE for the same groups. Council error bars are pointwise asset-cluster 95\% intervals; baseline markers show estimates.}
+\caption{Two aggregation rules, two directional conclusions. A: mean-sign and modal-direction accuracy for the same agreement groups; modal ties fall back to mean sign. B: paired council-minus-no-change MAE, rather than visually inferred differences between raw-loss markers. Bars are pointwise asset-cluster 95\% intervals, conditional on the observed periods.}
 \label{fig:direction}
+\end{figure}
+
+The positive mean-sign contrast is heterogeneous: $-2.99$, +16.09, +17.18, and +7.72 points in Batches 3--6. Modal contrasts are $-11.46$, +2.76, +9.24, and $-2.90$ points (Figure~\ref{fig:periods}). Leaving out one batch gives mean-sign contrasts from +6.56 to +13.55 points, but modal contrasts from $-4.37$ to +2.86. Coarse comparisons within five risk groups per batch give population-size-weighted contrasts of +8.94 points for mean sign and $-0.72$ for modal direction; signed-momentum groups give +9.68 and $-0.04$. These are descriptive strata averages, not causal adjustment or new significance tests. Equity-only and expanded-cohort results, confusion matrices, all attainable agreement levels, and a complete sign-band/cutoff grid are released. The grid is a sensitivity analysis, not a search for an optimal confidence rule.
+
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{figures/10_period_direction.pdf}
+\caption{Directional association varies across periods and aggregation rules. Each bar is high-minus-lower agreement accuracy within one batch (232 outcomes). These observed-period contrasts have no future-regime uncertainty interpretation.}
+\label{fig:periods}
 \end{figure}
 
 \FloatBarrier
 \subsection{Robustness and variation across batches}
-The central excess-error contrast remains unresolved when we expand coverage to 1,221 outcomes, restrict to equities, require original published-cohort membership, remove the largest 1\% of errors, replace the council mean with its median, or score against the original forecast anchor (Figure~\ref{fig:robustness}). Every corresponding interval spans zero. Alternative spread measures also give unresolved high-minus-low excess-error gaps: +0.11 pp [$-0.92$, 1.17] for the interquartile range and $-0.42$ pp [$-1.46$, 0.61] for median absolute deviation.
+The central excess-error contrast remains unresolved when we expand coverage to 1,221 outcomes, restrict to equities, require original published-cohort membership, remove the largest 1\% of errors, replace the council mean with its median, or score against the archived original anchor (Figure~\ref{fig:robustness}). Every corresponding interval spans zero. The reconstruction audit identifies two Batch 3 commodity records whose forecast rebasing factors differ from the historical outcome-anchor ratios. Restricting to the other 926 records gives an entry-based gap of $-0.51$ pp [$-1.73$, 0.70] and an anchor-based gap of $-0.66$ pp [$-1.86$, 0.49]. The primary entry-based scoring is preserved, while compatible-anchor scoring is reported separately. This distinction prevents silently treating all recorded forecast anchors as identical to daily historical closes. Alternative spread measures also give unresolved high-minus-low excess-error gaps: +0.11 pp [$-0.92$, 1.17] for the interquartile range and $-0.42$ pp [$-1.46$, 0.61] for median absolute deviation.
 
 The lowest-volatility quarter remains a low-error subset with 20- and 90-observation windows: MAE is 7.60 and 7.50 pp, respectively. Their council-minus-no-change differences are small, with intervals spanning zero. Root mean squared errors rise across disagreement quartiles for both the council and baseline as well (Appendix~\ref{app:tables}). Thus, the visible raw gradient is not peculiar to a single absolute-error calculation.
 
@@ -225,10 +244,28 @@ The pooled council--baseline comparison also varies by batch. Batch 3 has counci
 \end{figure}
 \FloatBarrier
 
+\subsection{Scale and framework dependence}
+Scaling each loss by its pre-generation risk measure makes the disagreement-quartile pattern much flatter: mean $E/V$ is 0.722, 0.756, 0.738, and 0.767. The pooled baseline skill ratios are $-4.19$, $-0.36$, $-1.82$, and +0.48\%, respectively (Figure~\ref{fig:scaled}). These dimensionless diagnostics complement rather than replace the common pp loss. Dividing spread by risk, or residualizing it against risk, does not itself provide a calibrated uncertainty measure; their full retention curves are included in the companion.
+
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{figures/11_scale_aware_error.pdf}
+\caption{Scale-aware diagnostics for the same quartiles. A: mean per-record error divided by historical horizon-scale volatility. B: pooled council skill relative to no change, $1-\sum E/\sum E^0$; positive favors the council. Points and bars are descriptive estimates without uncertainty bands.}
+\label{fig:scaled}
+\end{figure}
+
+Pooled pairwise framework forecast correlations range from 0.378 to 0.700 (Figure~\ref{fig:dependence}). They reflect shared assets and conditions as well as potential shared model behavior; they do not isolate independent reasoning or error correlations conditional on context. Within the three two-mode frameworks, mode correlations are 0.505, 0.458, and 0.635. The variance of the mode average is 0.751, 0.729, and 0.817 times the average mode variance. Averaging modes therefore does not empirically halve forecast variance, nor does forecast variance identify a decomposition into signal and noise.
+
+\begin{figure}[htbp]
+\centering\includegraphics[width=.88\linewidth]{figures/09_framework_dependence.pdf}
+\caption{Dependence among framework return forecasts across 928 outcomes. Pearson correlations pool four batches; the companion also supplies matrices within each batch. Neutral names map to historical archive labels in Appendix~\ref{app:frameworks}. Correlation is not a measure of causal independence or model quality.}
+\label{fig:dependence}
+\end{figure}
+\FloatBarrier
+
 \section{What an agreement score should communicate}
 The results suggest separating three concepts in an AI forecasting system. \emph{Asset risk} concerns how variable the outcome may be. \emph{Directional concordance} concerns whether the advisors share an up, flat, or down view. \emph{Return precision} concerns how close their numerical prediction is to the eventual return. A score that blends these concepts can appear predictive while obscuring what it actually predicts.
 
-For this council, historical volatility is a strong first reference for forecast difficulty. Council dispersion adds no clearly resolved relationship with excess error under the tested comparisons. Directional agreement, however, has a positive association with directional accuracy. The conclusion is therefore more specific than ``agreement is useless'': different forms of agreement carry different information, and none should be advertised as universal confidence without further validation.
+For this council, historical volatility is a strong first reference for forecast difficulty. Council dispersion adds no clearly resolved relationship with excess error under the tested comparisons. Directional agreement has a positive association with mean-sign accuracy in the pooled sample, but not with modal-direction accuracy. The conclusion is therefore more specific than ``agreement is useless'': different forms of agreement carry different information, and none should be advertised as universal confidence without further validation.
 
 A sensible next test would freeze the feature definitions and thresholds before a new batch, register the available training labels, and evaluate direction and return losses separately after the native targets mature. If an error predictor is learned, validation must respect both the issue date and the maturity date of every label. A model trained on future-resolved labels cannot be presented as a real-time confidence layer merely because the forecasts themselves were made earlier.
 
@@ -243,19 +280,24 @@ This archive does not contain the consistent predictive distributions needed to 
 
 \paragraph{Exploration and unresolved effects.} The analyses follow an exploratory audit rather than a preregistration. Multiple secondary comparisons are not multiplicity-adjusted. Intervals overlapping zero do not demonstrate equivalence or rule out small useful effects. In particular, the directional-agreement result merits prospective confirmation before it is used as a confidence rule.
 
+\begin{samepage}
 \section{Conclusion}
-In this historical AI council, wider numerical disagreement predicts larger return errors, but nearly the same pattern occurs for a no-change forecast and is strongly associated with visible asset volatility. A simple volatility rule selects lower-error forecasts more effectively than raw disagreement. Agreement about direction has a different association: better directional accuracy, accompanied by larger numerical errors. The practical lesson is to evaluate agreement against the question it is meant to answer. Before calling consensus a confidence signal, establish whether it measures ordinary outcome risk, shared directional judgment, or an actual improvement in forecast reliability.
+In this historical AI council, wider numerical disagreement predicts larger return errors, but nearly the same pattern occurs for a no-change forecast and is strongly associated with visible asset volatility. A simple volatility rule selects lower-error forecasts more effectively than raw disagreement. The positive directional association is specific to the sign of the arithmetic mean; it disappears under modal voting. Overall council MAE remains close to no change, and neither directional concordance nor low numerical spread establishes incremental forecasting skill. The practical lesson is to evaluate agreement against the question it is meant to answer. Before calling consensus a confidence signal, establish whether it measures ordinary outcome risk, shared directional judgment, or an actual improvement in forecast reliability.
 
+\end{samepage}
 \section*{Data, code, and author disclosure}
-The \href{https://doi.org/10.5281/zenodo.23262216}{Zenodo research deposit} (DOI: \href{https://doi.org/10.5281/zenodo.23262216}{10.5281/zenodo.23262216}) and \href{https://github.com/TheFutureEdge/research-when-ai-advisors-agree}{public research repository} contain individual configuration forecasts, cohort metadata, aggregate results, deterministic analysis code, and vector figures. The frozen source-archive fingerprint and extraction rules are documented. The full market-derived outcome panel, raw market-history files, credentials, and operational metadata are excluded from the public release. Recomputing outcome-dependent results requires compatible market inputs obtained under appropriate terms or authorized access to the author-side panel. Historical values come from the iPulse AI market-history archive; no alternative source attribution is implied. Original manuscript, figures, forecast data, and research summaries use CC BY 4.0; code uses MIT. Third-party material retains its applicable terms.
+The \href{https://doi.org/10.5281/zenodo.23373782}{Zenodo research deposit} (DOI: \href{https://doi.org/10.5281/zenodo.23373782}{10.5281/zenodo.23373782}) and \href{https://github.com/TheFutureEdge/research-when-ai-advisors-agree}{public research repository} contain individual configuration forecasts, cohort metadata, aggregate results, deterministic analysis code, and vector figures. The frozen source-archive fingerprint and extraction rules are documented. The full market-derived outcome panel, raw market-history files, credentials, and operational metadata are excluded from the public release. Recomputing outcome-dependent results requires compatible market inputs obtained under appropriate terms or authorized access to the author-side panel. Historical values come from the iPulse AI market-history archive; no alternative source attribution is implied. Original manuscript, figures, forecast data, and research summaries use CC BY 4.0; code uses MIT. Third-party material retains its applicable terms.
 
-The author is the founder of Future Edge Group FZE, which develops iPulse AI, and has a commercial interest in the platform studied. AI systems assisted with research operations, coding, audit, and manuscript preparation. Authorship and responsibility for the final submission remain with the named human author.
+The author is the founder of Future Edge Group FZE, which develops iPulse AI, and has a commercial interest in the platform studied. AI systems assisted with research operations, coding, audit, and manuscript preparation. Authorship and responsibility for the final submission remain with the named human author. The forecasts evaluated here come from historical Gemini configurations; OpenAI Codex assisted with the v2 analysis, code, checks, and manuscript preparation. These roles are distinct, and the revision generates no new forecasts.
 
-\input{references.tex}
+\paragraph{Interpretation of small differences.} Failure to resolve an excess-error effect is not evidence of equivalence. For illustration, the recomputed-rank gap interval [$-1.70$, 0.72] pp extends beyond both $\pm0.5$ and $\pm1$ pp bounds. Although it lies within $\pm2$ pp, that bound was not chosen prospectively and the interval is conditional on observed periods. No practical equivalence claim follows. A future evaluation should predefine its loss, aggregation rule, meaningful effect margin, cohort, and market-period sampling plan; collect additional non-overlapping mature batches; and keep a final period untouched.
+
+\clearpage
+{\small\input{references.tex}}
 \clearpage
 \appendix
 \section{Reproduction and cohort details}\label{app:reproduce}
-The analysis cutoff is 8 October 2026; the manuscript date is 9 October. The input is identified by SHA-256\footnote{\texttt{f4f9510fe0ae2900f124b12e638f06eac073f0397c5646e6dfea62a278555be1}.}. Source extraction selects completed native first-quarter observations in Batches 3--6 with the eligible ten configurations. Matching requires one observation per configuration, identical entry and target dates, a common issue date, finite predictions, and realized returns agreeing to tolerance $10^{-6}$. No forecast is regenerated.
+The outcome cutoff remains 8 October 2026. The original manuscript was dated 9 October; this revision is dated 14 October. No new outcome or forecast generation has been added. The input is identified by SHA-256\footnote{\texttt{f4f9510fe0ae2900f124b12e638f06eac073f0397c5646e6dfea62a278555be1}.}. Source extraction selects completed native first-quarter observations in Batches 3--6 with the eligible ten configurations. Matching requires one observation per configuration, identical entry and target dates, a common issue date, finite predictions, and realized returns agreeing to tolerance $10^{-6}$. No forecast is regenerated.
 
 The expanded matched panel has 242, 307, 303, and 375 outcomes in Batches 3, 4, 5, and 6. The primary panel has 232 in each. The one balanced asset excluded for risk validity contributes four outcomes; its omission is not based on its forecast error. The author-side derived panel preserves exclusion flags and coverage variables for auditing; the public cohort file identifies matched records and primary membership.
 
@@ -265,10 +307,10 @@ For the adjusted model, continuous variables are $\log V$, $\log(1+|\text{moment
 
 A numerical tolerance of $10^{-10}$ pp at the $\pm0.5$ pp sign boundaries prevents floating-point classification artifacts.
 
-For retained fractions, assets are sorted within each batch by score, breaking ties with the stable asset identifier; the retained count is rounded upward. The bootstrap holds this selection membership fixed. For the within-risk contrast, assets are sorted into five approximately equal-sized volatility bins per batch, then split into lower and higher disagreement halves within each bin. These finite-sample comparisons cannot eliminate all continuous-risk differences.
+For retained fractions, assets are sorted within each batch by score, breaking ties with the stable asset identifier; the retained count is rounded upward. The original bootstrap holds this membership fixed; the v2 selection-rule bootstrap rebuilds within-batch ranks after resampling whole assets. Fixed-membership and new-population selection targets are labeled separately. For the within-risk contrast, assets are sorted into five approximately equal-sized volatility bins per batch, then split into lower and higher disagreement halves within each bin. These finite-sample comparisons cannot eliminate all continuous-risk differences.
 
 \section{Additional numerical results}\label{app:tables}
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \begin{tabular}{lrrrrr}
 \toprule
@@ -284,7 +326,7 @@ Batch & Council MAE & No-change MAE & Difference & Direction & Always up\\
 \label{tab:batches}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \begin{tabular}{lrr}
 \toprule
@@ -299,7 +341,7 @@ Highest & 31.14 & 30.63\\
 \caption{Squared-error sensitivity. Both series exhibit increasing error across disagreement quartiles. This table supplies a second loss function, not a fitted probabilistic forecast evaluation.}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \begin{tabular}{lrrr}
 \toprule
@@ -314,5 +356,7 @@ Volatility window & Retained outcomes & Council MAE (pp) & Excess MAE (pp)\\
 \end{table}
 
 \FloatBarrier
-The public CSVs permit checking forecast grouping and cohort membership. \texttt{prepare\_panel.py} documents extraction from the private frozen archive; \texttt{analyze.py} and \texttt{make\_figures.py} require the full derived author-side panel to recompute outcome-dependent tables and figures. That panel is retained privately, together with an executed notebook and independent validation checks. No production service calls or new model generations are required when compatible inputs are available. The public release therefore exposes the forecasts, methods, code, and aggregate findings, but is not a fully self-contained outcome-replication dataset. The arXiv source bundle contains only the manuscript, bibliography, and referenced figures.
+The public CSVs permit checking forecast grouping and cohort membership. The v2 companion adds a documented market-input adapter, aggregate diagnostics, and a change log. Compatible independently sourced inputs may differ from the frozen archive; the adapter is not evidence that an external provider has reproduced these outcomes. \texttt{prepare\_panel.py} documents extraction from the private frozen archive; \texttt{analyze.py} and \texttt{make\_figures.py} require the full derived author-side panel to recompute outcome-dependent tables and figures. That panel is retained privately, together with an executed notebook and independent validation checks. No production service calls or new model generations are required when compatible inputs are available. The public release therefore exposes the forecasts, methods, code, and aggregate findings, but is not a fully self-contained outcome-replication dataset. The arXiv source bundle contains only the manuscript, bibliography, and referenced figures.
+\input{v2_appendix.tex}
+\input{v2_reporting.tex}
 \end{document}

@@ -1,6 +1,6 @@
 # Retrospective study protocol
 
-Recorded 9 October 2026, after the initial exploratory audit. This document is not a preregistration.
+Recorded 9 October 2026, after the initial exploratory audit; extended for version 2 on 14 October. Neither version is preregistered. The outcome cutoff and primary cohort are unchanged.
 
 ## Estimand and cohort
 
@@ -31,7 +31,20 @@ Historical daily log returns incorporate recorded active split ratios. Flag pote
 5. Define direction using >+0.5pp, <-0.5pp, otherwise flat. A 1e-10pp numerical tolerance at the +/-0.5pp boundaries avoids floating-point classification artifacts. Modal agreement is fraction of seven frameworks in the most frequent direction. High agreement means at least six. Evaluate council-mean sign, which need not equal the modal sign. Always up is the direction baseline.
 6. Sensitivities: expanded coverage, equities, original-cohort membership, 1% largest error removal, median aggregation, original-anchor scoring, IQR/MAD spread, RMSE, 20/90-observation volatility.
 
-## Uncertainty and nonclaims
+## Version 2 additions
+
+- Score both mean-sign and modal-direction predictions. Modal ties fall back to mean sign, with a separate no-ties summary. Report bands 0/0.5/1/2 pp, agreement cutoffs 4/5/6/7, all attainable agreement levels, confusion matrices, batch/leave-one-batch-out contrasts, equity/expanded-cohort checks, and population-size-weighted risk and signed-momentum strata comparisons. These are exploratory sensitivities, not threshold optimization.
+- Preserve original fixed-group intervals and add 5,000 asset resamples with within-batch ranks and retained membership recomputed. Seed 20261014; entire four-observation asset clusters share resampling weights. Both targets condition on the observed periods, not future common market shocks.
+- Report 5% retention increments for D,V,D/V and residuals of within-batch log(1+D) on log(V). Residualization uses the full observed cross-section, no outcomes; it is not an untouched prospective validation.
+- Report mean E/V and pooled skill 1-sum(E)/sum(E0), not means of unstable individual E/E0. Add distribution summaries, framework/mode forecast dependence, individual MAE, and an unfitted repeat-prior-60-observation-return comparator with its horizon caveat.
+- Add standardized asinh(momentum/10) to the original adjusted design as a retrospective signed-momentum sensitivity. Use 2,000 draws with seed 20261014; report n, parameter count, R-squared, condition number and continuous VIFs. No fitted model is represented as deployable at past issuance dates.
+- Report empirical coverage of mean +/- kD at k=1,2,3 without assigning nominal Gaussian coverage. Three illustrative practical bounds (0.5,1,2 pp) are retrospective reference values; no equivalence test/claim is used.
+- Compare primary/excluded valid-risk records, class/quartile/selector composition, risk-window selection overlap, and entry delays. Missing-risk and split-quarantine counts remain separate from incomplete configuration exclusions.
+- Distinguish recorded forecast anchor quotes from historical outcome anchor closes. Two primary Batch 3 commodity records have different conversion factors; additionally report entry and original-anchor sensitivities excluding those records. Do not force a shared original anchor basis in the reconstruction adapter.
+
+The executable additions are in `code/analyze_v2.py`, with aggregate outputs in `results/results_v2.json`, `direction_thresholds.csv`, and `risk_coverage_dense.csv`. Public `data/MARKET_INPUT_RECIPE.md` describes the adapter boundary. Fixed-membership calculations below retain their original seed and interpretation.
+
+## Original conditional uncertainty and nonclaims
 
 Seed 20261009. Asset clusters contain all retained observations for an asset. Use 5,000 multinomial whole-asset resamples for means/paired contrasts and 2,000 for regression. Pointwise percentile intervals condition on fixed cohort/rank selections. These are not simultaneous intervals, not common-market-shock robust inference, and not prospective guarantees. Regressions are retrospective; only one preceding primary-panel outcome was available at Batch 6 issue, and none at Batches 4 or 5.
 

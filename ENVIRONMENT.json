@@ -1,9 +1,12 @@
 {
-  "python": "3.12.14",
-  "numpy": "2.3.5",
-  "pandas": "2.2.3",
-  "scipy": "1.18.1",
-  "matplotlib": "3.11.2",
+  "python": "3.12.6",
+  "numpy": "2.4.1",
+  "pandas": "3.0.0",
+  "scipy": "1.16.1",
+  "matplotlib": "3.10.8",
   "compiler": "Tectonic 0.17.0",
-  "seed": 20261009
+  "v1_seed": 20261009,
+  "v2_resampled_rank_and_signed_momentum_seed": 20261014,
+  "outcome_cutoff": "2026-10-08",
+  "version": "2.0.0"
 }

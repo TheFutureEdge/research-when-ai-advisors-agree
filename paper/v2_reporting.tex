@@ -1,0 +1,30 @@
+\section{Inference and reporting details}
+
+Sector/class-block intervals are [3.95, 16.14] points for the mean-sign high-minus-lower accuracy gap and [$-5.92$, 5.93] for the modal-direction gap. The excess-error Q4--Q1 interval is [$-2.32$, 0.95] pp. All 5,000 block draws have nonempty comparison groups. These are a dependence sensitivity, not a correction that makes four common market periods independent.
+
+For the original log-error and excess-error regressions, residual standard errors are 0.889 log units and 5.088 pp. Partial $R^2$ for disagreement is 0.000022 and 0.000134, conditional on the specified other covariates; neither is a causal importance measure. In the raw-error sensitivity the standardized disagreement coefficient is +0.219 pp [$-1.786$, 2.500], with $R^2=0.160$ and residual standard error 16.974 pp. Coefficient intervals remain conditional on observed periods.
+
+Council-minus-no-change RMSE is +1.135, +0.943, +0.598, and +0.511 pp across the four disagreement quartiles. The Q4--Q1 contrast interval is [$-2.05$, 1.04] pp, computed from paired resamples of squared errors followed by square roots. The lowest-quartile difference has an interval [0.061, 1.977] pp, reinforcing that small raw loss in this subset is not the same as beating its baseline under every loss.
+
+The companion's analysis inventory enumerates executed comparisons. V2 reports 16 sign-band/cutoff combinations, each with higher/lower agreement groups, and 80 selector/coverage combinations. They complement the original cohort, spread, aggregation, and risk-window sensitivities; they are not independent replications or a multiplicity-controlled confirmatory family. The study developed through exploratory drafting from one frozen outcome vintage. A prospective specification log was not maintained, so the inventory should not be interpreted as proof that no other exploratory choice was considered.
+
+
+\begin{table}[H]\centering\small
+
+\begin{tabular}{lrrrr}\toprule
+
+Batch & $D$--risk & Risk--error & $D$--error & $D$--excess error\\\midrule
+
+3 & 0.562 & 0.482 & 0.214 & -0.026\\
+
+4 & 0.641 & 0.420 & 0.286 & -0.091\\
+
+5 & 0.689 & 0.307 & 0.236 & -0.025\\
+
+6 & 0.595 & 0.371 & 0.321 & 0.009\\
+
+\bottomrule\end{tabular}
+
+\caption{Within-batch Spearman coefficients in the primary panel. $D$ is numerical disagreement. These rank correlations are descriptive, not causally identified components of uncertainty.}\end{table}
+
+Exact issue, entry, target, and observed dates for every matched record are in public \texttt{cohort.csv}, allowing the timing figure to be checked without price rows. Counts of all nine predicted/outcome sign combinations are in \texttt{results\_v2.json}, including the flat class and modal ties. Regression coefficients and intervals, class/selector composition, risk-window overlap, and expanded/equity-only directional sensitivities are also reported there. Point-estimate tables in the main text are paired with uncertainty plots or released interval tables; no omitted interval is being treated as zero uncertainty.

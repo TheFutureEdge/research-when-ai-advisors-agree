@@ -13,6 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"paper/figures"
 OUT.mkdir(parents=True,exist_ok=True)
 R=json.loads((ROOT/"results/results.json").read_text())
+V2=json.loads((ROOT/"results/results_v2.json").read_text())
 D=pd.read_csv(ROOT/"data/primary_panel.csv")
 BLUE="#175676"; GOLD="#B17C24"; ORANGE="#C55B38"; GREY="#68727B"
 plt.rcParams.update({"font.family":"DejaVu Sans","font.size":11,"axes.labelsize":11,
@@ -102,14 +103,14 @@ def coverage():
     selectors=[("disagreement_pp",BLUE,"Least disagreement","o"),("risk_pp_60",GOLD,"Lowest historical volatility","s"),
                ("normalized_disagreement",ORANGE,"Lowest disagreement / volatility","^")]
     for metric,color,label,marker in selectors:
-        records=[r for r in R["risk_coverage"] if r["selector"]==metric]
+        records=[r for r in V2["risk_coverage_dense"] if r["selector"]==metric]
         x=[r["coverage"]*100 for r in records]
         axes[0].plot(x,[r["error_pp"] for r in records],marker+"-",color=color,label=label,lw=1.8,ms=5)
-        intervals(axes[1],x,[r["excess_error_pp"] for r in records],[r["excess_ci95"] for r in records],color,marker)
+        axes[1].plot(x,[r["excess_error_pp"] for r in records],marker+"-",color=color,lw=1.5,ms=4)
     axes[0].axhline(R["primary"]["error_pp"],color=GREY,lw=1,ls=":")
     axes[1].axhline(0,color=GREY,lw=1,ls="--")
     axes[0].set(ylim=(0,22),ylabel="Mean absolute return error (pp)",title="A. Lower error among retained forecasts")
-    axes[1].set(ylabel="Council error minus no-change error (pp)",title="B. Does selection beat the baseline?")
+    axes[1].set(ylabel="Council minus no-change MAE (pp)",title="B. Does selection beat the baseline?")
     for ax in axes:
         ax.set_xticks([25,50,75,100]); ax.set_xlabel("Forecasts retained within each batch (%)"); ax.grid(axis="y",alpha=.18)
     fig.legend(*axes[0].get_legend_handles_labels(),loc="outside lower center",ncol=1,frameon=False)
@@ -135,19 +136,48 @@ def adjusted():
     save(fig,"06_adjusted_comparison")
 
 def directional():
-    fig,axes=plt.subplots(1,2,figsize=(8,3.6),layout="constrained")
-    records=R["agreement_groups"][::-1]; x=np.array([0,1])
-    intervals(axes[0],x,[r["direction_hit_pct"] for r in records],[r["direction_ci95"] for r in records],BLUE,"o","Council")
-    axes[0].plot(x,[r["always_up_hit_pct"] for r in records],"s--",color=GREY,label="Always up")
-    axes[0].set(ylim=(0,75),ylabel="Correct up / flat / down forecasts (%)",title="A. Directional agreement")
+    fig,axes=plt.subplots(1,2,figsize=(8,3.8),layout="constrained")
+    records=V2["direction"]["groups"]; x=np.array([0,1])
+    for field,color,label,marker,offset in [('mean_accuracy_pct',BLUE,'Sign of mean','o',-.05),('modal_accuracy_pct',GOLD,'Modal direction','^',.05)]:
+        intervals(axes[0],x+offset,[r[field] for r in records],[r[field+'_ci95'] for r in records],color,marker,label)
+    axes[0].plot(x,[r["always_up_pct"] for r in records],"s--",color=GREY,label="Always up")
+    axes[0].set(ylim=(0,75),ylabel="Correct up / flat / down forecasts (%)",title="A. The aggregation rule matters")
     axes[0].legend(frameon=False)
-    intervals(axes[1],x,[r["error_pp"] for r in records],[r["error_ci95"] for r in records],BLUE,"o","Council")
-    axes[1].plot(x,[r["baseline_error_pp"] for r in records],"s--",color=GREY,label="No change")
-    axes[1].set(ylim=(0,25),ylabel="Mean absolute return error (pp)",title="B. Agreement is not return precision")
-    axes[1].legend(frameon=False)
+    intervals(axes[1],x,[r["excess_mae_pp"] for r in records],[r["excess_mae_pp_ci95"] for r in records],BLUE,'o')
+    axes[1].axhline(0,color=GREY,ls='--',lw=1)
+    axes[1].set(ylabel="Council error minus no-change error (pp)",title="B. No resolved gain in return precision")
     for ax in axes:
         ax.set_xticks(x,["Fewer than 6 of 7","At least 6 of 7"]); ax.set_xlabel("Frameworks sharing a direction"); ax.grid(axis="y",alpha=.18)
     save(fig,"07_direction_vs_magnitude")
+
+def dependence():
+    labels=['Paradigm shift','Contrarian forensic','Power audit','Economic machine','Forensic deduction','Civilizational compute','Value ownership']
+    fig,ax=plt.subplots(figsize=(7.5,5.5),layout='constrained')
+    corr=np.array(V2['framework_correlations']['pearson']);image=ax.imshow(corr,vmin=0,vmax=1,cmap='Blues')
+    ax.set_xticks(range(7),labels,rotation=40,ha='right',fontsize=9)
+    ax.set_yticks(range(7),labels,fontsize=9)
+    for i in range(7):
+        for j in range(7):ax.text(j,i,f'{corr[i,j]:.2f}',ha='center',va='center',fontsize=10,color='white' if corr[i,j]>.65 else '#202A32')
+    fig.colorbar(image,ax=ax,label='Pearson correlation across 928 framework forecasts',shrink=.75)
+    save(fig,'09_framework_dependence')
+
+def periods():
+    fig,ax=plt.subplots(figsize=(8,3.4),layout='constrained'); x=np.arange(4)
+    for field,color,label,offset in [('mean_accuracy_gap_pct',BLUE,'Sign of mean',-.1),('modal_accuracy_gap_pct',GOLD,'Modal direction',.1)]:
+        ax.bar(x+offset,[V2['by_batch'][str(b)][field] for b in (3,4,5,6)],width=.2,color=color,label=label)
+    ax.axhline(0,color=GREY,lw=1);ax.set_xticks(x,['Batch 3','Batch 4','Batch 5','Batch 6'])
+    ax.set(ylabel='High minus lower accuracy (points)',xlabel='Observed evaluation period')
+    ax.legend(frameon=False);ax.grid(axis='y',alpha=.18);save(fig,'10_period_direction')
+
+def scaled():
+    fig,axes=plt.subplots(1,2,figsize=(8,3.5),layout='constrained');rows=V2['scaled_quartiles'];x=np.arange(1,5)
+    for field,c,label,marker in [('risk_scaled_error',BLUE,'Council','o'),('risk_scaled_baseline',GREY,'No change','s')]:
+        axes[0].plot(x,[r[field] for r in rows],marker+'-',color=c,label=label)
+    axes[0].set(ylim=(0,1),ylabel='Mean absolute error / historical risk',title='A. A much flatter scale-aware pattern');axes[0].legend(frameon=False)
+    axes[1].bar(x,[100*r['pooled_absolute_skill'] for r in rows],color=BLUE)
+    axes[1].axhline(0,color=GREY,lw=1);axes[1].set(ylabel='Pooled skill versus no change (%)',title='B. Skill relative to no change')
+    for ax in axes:ax.set_xticks(x,['Lowest','Q2','Q3','Highest']);ax.set_xlabel('Within-batch disagreement quartile');ax.grid(axis='y',alpha=.18)
+    save(fig,'11_scale_aware_error')
 
 def sensitivity():
     records=[("Primary balanced panel",R["high_minus_low"]["excess_error_pp"])]
@@ -163,6 +193,6 @@ def sensitivity():
     ax.grid(axis="x",alpha=.18); save(fig,"08_robustness")
 
 if __name__=="__main__":
-    for function in (workflow,timeline,quartiles,correlations,coverage,adjusted,directional,sensitivity):
+    for function in (workflow,timeline,quartiles,correlations,coverage,adjusted,directional,sensitivity,dependence,periods,scaled):
         function()
-    print("Eight figures exported as vector PDF and inspection PNG.")
+    print("Eleven figures exported as vector PDF and inspection PNG.")
